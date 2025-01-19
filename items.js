@@ -385,21 +385,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udf97",
-      "type": "emoji",
-      "system": "Activities",
-      "label": "reminder ribbon",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udf9f\ufe0f",
-      "type": "emoji",
-      "system": "Activities",
-      "label": "admission tickets",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udf9f",
       "type": "emoji",
       "system": "Activities",
       "label": "admission tickets",
@@ -414,13 +400,6 @@ export const items = [
     },
     {
       "symbol": "\ud83c\udf96\ufe0f",
-      "type": "emoji",
-      "system": "Activities",
-      "label": "military medal",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udf96",
       "type": "emoji",
       "system": "Activities",
       "label": "military medal",
@@ -609,13 +588,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u26f8",
-      "type": "emoji",
-      "system": "Activities",
-      "label": "ice skate",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udfa3",
       "type": "emoji",
       "system": "Activities",
@@ -721,13 +693,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udd79",
-      "type": "emoji",
-      "system": "Activities",
-      "label": "joystick",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udfb0",
       "type": "emoji",
       "system": "Activities",
@@ -777,21 +742,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u2660",
-      "type": "emoji",
-      "system": "Activities",
-      "label": "spade suit",
-      "tags": []
-    },
-    {
       "symbol": "\u2665\ufe0f",
-      "type": "emoji",
-      "system": "Activities",
-      "label": "heart suit",
-      "tags": []
-    },
-    {
-      "symbol": "\u2665",
       "type": "emoji",
       "system": "Activities",
       "label": "heart suit",
@@ -805,13 +756,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u2666",
-      "type": "emoji",
-      "system": "Activities",
-      "label": "diamond suit",
-      "tags": []
-    },
-    {
       "symbol": "\u2663\ufe0f",
       "type": "emoji",
       "system": "Activities",
@@ -819,21 +763,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u2663",
-      "type": "emoji",
-      "system": "Activities",
-      "label": "club suit",
-      "tags": []
-    },
-    {
       "symbol": "\u265f\ufe0f",
-      "type": "emoji",
-      "system": "Activities",
-      "label": "chess pawn",
-      "tags": []
-    },
-    {
-      "symbol": "\u265f",
       "type": "emoji",
       "system": "Activities",
       "label": "chess pawn",
@@ -869,13 +799,6 @@ export const items = [
     },
     {
       "symbol": "\ud83d\uddbc\ufe0f",
-      "type": "emoji",
-      "system": "Activities",
-      "label": "framed picture",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\uddbc",
       "type": "emoji",
       "system": "Activities",
       "label": "framed picture",
@@ -1274,13 +1197,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc3f",
-      "type": "emoji",
-      "system": "Animals-Nature",
-      "label": "chipmunk",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddab",
       "type": "emoji",
       "system": "Animals-Nature",
@@ -1310,13 +1226,6 @@ export const items = [
     },
     {
       "symbol": "\ud83d\udc3b\u200d\u2744\ufe0f",
-      "type": "emoji",
-      "system": "Animals-Nature",
-      "label": "polar bear",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc3b\u200d\u2744",
       "type": "emoji",
       "system": "Animals-Nature",
       "label": "polar bear",
@@ -1436,13 +1345,6 @@ export const items = [
     },
     {
       "symbol": "\ud83d\udd4a\ufe0f",
-      "type": "emoji",
-      "system": "Animals-Nature",
-      "label": "dove",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd4a",
       "type": "emoji",
       "system": "Animals-Nature",
       "label": "dove",
@@ -1715,21 +1617,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udd77",
-      "type": "emoji",
-      "system": "Animals-Nature",
-      "label": "spider",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udd78\ufe0f",
-      "type": "emoji",
-      "system": "Animals-Nature",
-      "label": "spider web",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd78",
       "type": "emoji",
       "system": "Animals-Nature",
       "label": "spider web",
@@ -1793,13 +1681,6 @@ export const items = [
     },
     {
       "symbol": "\ud83c\udff5\ufe0f",
-      "type": "emoji",
-      "system": "Animals-Nature",
-      "label": "rosette",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udff5",
       "type": "emoji",
       "system": "Animals-Nature",
       "label": "rosette",
@@ -1905,13 +1786,6 @@ export const items = [
     },
     {
       "symbol": "\u2618\ufe0f",
-      "type": "emoji",
-      "system": "Animals-Nature",
-      "label": "shamrock",
-      "tags": []
-    },
-    {
-      "symbol": "\u2618",
       "type": "emoji",
       "system": "Animals-Nature",
       "label": "shamrock",
@@ -2044,21 +1918,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udff3",
-      "type": "emoji",
-      "system": "Flags",
-      "label": "white flag",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udff3\ufe0f\u200d\ud83c\udf08",
-      "type": "emoji",
-      "system": "Flags",
-      "label": "rainbow flag",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udff3\u200d\ud83c\udf08",
       "type": "emoji",
       "system": "Flags",
       "label": "rainbow flag",
@@ -2072,35 +1932,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udff3\u200d\u26a7\ufe0f",
-      "type": "emoji",
-      "system": "Flags",
-      "label": "transgender flag",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udff3\ufe0f\u200d\u26a7",
-      "type": "emoji",
-      "system": "Flags",
-      "label": "transgender flag",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udff3\u200d\u26a7",
-      "type": "emoji",
-      "system": "Flags",
-      "label": "transgender flag",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udff4\u200d\u2620\ufe0f",
-      "type": "emoji",
-      "system": "Flags",
-      "label": "pirate flag",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udff4\u200d\u2620",
       "type": "emoji",
       "system": "Flags",
       "label": "pirate flag",
@@ -4109,13 +3941,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udf36",
-      "type": "emoji",
-      "system": "Food-Drink",
-      "label": "hot pepper",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uded1",
       "type": "emoji",
       "system": "Food-Drink",
@@ -4816,13 +4641,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udf7d",
-      "type": "emoji",
-      "system": "Food-Drink",
-      "label": "fork and knife with plate",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udf74",
       "type": "emoji",
       "system": "Food-Drink",
@@ -4859,13 +4677,6 @@ export const items = [
     },
     {
       "symbol": "\ud83d\udd76\ufe0f",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "sunglasses",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd76",
       "type": "emoji",
       "system": "Objects",
       "label": "sunglasses",
@@ -5026,13 +4837,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udecd",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "shopping bags",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udf92",
       "type": "emoji",
       "system": "Objects",
@@ -5146,13 +4950,6 @@ export const items = [
     },
     {
       "symbol": "\u26d1\ufe0f",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "rescue workers helmet",
-      "tags": []
-    },
-    {
-      "symbol": "\u26d1",
       "type": "emoji",
       "system": "Objects",
       "label": "rescue workers helmet",
@@ -5278,13 +5075,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udf99",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "studio microphone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udf9a\ufe0f",
       "type": "emoji",
       "system": "Objects",
@@ -5292,21 +5082,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udf9a",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "level slider",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udf9b\ufe0f",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "control knobs",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udf9b",
       "type": "emoji",
       "system": "Objects",
       "label": "control knobs",
@@ -5418,13 +5194,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u260e",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "telephone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udcde",
       "type": "emoji",
       "system": "Objects",
@@ -5474,21 +5243,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udda5",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "desktop computer",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udda8\ufe0f",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "printer",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udda8",
       "type": "emoji",
       "system": "Objects",
       "label": "printer",
@@ -5502,13 +5257,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u2328",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "keyboard",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\uddb1\ufe0f",
       "type": "emoji",
       "system": "Objects",
@@ -5516,21 +5264,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\uddb1",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "computer mouse",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\uddb2\ufe0f",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "trackball",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\uddb2",
       "type": "emoji",
       "system": "Objects",
       "label": "trackball",
@@ -5586,21 +5320,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udf9e",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "film frames",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udcfd\ufe0f",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "film projector",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udcfd",
       "type": "emoji",
       "system": "Objects",
       "label": "film projector",
@@ -5664,13 +5384,6 @@ export const items = [
     },
     {
       "symbol": "\ud83d\udd6f\ufe0f",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "candle",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd6f",
       "type": "emoji",
       "system": "Objects",
       "label": "candle",
@@ -5803,13 +5516,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\uddde",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "rolled-up newspaper",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udcd1",
       "type": "emoji",
       "system": "Objects",
@@ -5825,13 +5531,6 @@ export const items = [
     },
     {
       "symbol": "\ud83c\udff7\ufe0f",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "label",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udff7",
       "type": "emoji",
       "system": "Objects",
       "label": "label",
@@ -5909,13 +5608,6 @@ export const items = [
     },
     {
       "symbol": "\u2709\ufe0f",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "envelope",
-      "tags": []
-    },
-    {
-      "symbol": "\u2709",
       "type": "emoji",
       "system": "Objects",
       "label": "envelope",
@@ -6006,21 +5698,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\uddf3",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "ballot box with ballot",
-      "tags": []
-    },
-    {
       "symbol": "\u270f\ufe0f",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "pencil",
-      "tags": []
-    },
-    {
-      "symbol": "\u270f",
       "type": "emoji",
       "system": "Objects",
       "label": "pencil",
@@ -6034,21 +5712,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u2712",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "black nib",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udd8b\ufe0f",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "fountain pen",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd8b",
       "type": "emoji",
       "system": "Objects",
       "label": "fountain pen",
@@ -6062,13 +5726,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udd8a",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "pen",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udd8c\ufe0f",
       "type": "emoji",
       "system": "Objects",
@@ -6076,21 +5733,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udd8c",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "paintbrush",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udd8d\ufe0f",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "crayon",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd8d",
       "type": "emoji",
       "system": "Objects",
       "label": "crayon",
@@ -6132,13 +5775,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\uddc2",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "card index dividers",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udcc5",
       "type": "emoji",
       "system": "Objects",
@@ -6160,21 +5796,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\uddd2",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "spiral notepad",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\uddd3\ufe0f",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "spiral calendar",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\uddd3",
       "type": "emoji",
       "system": "Objects",
       "label": "spiral calendar",
@@ -6244,13 +5866,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udd87",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "linked paperclips",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udccf",
       "type": "emoji",
       "system": "Objects",
@@ -6272,21 +5887,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u2702",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "scissors",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\uddc3\ufe0f",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "card file box",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\uddc3",
       "type": "emoji",
       "system": "Objects",
       "label": "card file box",
@@ -6300,21 +5901,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\uddc4",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "file cabinet",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\uddd1\ufe0f",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "wastebasket",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\uddd1",
       "type": "emoji",
       "system": "Objects",
       "label": "wastebasket",
@@ -6363,13 +5950,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udddd",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "old key",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udd28",
       "type": "emoji",
       "system": "Objects",
@@ -6391,21 +5971,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u26cf",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "pick",
-      "tags": []
-    },
-    {
       "symbol": "\u2692\ufe0f",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "hammer and pick",
-      "tags": []
-    },
-    {
-      "symbol": "\u2692",
       "type": "emoji",
       "system": "Objects",
       "label": "hammer and pick",
@@ -6419,13 +5985,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udee0",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "hammer and wrench",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udde1\ufe0f",
       "type": "emoji",
       "system": "Objects",
@@ -6433,21 +5992,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udde1",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "dagger",
-      "tags": []
-    },
-    {
       "symbol": "\u2694\ufe0f",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "crossed swords",
-      "tags": []
-    },
-    {
-      "symbol": "\u2694",
       "type": "emoji",
       "system": "Objects",
       "label": "crossed swords",
@@ -6476,13 +6021,6 @@ export const items = [
     },
     {
       "symbol": "\ud83d\udee1\ufe0f",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "shield",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udee1",
       "type": "emoji",
       "system": "Objects",
       "label": "shield",
@@ -6524,13 +6062,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u2699",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "gear",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udddc\ufe0f",
       "type": "emoji",
       "system": "Objects",
@@ -6538,21 +6069,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udddc",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "clamp",
-      "tags": []
-    },
-    {
       "symbol": "\u2696\ufe0f",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "balance scale",
-      "tags": []
-    },
-    {
-      "symbol": "\u2696",
       "type": "emoji",
       "system": "Objects",
       "label": "balance scale",
@@ -6574,13 +6091,6 @@ export const items = [
     },
     {
       "symbol": "\u26d3\ufe0f",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "chains",
-      "tags": []
-    },
-    {
-      "symbol": "\u26d3",
       "type": "emoji",
       "system": "Objects",
       "label": "chains",
@@ -6616,13 +6126,6 @@ export const items = [
     },
     {
       "symbol": "\u2697\ufe0f",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "alembic",
-      "tags": []
-    },
-    {
-      "symbol": "\u2697",
       "type": "emoji",
       "system": "Objects",
       "label": "alembic",
@@ -6741,21 +6244,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udecf",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "bed",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udecb\ufe0f",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "couch and lamp",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udecb",
       "type": "emoji",
       "system": "Objects",
       "label": "couch and lamp",
@@ -6902,13 +6391,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u26b0",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "coffin",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udea6",
       "type": "emoji",
       "system": "Objects",
@@ -6917,13 +6399,6 @@ export const items = [
     },
     {
       "symbol": "\u26b1\ufe0f",
-      "type": "emoji",
-      "system": "Objects",
-      "label": "funeral urn",
-      "tags": []
-    },
-    {
-      "symbol": "\u26b1",
       "type": "emoji",
       "system": "Objects",
       "label": "funeral urn",
@@ -7029,13 +6504,6 @@ export const items = [
     },
     {
       "symbol": "\ud83d\udd90\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "hand with fingers splayed",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd90",
       "type": "emoji",
       "system": "People-Body",
       "label": "hand with fingers splayed",
@@ -7288,13 +6756,6 @@ export const items = [
     },
     {
       "symbol": "\u270c\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "victory hand",
-      "tags": []
-    },
-    {
-      "symbol": "\u270c",
       "type": "emoji",
       "system": "People-Body",
       "label": "victory hand",
@@ -7715,13 +7176,6 @@ export const items = [
     },
     {
       "symbol": "\u261d\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "index pointing up",
-      "tags": []
-    },
-    {
-      "symbol": "\u261d",
       "type": "emoji",
       "system": "People-Body",
       "label": "index pointing up",
@@ -8239,13 +7693,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u270d",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "writing hand",
-      "tags": []
-    },
-    {
       "symbol": "\u270d\ud83c\udffb",
       "type": "emoji",
       "system": "People-Body",
@@ -8680,13 +8127,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc41",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "eye",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc45",
       "type": "emoji",
       "system": "People-Body",
@@ -9044,21 +8484,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd4\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man beard",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd4\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man light skin tone beard",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd4\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man light skin tone beard",
@@ -9072,21 +8498,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd4\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man medium-light skin tone beard",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd4\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man medium skin tone beard",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd4\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man medium skin tone beard",
@@ -9100,21 +8512,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd4\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man medium-dark skin tone beard",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd4\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man dark skin tone beard",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd4\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man dark skin tone beard",
@@ -9128,21 +8526,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd4\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman beard",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd4\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman light skin tone beard",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd4\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman light skin tone beard",
@@ -9156,21 +8540,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd4\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman medium-light skin tone beard",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd4\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman medium skin tone beard",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd4\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman medium skin tone beard",
@@ -9184,21 +8554,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd4\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman medium-dark skin tone beard",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd4\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman dark skin tone beard",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd4\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman dark skin tone beard",
@@ -9758,21 +9114,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc71\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman blond hair",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc71\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman light skin tone blond hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc71\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman light skin tone blond hair",
@@ -9786,21 +9128,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc71\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman medium-light skin tone blond hair",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc71\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman medium skin tone blond hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc71\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman medium skin tone blond hair",
@@ -9814,21 +9142,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc71\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman medium-dark skin tone blond hair",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc71\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman dark skin tone blond hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc71\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman dark skin tone blond hair",
@@ -9842,21 +9156,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc71\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man blond hair",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc71\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man light skin tone blond hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc71\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man light skin tone blond hair",
@@ -9870,21 +9170,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc71\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man medium-light skin tone blond hair",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc71\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man medium skin tone blond hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc71\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man medium skin tone blond hair",
@@ -9898,21 +9184,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc71\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man medium-dark skin tone blond hair",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc71\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man dark skin tone blond hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc71\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man dark skin tone blond hair",
@@ -10094,21 +9366,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\ude4d\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man frowning",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\ude4d\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man frowning light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4d\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man frowning light skin tone",
@@ -10122,21 +9380,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\ude4d\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man frowning medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\ude4d\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man frowning medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4d\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man frowning medium skin tone",
@@ -10150,21 +9394,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\ude4d\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man frowning medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\ude4d\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man frowning dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4d\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man frowning dark skin tone",
@@ -10178,21 +9408,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\ude4d\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman frowning",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\ude4d\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman frowning light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4d\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman frowning light skin tone",
@@ -10206,21 +9422,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\ude4d\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman frowning medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\ude4d\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman frowning medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4d\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman frowning medium skin tone",
@@ -10234,21 +9436,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\ude4d\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman frowning medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\ude4d\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman frowning dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4d\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman frowning dark skin tone",
@@ -10304,21 +9492,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\ude4e\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man pouting",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\ude4e\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man pouting light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4e\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man pouting light skin tone",
@@ -10332,21 +9506,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\ude4e\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man pouting medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\ude4e\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man pouting medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4e\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man pouting medium skin tone",
@@ -10360,21 +9520,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\ude4e\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man pouting medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\ude4e\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man pouting dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4e\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man pouting dark skin tone",
@@ -10388,21 +9534,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\ude4e\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman pouting",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\ude4e\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman pouting light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4e\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman pouting light skin tone",
@@ -10416,21 +9548,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\ude4e\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman pouting medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\ude4e\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman pouting medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4e\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman pouting medium skin tone",
@@ -10444,21 +9562,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\ude4e\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman pouting medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\ude4e\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman pouting dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4e\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman pouting dark skin tone",
@@ -10514,21 +9618,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\ude45\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man gesturing NO",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\ude45\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man gesturing NO light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude45\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man gesturing NO light skin tone",
@@ -10542,21 +9632,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\ude45\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man gesturing NO medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\ude45\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man gesturing NO medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude45\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man gesturing NO medium skin tone",
@@ -10570,21 +9646,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\ude45\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man gesturing NO medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\ude45\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man gesturing NO dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude45\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man gesturing NO dark skin tone",
@@ -10598,21 +9660,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\ude45\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman gesturing NO",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\ude45\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman gesturing NO light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude45\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman gesturing NO light skin tone",
@@ -10626,21 +9674,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\ude45\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman gesturing NO medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\ude45\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman gesturing NO medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude45\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman gesturing NO medium skin tone",
@@ -10654,21 +9688,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\ude45\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman gesturing NO medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\ude45\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman gesturing NO dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude45\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman gesturing NO dark skin tone",
@@ -10724,21 +9744,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\ude46\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man gesturing OK",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\ude46\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man gesturing OK light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude46\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man gesturing OK light skin tone",
@@ -10752,21 +9758,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\ude46\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man gesturing OK medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\ude46\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man gesturing OK medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude46\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man gesturing OK medium skin tone",
@@ -10780,21 +9772,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\ude46\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man gesturing OK medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\ude46\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man gesturing OK dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude46\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man gesturing OK dark skin tone",
@@ -10808,21 +9786,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\ude46\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman gesturing OK",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\ude46\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman gesturing OK light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude46\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman gesturing OK light skin tone",
@@ -10836,21 +9800,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\ude46\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman gesturing OK medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\ude46\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman gesturing OK medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude46\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman gesturing OK medium skin tone",
@@ -10864,21 +9814,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\ude46\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman gesturing OK medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\ude46\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman gesturing OK dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude46\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman gesturing OK dark skin tone",
@@ -10934,21 +9870,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc81\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man tipping hand",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc81\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man tipping hand light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc81\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man tipping hand light skin tone",
@@ -10962,21 +9884,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc81\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man tipping hand medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc81\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man tipping hand medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc81\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man tipping hand medium skin tone",
@@ -10990,21 +9898,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc81\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man tipping hand medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc81\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man tipping hand dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc81\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man tipping hand dark skin tone",
@@ -11018,21 +9912,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc81\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman tipping hand",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc81\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman tipping hand light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc81\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman tipping hand light skin tone",
@@ -11046,21 +9926,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc81\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman tipping hand medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc81\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman tipping hand medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc81\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman tipping hand medium skin tone",
@@ -11074,21 +9940,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc81\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman tipping hand medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc81\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman tipping hand dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc81\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman tipping hand dark skin tone",
@@ -11144,21 +9996,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\ude4b\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man raising hand",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\ude4b\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man raising hand light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4b\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man raising hand light skin tone",
@@ -11172,21 +10010,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\ude4b\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man raising hand medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\ude4b\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man raising hand medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4b\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man raising hand medium skin tone",
@@ -11200,21 +10024,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\ude4b\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man raising hand medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\ude4b\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man raising hand dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4b\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man raising hand dark skin tone",
@@ -11228,21 +10038,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\ude4b\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman raising hand",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\ude4b\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman raising hand light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4b\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman raising hand light skin tone",
@@ -11256,21 +10052,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\ude4b\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman raising hand medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\ude4b\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman raising hand medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4b\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman raising hand medium skin tone",
@@ -11284,21 +10066,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\ude4b\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman raising hand medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\ude4b\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman raising hand dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4b\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman raising hand dark skin tone",
@@ -11354,21 +10122,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddcf\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "deaf man",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddcf\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "deaf man light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcf\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "deaf man light skin tone",
@@ -11382,21 +10136,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddcf\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "deaf man medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddcf\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "deaf man medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcf\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "deaf man medium skin tone",
@@ -11410,21 +10150,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddcf\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "deaf man medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddcf\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "deaf man dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcf\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "deaf man dark skin tone",
@@ -11438,21 +10164,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddcf\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "deaf woman",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddcf\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "deaf woman light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcf\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "deaf woman light skin tone",
@@ -11466,21 +10178,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddcf\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "deaf woman medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddcf\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "deaf woman medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcf\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "deaf woman medium skin tone",
@@ -11494,21 +10192,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddcf\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "deaf woman medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddcf\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "deaf woman dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcf\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "deaf woman dark skin tone",
@@ -11564,21 +10248,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\ude47\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man bowing",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\ude47\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man bowing light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude47\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man bowing light skin tone",
@@ -11592,21 +10262,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\ude47\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man bowing medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\ude47\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man bowing medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude47\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man bowing medium skin tone",
@@ -11620,21 +10276,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\ude47\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man bowing medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\ude47\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man bowing dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude47\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man bowing dark skin tone",
@@ -11648,21 +10290,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\ude47\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman bowing",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\ude47\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman bowing light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude47\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman bowing light skin tone",
@@ -11676,21 +10304,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\ude47\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman bowing medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\ude47\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman bowing medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude47\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman bowing medium skin tone",
@@ -11704,21 +10318,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\ude47\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman bowing medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\ude47\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman bowing dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude47\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman bowing dark skin tone",
@@ -11774,21 +10374,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd26\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man facepalming",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd26\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man facepalming light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd26\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man facepalming light skin tone",
@@ -11802,21 +10388,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd26\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man facepalming medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd26\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man facepalming medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd26\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man facepalming medium skin tone",
@@ -11830,21 +10402,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd26\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man facepalming medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd26\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man facepalming dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd26\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man facepalming dark skin tone",
@@ -11858,21 +10416,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd26\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman facepalming",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd26\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman facepalming light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd26\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman facepalming light skin tone",
@@ -11886,21 +10430,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd26\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman facepalming medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd26\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman facepalming medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd26\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman facepalming medium skin tone",
@@ -11914,21 +10444,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd26\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman facepalming medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd26\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman facepalming dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd26\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman facepalming dark skin tone",
@@ -11984,21 +10500,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd37\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man shrugging",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd37\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man shrugging light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd37\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man shrugging light skin tone",
@@ -12012,21 +10514,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd37\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man shrugging medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd37\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man shrugging medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd37\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man shrugging medium skin tone",
@@ -12040,21 +10528,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd37\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man shrugging medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd37\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man shrugging dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd37\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man shrugging dark skin tone",
@@ -12068,21 +10542,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd37\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman shrugging",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd37\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman shrugging light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd37\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman shrugging light skin tone",
@@ -12096,21 +10556,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd37\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman shrugging medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd37\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman shrugging medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd37\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman shrugging medium skin tone",
@@ -12124,21 +10570,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd37\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman shrugging medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd37\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman shrugging dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd37\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman shrugging dark skin tone",
@@ -12152,21 +10584,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd1\u200d\u2695",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "health worker",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\u2695\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "health worker light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\u2695",
       "type": "emoji",
       "system": "People-Body",
       "label": "health worker light skin tone",
@@ -12180,21 +10598,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\u2695",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "health worker medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\u2695\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "health worker medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\u2695",
       "type": "emoji",
       "system": "People-Body",
       "label": "health worker medium skin tone",
@@ -12208,21 +10612,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\u2695",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "health worker medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\u2695\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "health worker dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\u2695",
       "type": "emoji",
       "system": "People-Body",
       "label": "health worker dark skin tone",
@@ -12236,21 +10626,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc68\u200d\u2695",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man health worker",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2695\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man health worker light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2695",
       "type": "emoji",
       "system": "People-Body",
       "label": "man health worker light skin tone",
@@ -12264,21 +10640,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2695",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man health worker medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2695\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man health worker medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2695",
       "type": "emoji",
       "system": "People-Body",
       "label": "man health worker medium skin tone",
@@ -12292,21 +10654,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2695",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man health worker medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2695\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man health worker dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2695",
       "type": "emoji",
       "system": "People-Body",
       "label": "man health worker dark skin tone",
@@ -12320,21 +10668,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\u200d\u2695",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman health worker",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2695\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman health worker light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2695",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman health worker light skin tone",
@@ -12348,21 +10682,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2695",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman health worker medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2695\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman health worker medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2695",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman health worker medium skin tone",
@@ -12376,21 +10696,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2695",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman health worker medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2695\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman health worker dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2695",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman health worker dark skin tone",
@@ -12656,21 +10962,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd1\u200d\u2696",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "judge",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\u2696\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "judge light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\u2696",
       "type": "emoji",
       "system": "People-Body",
       "label": "judge light skin tone",
@@ -12684,21 +10976,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\u2696",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "judge medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\u2696\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "judge medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\u2696",
       "type": "emoji",
       "system": "People-Body",
       "label": "judge medium skin tone",
@@ -12712,21 +10990,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\u2696",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "judge medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\u2696\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "judge dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\u2696",
       "type": "emoji",
       "system": "People-Body",
       "label": "judge dark skin tone",
@@ -12740,21 +11004,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc68\u200d\u2696",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man judge",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2696\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man judge light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2696",
       "type": "emoji",
       "system": "People-Body",
       "label": "man judge light skin tone",
@@ -12768,21 +11018,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2696",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man judge medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2696\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man judge medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2696",
       "type": "emoji",
       "system": "People-Body",
       "label": "man judge medium skin tone",
@@ -12796,21 +11032,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2696",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man judge medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2696\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man judge dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2696",
       "type": "emoji",
       "system": "People-Body",
       "label": "man judge dark skin tone",
@@ -12824,21 +11046,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\u200d\u2696",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman judge",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2696\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman judge light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2696",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman judge light skin tone",
@@ -12852,21 +11060,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2696",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman judge medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2696\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman judge medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2696",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman judge medium skin tone",
@@ -12880,21 +11074,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2696",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman judge medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2696\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman judge dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2696",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman judge dark skin tone",
@@ -14042,21 +12222,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd1\u200d\u2708",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "pilot",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\u2708\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "pilot light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\u2708",
       "type": "emoji",
       "system": "People-Body",
       "label": "pilot light skin tone",
@@ -14070,21 +12236,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\u2708",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "pilot medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\u2708\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "pilot medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\u2708",
       "type": "emoji",
       "system": "People-Body",
       "label": "pilot medium skin tone",
@@ -14098,21 +12250,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\u2708",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "pilot medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\u2708\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "pilot dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\u2708",
       "type": "emoji",
       "system": "People-Body",
       "label": "pilot dark skin tone",
@@ -14126,21 +12264,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc68\u200d\u2708",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man pilot",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2708\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man pilot light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2708",
       "type": "emoji",
       "system": "People-Body",
       "label": "man pilot light skin tone",
@@ -14154,21 +12278,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2708",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man pilot medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2708\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man pilot medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2708",
       "type": "emoji",
       "system": "People-Body",
       "label": "man pilot medium skin tone",
@@ -14182,21 +12292,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2708",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man pilot medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2708\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man pilot dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2708",
       "type": "emoji",
       "system": "People-Body",
       "label": "man pilot dark skin tone",
@@ -14210,21 +12306,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\u200d\u2708",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman pilot",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2708\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman pilot light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2708",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman pilot light skin tone",
@@ -14238,21 +12320,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2708",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman pilot medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2708\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman pilot medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2708",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman pilot medium skin tone",
@@ -14266,21 +12334,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2708",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman pilot medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2708\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman pilot dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2708",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman pilot dark skin tone",
@@ -14588,21 +12642,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc6e\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man police officer",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc6e\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man police officer light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6e\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man police officer light skin tone",
@@ -14616,21 +12656,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc6e\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man police officer medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc6e\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man police officer medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6e\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man police officer medium skin tone",
@@ -14644,21 +12670,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc6e\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man police officer medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc6e\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man police officer dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6e\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man police officer dark skin tone",
@@ -14672,21 +12684,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc6e\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman police officer",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc6e\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman police officer light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6e\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman police officer light skin tone",
@@ -14700,21 +12698,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc6e\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman police officer medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc6e\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman police officer medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6e\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman police officer medium skin tone",
@@ -14728,13 +12712,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc6e\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman police officer medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc6e\ud83c\udfff\u200d\u2640\ufe0f",
       "type": "emoji",
       "system": "People-Body",
@@ -14742,21 +12719,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc6e\ud83c\udfff\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman police officer dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udd75\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "detective",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd75",
       "type": "emoji",
       "system": "People-Body",
       "label": "detective",
@@ -14805,35 +12768,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udd75\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man detective",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd75\ufe0f\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man detective",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd75\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man detective",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udd75\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man detective light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd75\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man detective light skin tone",
@@ -14847,21 +12782,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udd75\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man detective medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udd75\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man detective medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd75\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man detective medium skin tone",
@@ -14875,21 +12796,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udd75\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man detective medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udd75\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man detective dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd75\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man detective dark skin tone",
@@ -14903,35 +12810,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udd75\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman detective",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd75\ufe0f\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman detective",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd75\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman detective",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udd75\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman detective light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd75\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman detective light skin tone",
@@ -14945,21 +12824,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udd75\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman detective medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udd75\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman detective medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd75\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman detective medium skin tone",
@@ -14973,21 +12838,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udd75\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman detective medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udd75\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman detective dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd75\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman detective dark skin tone",
@@ -15043,21 +12894,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc82\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man guard",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc82\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man guard light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc82\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man guard light skin tone",
@@ -15071,21 +12908,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc82\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man guard medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc82\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man guard medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc82\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man guard medium skin tone",
@@ -15099,21 +12922,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc82\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man guard medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc82\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man guard dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc82\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man guard dark skin tone",
@@ -15127,21 +12936,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc82\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman guard",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc82\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman guard light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc82\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman guard light skin tone",
@@ -15155,21 +12950,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc82\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman guard medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc82\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman guard medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc82\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman guard medium skin tone",
@@ -15183,21 +12964,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc82\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman guard medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc82\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman guard dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc82\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman guard dark skin tone",
@@ -15295,21 +13062,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc77\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man construction worker",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc77\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man construction worker light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc77\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man construction worker light skin tone",
@@ -15323,21 +13076,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc77\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man construction worker medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc77\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man construction worker medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc77\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man construction worker medium skin tone",
@@ -15351,21 +13090,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc77\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man construction worker medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc77\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man construction worker dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc77\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man construction worker dark skin tone",
@@ -15379,21 +13104,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc77\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman construction worker",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc77\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman construction worker light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc77\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman construction worker light skin tone",
@@ -15407,21 +13118,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc77\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman construction worker medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc77\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman construction worker medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc77\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman construction worker medium skin tone",
@@ -15435,21 +13132,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc77\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman construction worker medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc77\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman construction worker dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc77\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman construction worker dark skin tone",
@@ -15589,21 +13272,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc73\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man wearing turban",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc73\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man wearing turban light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc73\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man wearing turban light skin tone",
@@ -15617,21 +13286,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc73\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man wearing turban medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc73\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man wearing turban medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc73\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man wearing turban medium skin tone",
@@ -15645,21 +13300,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc73\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man wearing turban medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc73\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man wearing turban dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc73\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man wearing turban dark skin tone",
@@ -15673,21 +13314,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc73\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman wearing turban",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc73\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman wearing turban light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc73\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman wearing turban light skin tone",
@@ -15701,21 +13328,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc73\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman wearing turban medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc73\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman wearing turban medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc73\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman wearing turban medium skin tone",
@@ -15729,21 +13342,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc73\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman wearing turban medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc73\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman wearing turban dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc73\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman wearing turban dark skin tone",
@@ -15883,21 +13482,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd35\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in tuxedo",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd35\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in tuxedo light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd35\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man in tuxedo light skin tone",
@@ -15911,21 +13496,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd35\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in tuxedo medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd35\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in tuxedo medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd35\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man in tuxedo medium skin tone",
@@ -15939,21 +13510,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd35\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in tuxedo medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd35\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in tuxedo dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd35\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man in tuxedo dark skin tone",
@@ -15967,21 +13524,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd35\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in tuxedo",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd35\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in tuxedo light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd35\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman in tuxedo light skin tone",
@@ -15995,21 +13538,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd35\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in tuxedo medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd35\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in tuxedo medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd35\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman in tuxedo medium skin tone",
@@ -16023,21 +13552,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd35\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in tuxedo medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd35\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in tuxedo dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd35\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman in tuxedo dark skin tone",
@@ -16093,21 +13608,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc70\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man with veil",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc70\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man with veil light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc70\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man with veil light skin tone",
@@ -16121,21 +13622,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc70\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man with veil medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc70\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man with veil medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc70\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man with veil medium skin tone",
@@ -16149,21 +13636,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc70\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man with veil medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc70\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man with veil dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc70\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man with veil dark skin tone",
@@ -16177,21 +13650,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc70\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman with veil",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc70\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman with veil light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc70\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman with veil light skin tone",
@@ -16205,21 +13664,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc70\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman with veil medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc70\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman with veil medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc70\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman with veil medium skin tone",
@@ -16233,21 +13678,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc70\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman with veil medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc70\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman with veil dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc70\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman with veil dark skin tone",
@@ -16681,21 +14112,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddb8\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man superhero",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddb8\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man superhero light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb8\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man superhero light skin tone",
@@ -16709,21 +14126,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddb8\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man superhero medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddb8\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man superhero medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb8\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man superhero medium skin tone",
@@ -16737,21 +14140,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddb8\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man superhero medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddb8\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man superhero dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb8\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man superhero dark skin tone",
@@ -16765,21 +14154,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddb8\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman superhero",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddb8\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman superhero light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb8\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman superhero light skin tone",
@@ -16793,21 +14168,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddb8\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman superhero medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddb8\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman superhero medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb8\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman superhero medium skin tone",
@@ -16821,21 +14182,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddb8\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman superhero medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddb8\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman superhero dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb8\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman superhero dark skin tone",
@@ -16891,21 +14238,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddb9\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man supervillain",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddb9\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man supervillain light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb9\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man supervillain light skin tone",
@@ -16919,21 +14252,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddb9\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man supervillain medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddb9\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man supervillain medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb9\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man supervillain medium skin tone",
@@ -16947,21 +14266,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddb9\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man supervillain medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddb9\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man supervillain dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb9\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man supervillain dark skin tone",
@@ -16975,21 +14280,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddb9\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman supervillain",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddb9\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman supervillain light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb9\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman supervillain light skin tone",
@@ -17003,21 +14294,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddb9\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman supervillain medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddb9\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman supervillain medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb9\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman supervillain medium skin tone",
@@ -17031,21 +14308,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddb9\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman supervillain medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddb9\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman supervillain dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb9\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman supervillain dark skin tone",
@@ -17101,21 +14364,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd9\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man mage",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd9\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man mage light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd9\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man mage light skin tone",
@@ -17129,21 +14378,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd9\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man mage medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd9\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man mage medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd9\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man mage medium skin tone",
@@ -17157,21 +14392,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd9\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man mage medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd9\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man mage dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd9\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man mage dark skin tone",
@@ -17185,21 +14406,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd9\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman mage",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd9\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman mage light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd9\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman mage light skin tone",
@@ -17213,21 +14420,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd9\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman mage medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd9\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman mage medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd9\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman mage medium skin tone",
@@ -17241,21 +14434,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd9\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman mage medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd9\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman mage dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd9\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman mage dark skin tone",
@@ -17311,21 +14490,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddda\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man fairy",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddda\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man fairy light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddda\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man fairy light skin tone",
@@ -17339,21 +14504,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddda\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man fairy medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddda\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man fairy medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddda\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man fairy medium skin tone",
@@ -17367,21 +14518,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddda\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man fairy medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddda\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man fairy dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddda\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man fairy dark skin tone",
@@ -17395,21 +14532,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddda\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman fairy",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddda\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman fairy light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddda\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman fairy light skin tone",
@@ -17423,21 +14546,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddda\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman fairy medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddda\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman fairy medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddda\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman fairy medium skin tone",
@@ -17451,21 +14560,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddda\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman fairy medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddda\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman fairy dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddda\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman fairy dark skin tone",
@@ -17521,21 +14616,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udddb\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man vampire",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udddb\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man vampire light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddb\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man vampire light skin tone",
@@ -17549,21 +14630,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udddb\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man vampire medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udddb\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man vampire medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddb\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man vampire medium skin tone",
@@ -17577,21 +14644,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udddb\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man vampire medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udddb\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man vampire dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddb\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man vampire dark skin tone",
@@ -17605,21 +14658,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udddb\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman vampire",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udddb\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman vampire light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddb\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman vampire light skin tone",
@@ -17633,21 +14672,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udddb\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman vampire medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udddb\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman vampire medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddb\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman vampire medium skin tone",
@@ -17661,21 +14686,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udddb\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman vampire medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udddb\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman vampire dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddb\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman vampire dark skin tone",
@@ -17731,21 +14742,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udddc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "merman",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udddc\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "merman light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddc\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "merman light skin tone",
@@ -17759,21 +14756,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udddc\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "merman medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udddc\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "merman medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddc\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "merman medium skin tone",
@@ -17787,21 +14770,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udddc\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "merman medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udddc\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "merman dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddc\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "merman dark skin tone",
@@ -17815,21 +14784,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udddc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "mermaid",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udddc\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "mermaid light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddc\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "mermaid light skin tone",
@@ -17843,21 +14798,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udddc\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "mermaid medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udddc\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "mermaid medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddc\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "mermaid medium skin tone",
@@ -17871,21 +14812,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udddc\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "mermaid medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udddc\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "mermaid dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddc\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "mermaid dark skin tone",
@@ -17941,21 +14868,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udddd\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man elf",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udddd\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man elf light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddd\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man elf light skin tone",
@@ -17969,21 +14882,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udddd\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man elf medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udddd\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man elf medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddd\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man elf medium skin tone",
@@ -17997,21 +14896,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udddd\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man elf medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udddd\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man elf dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddd\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man elf dark skin tone",
@@ -18025,21 +14910,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udddd\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman elf",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udddd\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman elf light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddd\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman elf light skin tone",
@@ -18053,21 +14924,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udddd\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman elf medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udddd\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman elf medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddd\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman elf medium skin tone",
@@ -18081,21 +14938,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udddd\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman elf medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udddd\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman elf dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddd\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman elf dark skin tone",
@@ -18116,21 +14959,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddde\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man genie",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddde\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman genie",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddde\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman genie",
@@ -18151,21 +14980,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udddf\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man zombie",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udddf\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman zombie",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddf\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman zombie",
@@ -18221,21 +15036,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc86\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man getting massage",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc86\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man getting massage light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc86\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man getting massage light skin tone",
@@ -18249,21 +15050,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc86\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man getting massage medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc86\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man getting massage medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc86\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man getting massage medium skin tone",
@@ -18277,21 +15064,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc86\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man getting massage medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc86\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man getting massage dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc86\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man getting massage dark skin tone",
@@ -18305,21 +15078,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc86\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman getting massage",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc86\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman getting massage light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc86\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman getting massage light skin tone",
@@ -18333,21 +15092,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc86\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman getting massage medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc86\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman getting massage medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc86\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman getting massage medium skin tone",
@@ -18361,21 +15106,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc86\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman getting massage medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc86\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman getting massage dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc86\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman getting massage dark skin tone",
@@ -18431,21 +15162,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc87\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man getting haircut",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc87\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man getting haircut light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc87\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man getting haircut light skin tone",
@@ -18459,21 +15176,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc87\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man getting haircut medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc87\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man getting haircut medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc87\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man getting haircut medium skin tone",
@@ -18487,21 +15190,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc87\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man getting haircut medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc87\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man getting haircut dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc87\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man getting haircut dark skin tone",
@@ -18515,21 +15204,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc87\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman getting haircut",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc87\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman getting haircut light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc87\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman getting haircut light skin tone",
@@ -18543,21 +15218,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc87\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman getting haircut medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc87\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman getting haircut medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc87\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman getting haircut medium skin tone",
@@ -18571,21 +15232,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc87\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman getting haircut medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc87\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman getting haircut dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc87\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman getting haircut dark skin tone",
@@ -18641,21 +15288,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udeb6\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man walking",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udeb6\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man walking light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb6\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man walking light skin tone",
@@ -18669,21 +15302,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udeb6\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man walking medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udeb6\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man walking medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb6\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man walking medium skin tone",
@@ -18697,21 +15316,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udeb6\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man walking medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udeb6\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man walking dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb6\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man walking dark skin tone",
@@ -18725,21 +15330,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udeb6\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman walking",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udeb6\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman walking light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb6\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman walking light skin tone",
@@ -18753,21 +15344,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udeb6\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman walking medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udeb6\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman walking medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb6\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman walking medium skin tone",
@@ -18781,21 +15358,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udeb6\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman walking medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udeb6\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman walking dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb6\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman walking dark skin tone",
@@ -18851,21 +15414,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddcd\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man standing",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddcd\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man standing light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcd\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man standing light skin tone",
@@ -18879,21 +15428,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddcd\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man standing medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddcd\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man standing medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcd\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man standing medium skin tone",
@@ -18907,21 +15442,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddcd\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man standing medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddcd\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man standing dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcd\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man standing dark skin tone",
@@ -18935,21 +15456,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddcd\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman standing",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddcd\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman standing light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcd\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman standing light skin tone",
@@ -18963,21 +15470,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddcd\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman standing medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddcd\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman standing medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcd\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman standing medium skin tone",
@@ -18991,21 +15484,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddcd\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman standing medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddcd\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman standing dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcd\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman standing dark skin tone",
@@ -19061,21 +15540,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddce\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man kneeling",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddce\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man kneeling light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddce\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man kneeling light skin tone",
@@ -19089,21 +15554,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddce\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man kneeling medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddce\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man kneeling medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddce\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man kneeling medium skin tone",
@@ -19117,21 +15568,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddce\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man kneeling medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddce\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man kneeling dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddce\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man kneeling dark skin tone",
@@ -19145,21 +15582,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddce\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman kneeling",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddce\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman kneeling light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddce\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman kneeling light skin tone",
@@ -19173,21 +15596,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddce\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman kneeling medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddce\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman kneeling medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddce\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman kneeling medium skin tone",
@@ -19201,21 +15610,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddce\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman kneeling medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddce\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman kneeling dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddce\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman kneeling dark skin tone",
@@ -19649,21 +16044,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udfc3\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man running",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udfc3\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man running light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc3\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man running light skin tone",
@@ -19677,21 +16058,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udfc3\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man running medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udfc3\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man running medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc3\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man running medium skin tone",
@@ -19705,21 +16072,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udfc3\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man running medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udfc3\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man running dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc3\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man running dark skin tone",
@@ -19733,21 +16086,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udfc3\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman running",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udfc3\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman running light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc3\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman running light skin tone",
@@ -19761,21 +16100,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udfc3\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman running medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udfc3\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman running medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc3\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman running medium skin tone",
@@ -19789,21 +16114,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udfc3\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman running medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udfc3\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman running dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc3\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman running dark skin tone",
@@ -19901,13 +16212,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udd74",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in suit levitating",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udd74\ud83c\udffb",
       "type": "emoji",
       "system": "People-Body",
@@ -19957,21 +16261,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc6f\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "men with bunny ears",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc6f\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "women with bunny ears",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6f\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "women with bunny ears",
@@ -20027,21 +16317,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd6\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in steamy room",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd6\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in steamy room light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd6\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man in steamy room light skin tone",
@@ -20055,21 +16331,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd6\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in steamy room medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd6\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in steamy room medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd6\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man in steamy room medium skin tone",
@@ -20083,21 +16345,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd6\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in steamy room medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd6\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in steamy room dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd6\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man in steamy room dark skin tone",
@@ -20111,21 +16359,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd6\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in steamy room",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd6\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in steamy room light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd6\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman in steamy room light skin tone",
@@ -20139,21 +16373,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd6\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in steamy room medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd6\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in steamy room medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd6\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman in steamy room medium skin tone",
@@ -20167,21 +16387,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd6\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in steamy room medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd6\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in steamy room dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd6\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman in steamy room dark skin tone",
@@ -20237,21 +16443,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd7\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man climbing",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd7\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man climbing light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd7\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man climbing light skin tone",
@@ -20265,21 +16457,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd7\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man climbing medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd7\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man climbing medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd7\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man climbing medium skin tone",
@@ -20293,21 +16471,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd7\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man climbing medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd7\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man climbing dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd7\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man climbing dark skin tone",
@@ -20321,21 +16485,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd7\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman climbing",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd7\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman climbing light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd7\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman climbing light skin tone",
@@ -20349,21 +16499,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd7\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman climbing medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd7\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman climbing medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd7\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman climbing medium skin tone",
@@ -20377,21 +16513,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd7\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman climbing medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd7\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman climbing dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd7\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman climbing dark skin tone",
@@ -20454,13 +16576,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u26f7",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "skier",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udfc2",
       "type": "emoji",
       "system": "People-Body",
@@ -20510,13 +16625,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udfcc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person golfing",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udfcc\ud83c\udffb",
       "type": "emoji",
       "system": "People-Body",
@@ -20559,35 +16667,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udfcc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man golfing",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcc\ufe0f\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man golfing",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man golfing",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udfcc\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man golfing light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcc\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man golfing light skin tone",
@@ -20601,21 +16681,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udfcc\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man golfing medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udfcc\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man golfing medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcc\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man golfing medium skin tone",
@@ -20629,21 +16695,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udfcc\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man golfing medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udfcc\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man golfing dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcc\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man golfing dark skin tone",
@@ -20657,35 +16709,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udfcc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman golfing",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcc\ufe0f\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman golfing",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman golfing",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udfcc\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman golfing light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcc\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman golfing light skin tone",
@@ -20699,21 +16723,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udfcc\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman golfing medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udfcc\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman golfing medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcc\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman golfing medium skin tone",
@@ -20727,21 +16737,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udfcc\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman golfing medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udfcc\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman golfing dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcc\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman golfing dark skin tone",
@@ -20797,21 +16793,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udfc4\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man surfing",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udfc4\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man surfing light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc4\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man surfing light skin tone",
@@ -20825,21 +16807,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udfc4\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man surfing medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udfc4\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man surfing medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc4\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man surfing medium skin tone",
@@ -20853,21 +16821,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udfc4\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man surfing medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udfc4\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man surfing dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc4\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man surfing dark skin tone",
@@ -20881,21 +16835,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udfc4\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman surfing",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udfc4\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman surfing light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc4\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman surfing light skin tone",
@@ -20909,21 +16849,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udfc4\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman surfing medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udfc4\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman surfing medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc4\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman surfing medium skin tone",
@@ -20937,21 +16863,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udfc4\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman surfing medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udfc4\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman surfing dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc4\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman surfing dark skin tone",
@@ -21007,21 +16919,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udea3\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man rowing boat",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udea3\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man rowing boat light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udea3\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man rowing boat light skin tone",
@@ -21035,21 +16933,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udea3\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man rowing boat medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udea3\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man rowing boat medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udea3\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man rowing boat medium skin tone",
@@ -21063,21 +16947,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udea3\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man rowing boat medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udea3\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man rowing boat dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udea3\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man rowing boat dark skin tone",
@@ -21091,21 +16961,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udea3\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman rowing boat",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udea3\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman rowing boat light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udea3\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman rowing boat light skin tone",
@@ -21119,21 +16975,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udea3\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman rowing boat medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udea3\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman rowing boat medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udea3\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman rowing boat medium skin tone",
@@ -21147,21 +16989,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udea3\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman rowing boat medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udea3\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman rowing boat dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udea3\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman rowing boat dark skin tone",
@@ -21217,21 +17045,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udfca\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man swimming",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udfca\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man swimming light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfca\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man swimming light skin tone",
@@ -21245,21 +17059,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udfca\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man swimming medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udfca\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man swimming medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfca\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man swimming medium skin tone",
@@ -21273,21 +17073,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udfca\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man swimming medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udfca\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man swimming dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfca\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man swimming dark skin tone",
@@ -21301,21 +17087,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udfca\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman swimming",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udfca\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman swimming light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfca\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman swimming light skin tone",
@@ -21329,21 +17101,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udfca\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman swimming medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udfca\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman swimming medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfca\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman swimming medium skin tone",
@@ -21357,13 +17115,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udfca\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman swimming medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udfca\ud83c\udfff\u200d\u2640\ufe0f",
       "type": "emoji",
       "system": "People-Body",
@@ -21371,21 +17122,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udfca\ud83c\udfff\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman swimming dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\u26f9\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person bouncing ball",
-      "tags": []
-    },
-    {
-      "symbol": "\u26f9",
       "type": "emoji",
       "system": "People-Body",
       "label": "person bouncing ball",
@@ -21434,35 +17171,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u26f9\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man bouncing ball",
-      "tags": []
-    },
-    {
-      "symbol": "\u26f9\ufe0f\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man bouncing ball",
-      "tags": []
-    },
-    {
-      "symbol": "\u26f9\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man bouncing ball",
-      "tags": []
-    },
-    {
       "symbol": "\u26f9\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man bouncing ball light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u26f9\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man bouncing ball light skin tone",
@@ -21476,21 +17185,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u26f9\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man bouncing ball medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\u26f9\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man bouncing ball medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u26f9\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man bouncing ball medium skin tone",
@@ -21504,21 +17199,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u26f9\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man bouncing ball medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\u26f9\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man bouncing ball dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u26f9\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man bouncing ball dark skin tone",
@@ -21532,35 +17213,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u26f9\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman bouncing ball",
-      "tags": []
-    },
-    {
-      "symbol": "\u26f9\ufe0f\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman bouncing ball",
-      "tags": []
-    },
-    {
-      "symbol": "\u26f9\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman bouncing ball",
-      "tags": []
-    },
-    {
       "symbol": "\u26f9\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman bouncing ball light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u26f9\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman bouncing ball light skin tone",
@@ -21574,21 +17227,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u26f9\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman bouncing ball medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\u26f9\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman bouncing ball medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u26f9\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman bouncing ball medium skin tone",
@@ -21602,13 +17241,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u26f9\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman bouncing ball medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\u26f9\ud83c\udfff\u200d\u2640\ufe0f",
       "type": "emoji",
       "system": "People-Body",
@@ -21616,21 +17248,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u26f9\ud83c\udfff\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman bouncing ball dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udfcb\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person lifting weights",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcb",
       "type": "emoji",
       "system": "People-Body",
       "label": "person lifting weights",
@@ -21679,35 +17297,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udfcb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man lifting weights",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcb\ufe0f\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man lifting weights",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcb\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man lifting weights",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udfcb\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man lifting weights light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcb\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man lifting weights light skin tone",
@@ -21721,21 +17311,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udfcb\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man lifting weights medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udfcb\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man lifting weights medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcb\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man lifting weights medium skin tone",
@@ -21749,21 +17325,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udfcb\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man lifting weights medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udfcb\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man lifting weights dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcb\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man lifting weights dark skin tone",
@@ -21777,35 +17339,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udfcb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman lifting weights",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcb\ufe0f\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman lifting weights",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcb\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman lifting weights",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udfcb\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman lifting weights light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcb\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman lifting weights light skin tone",
@@ -21819,21 +17353,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udfcb\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman lifting weights medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udfcb\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman lifting weights medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcb\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman lifting weights medium skin tone",
@@ -21847,21 +17367,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udfcb\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman lifting weights medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udfcb\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman lifting weights dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcb\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman lifting weights dark skin tone",
@@ -21917,21 +17423,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udeb4\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man biking",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udeb4\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man biking light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb4\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man biking light skin tone",
@@ -21945,21 +17437,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udeb4\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man biking medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udeb4\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man biking medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb4\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man biking medium skin tone",
@@ -21973,21 +17451,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udeb4\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man biking medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udeb4\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man biking dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb4\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man biking dark skin tone",
@@ -22001,21 +17465,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udeb4\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman biking",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udeb4\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman biking light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb4\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman biking light skin tone",
@@ -22029,21 +17479,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udeb4\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman biking medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udeb4\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman biking medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb4\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman biking medium skin tone",
@@ -22057,21 +17493,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udeb4\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman biking medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udeb4\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman biking dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb4\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman biking dark skin tone",
@@ -22127,21 +17549,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udeb5\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man mountain biking",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udeb5\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man mountain biking light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb5\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man mountain biking light skin tone",
@@ -22155,21 +17563,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udeb5\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man mountain biking medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udeb5\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man mountain biking medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb5\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man mountain biking medium skin tone",
@@ -22183,21 +17577,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udeb5\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man mountain biking medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udeb5\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man mountain biking dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb5\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man mountain biking dark skin tone",
@@ -22211,21 +17591,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udeb5\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman mountain biking",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udeb5\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman mountain biking light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb5\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman mountain biking light skin tone",
@@ -22239,21 +17605,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udeb5\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman mountain biking medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udeb5\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman mountain biking medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb5\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman mountain biking medium skin tone",
@@ -22267,21 +17619,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udeb5\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman mountain biking medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udeb5\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman mountain biking dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb5\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman mountain biking dark skin tone",
@@ -22337,21 +17675,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd38\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man cartwheeling",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd38\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man cartwheeling light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd38\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man cartwheeling light skin tone",
@@ -22365,21 +17689,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd38\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man cartwheeling medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd38\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man cartwheeling medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd38\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man cartwheeling medium skin tone",
@@ -22393,21 +17703,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd38\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man cartwheeling medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd38\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man cartwheeling dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd38\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man cartwheeling dark skin tone",
@@ -22421,21 +17717,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd38\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman cartwheeling",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd38\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman cartwheeling light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd38\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman cartwheeling light skin tone",
@@ -22449,21 +17731,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd38\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman cartwheeling medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd38\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman cartwheeling medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd38\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman cartwheeling medium skin tone",
@@ -22477,21 +17745,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd38\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman cartwheeling medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd38\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman cartwheeling dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd38\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman cartwheeling dark skin tone",
@@ -22512,21 +17766,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd3c\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "men wrestling",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd3c\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "women wrestling",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3c\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "women wrestling",
@@ -22582,21 +17822,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd3d\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man playing water polo",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd3d\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man playing water polo light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3d\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man playing water polo light skin tone",
@@ -22610,21 +17836,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd3d\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man playing water polo medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd3d\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man playing water polo medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3d\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man playing water polo medium skin tone",
@@ -22638,21 +17850,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd3d\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man playing water polo medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd3d\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man playing water polo dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3d\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man playing water polo dark skin tone",
@@ -22666,21 +17864,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd3d\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman playing water polo",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd3d\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman playing water polo light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3d\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman playing water polo light skin tone",
@@ -22694,21 +17878,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd3d\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman playing water polo medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd3d\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman playing water polo medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3d\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman playing water polo medium skin tone",
@@ -22722,21 +17892,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd3d\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman playing water polo medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd3d\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman playing water polo dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3d\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman playing water polo dark skin tone",
@@ -22792,21 +17948,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd3e\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man playing handball",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd3e\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man playing handball light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3e\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man playing handball light skin tone",
@@ -22820,21 +17962,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd3e\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man playing handball medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd3e\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man playing handball medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3e\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man playing handball medium skin tone",
@@ -22848,21 +17976,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd3e\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man playing handball medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd3e\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man playing handball dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3e\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man playing handball dark skin tone",
@@ -22876,21 +17990,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd3e\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman playing handball",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd3e\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman playing handball light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3e\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman playing handball light skin tone",
@@ -22904,21 +18004,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd3e\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman playing handball medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd3e\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman playing handball medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3e\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman playing handball medium skin tone",
@@ -22932,21 +18018,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd3e\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman playing handball medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd3e\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman playing handball dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3e\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman playing handball dark skin tone",
@@ -23002,21 +18074,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd39\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man juggling",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd39\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man juggling light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd39\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man juggling light skin tone",
@@ -23030,21 +18088,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd39\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man juggling medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd39\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man juggling medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd39\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man juggling medium skin tone",
@@ -23058,21 +18102,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd39\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man juggling medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd39\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man juggling dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd39\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man juggling dark skin tone",
@@ -23086,21 +18116,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd39\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman juggling",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd39\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman juggling light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd39\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman juggling light skin tone",
@@ -23114,21 +18130,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd39\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman juggling medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd39\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman juggling medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd39\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman juggling medium skin tone",
@@ -23142,21 +18144,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\udd39\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman juggling medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\udd39\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman juggling dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd39\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman juggling dark skin tone",
@@ -23212,21 +18200,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd8\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in lotus position",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd8\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in lotus position light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd8\ud83c\udffb\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man in lotus position light skin tone",
@@ -23240,21 +18214,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd8\ud83c\udffc\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in lotus position medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd8\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in lotus position medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd8\ud83c\udffd\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man in lotus position medium skin tone",
@@ -23268,21 +18228,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd8\ud83c\udffe\u200d\u2642",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in lotus position medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd8\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in lotus position dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd8\ud83c\udfff\u200d\u2642",
       "type": "emoji",
       "system": "People-Body",
       "label": "man in lotus position dark skin tone",
@@ -23296,21 +18242,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd8\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in lotus position",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd8\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in lotus position light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd8\ud83c\udffb\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman in lotus position light skin tone",
@@ -23324,21 +18256,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd8\ud83c\udffc\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in lotus position medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd8\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in lotus position medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd8\ud83c\udffd\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman in lotus position medium skin tone",
@@ -23352,21 +18270,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd8\ud83c\udffe\u200d\u2640",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in lotus position medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd8\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in lotus position dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd8\ud83c\udfff\u200d\u2640",
       "type": "emoji",
       "system": "People-Body",
       "label": "woman in lotus position dark skin tone",
@@ -24234,21 +19138,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss person person light skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss person person light skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffd",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss person person light skin tone medium skin tone",
@@ -24262,21 +19152,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss person person light skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss person person light skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udfff",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss person person light skin tone dark skin tone",
@@ -24290,21 +19166,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss person person medium-light skin tone light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss person person medium-light skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffd",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss person person medium-light skin tone medium skin tone",
@@ -24318,21 +19180,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss person person medium-light skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss person person medium-light skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udfff",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss person person medium-light skin tone dark skin tone",
@@ -24346,21 +19194,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss person person medium skin tone light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss person person medium skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffc",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss person person medium skin tone medium-light skin tone",
@@ -24374,21 +19208,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss person person medium skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss person person medium skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udfff",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss person person medium skin tone dark skin tone",
@@ -24402,21 +19222,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss person person medium-dark skin tone light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss person person medium-dark skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffc",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss person person medium-dark skin tone medium-light skin tone",
@@ -24430,21 +19236,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss person person medium-dark skin tone medium skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss person person medium-dark skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udfff",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss person person medium-dark skin tone dark skin tone",
@@ -24458,21 +19250,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss person person dark skin tone light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss person person dark skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffc",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss person person dark skin tone medium-light skin tone",
@@ -24486,21 +19264,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss person person dark skin tone medium skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss person person dark skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffe",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss person person dark skin tone medium-dark skin tone",
@@ -24514,21 +19278,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffb",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss woman man light skin tone",
@@ -24542,21 +19292,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man light skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man light skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffd",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss woman man light skin tone medium skin tone",
@@ -24570,21 +19306,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man light skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man light skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udfff",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss woman man light skin tone dark skin tone",
@@ -24598,21 +19320,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man medium-light skin tone light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffc",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss woman man medium-light skin tone",
@@ -24626,21 +19334,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man medium-light skin tone medium skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man medium-light skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffe",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss woman man medium-light skin tone medium-dark skin tone",
@@ -24654,21 +19348,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man medium-light skin tone dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man medium skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffb",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss woman man medium skin tone light skin tone",
@@ -24682,21 +19362,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man medium skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffd",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss woman man medium skin tone",
@@ -24710,21 +19376,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man medium skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man medium skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udfff",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss woman man medium skin tone dark skin tone",
@@ -24738,21 +19390,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man medium-dark skin tone light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man medium-dark skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffc",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss woman man medium-dark skin tone medium-light skin tone",
@@ -24766,21 +19404,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man medium-dark skin tone medium skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffe",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss woman man medium-dark skin tone",
@@ -24794,21 +19418,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man medium-dark skin tone dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man dark skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffb",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss woman man dark skin tone light skin tone",
@@ -24822,21 +19432,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man dark skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man dark skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffd",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss woman man dark skin tone medium skin tone",
@@ -24850,21 +19446,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man dark skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udfff",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss woman man dark skin tone",
@@ -24878,21 +19460,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc68\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffb",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss man man light skin tone",
@@ -24906,21 +19474,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man light skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man light skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffd",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss man man light skin tone medium skin tone",
@@ -24934,21 +19488,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man light skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man light skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udfff",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss man man light skin tone dark skin tone",
@@ -24962,21 +19502,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man medium-light skin tone light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffc",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss man man medium-light skin tone",
@@ -24990,21 +19516,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man medium-light skin tone medium skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man medium-light skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffe",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss man man medium-light skin tone medium-dark skin tone",
@@ -25018,21 +19530,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man medium-light skin tone dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man medium skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffb",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss man man medium skin tone light skin tone",
@@ -25046,21 +19544,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man medium skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffd",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss man man medium skin tone",
@@ -25074,21 +19558,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man medium skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man medium skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udfff",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss man man medium skin tone dark skin tone",
@@ -25102,21 +19572,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man medium-dark skin tone light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man medium-dark skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffc",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss man man medium-dark skin tone medium-light skin tone",
@@ -25130,21 +19586,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man medium-dark skin tone medium skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffe",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss man man medium-dark skin tone",
@@ -25158,21 +19600,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man medium-dark skin tone dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man dark skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffb",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss man man dark skin tone light skin tone",
@@ -25186,21 +19614,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man dark skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man dark skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffd",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss man man dark skin tone medium skin tone",
@@ -25214,21 +19628,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man dark skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udfff",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss man man dark skin tone",
@@ -25242,21 +19642,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc69",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffb",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss woman woman light skin tone",
@@ -25270,21 +19656,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman light skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman light skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffd",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss woman woman light skin tone medium skin tone",
@@ -25298,21 +19670,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman light skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman light skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udfff",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss woman woman light skin tone dark skin tone",
@@ -25326,21 +19684,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman medium-light skin tone light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffc",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss woman woman medium-light skin tone",
@@ -25354,21 +19698,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman medium-light skin tone medium skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman medium-light skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffe",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss woman woman medium-light skin tone medium-dark skin tone",
@@ -25382,21 +19712,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman medium-light skin tone dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman medium skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffb",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss woman woman medium skin tone light skin tone",
@@ -25410,21 +19726,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman medium skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffd",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss woman woman medium skin tone",
@@ -25438,21 +19740,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman medium skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman medium skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udfff",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss woman woman medium skin tone dark skin tone",
@@ -25466,21 +19754,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman medium-dark skin tone light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman medium-dark skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffc",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss woman woman medium-dark skin tone medium-light skin tone",
@@ -25494,21 +19768,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman medium-dark skin tone medium skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffe",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss woman woman medium-dark skin tone",
@@ -25522,21 +19782,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman medium-dark skin tone dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman dark skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffb",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss woman woman dark skin tone light skin tone",
@@ -25550,21 +19796,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman dark skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman dark skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffd",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss woman woman dark skin tone medium skin tone",
@@ -25578,21 +19810,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman dark skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udfff",
       "type": "emoji",
       "system": "People-Body",
       "label": "kiss woman woman dark skin tone",
@@ -25648,21 +19866,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\u2764\u200d\ud83e\uddd1\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart person person light skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart person person light skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\u2764\u200d\ud83e\uddd1\ud83c\udffd",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart person person light skin tone medium skin tone",
@@ -25676,21 +19880,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\u2764\u200d\ud83e\uddd1\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart person person light skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart person person light skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\u2764\u200d\ud83e\uddd1\ud83c\udfff",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart person person light skin tone dark skin tone",
@@ -25704,21 +19894,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\u2764\u200d\ud83e\uddd1\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart person person medium-light skin tone light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart person person medium-light skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\u2764\u200d\ud83e\uddd1\ud83c\udffd",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart person person medium-light skin tone medium skin tone",
@@ -25732,21 +19908,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\u2764\u200d\ud83e\uddd1\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart person person medium-light skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart person person medium-light skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\u2764\u200d\ud83e\uddd1\ud83c\udfff",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart person person medium-light skin tone dark skin tone",
@@ -25760,21 +19922,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\u2764\u200d\ud83e\uddd1\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart person person medium skin tone light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart person person medium skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\u2764\u200d\ud83e\uddd1\ud83c\udffc",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart person person medium skin tone medium-light skin tone",
@@ -25788,21 +19936,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\u2764\u200d\ud83e\uddd1\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart person person medium skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart person person medium skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\u2764\u200d\ud83e\uddd1\ud83c\udfff",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart person person medium skin tone dark skin tone",
@@ -25816,21 +19950,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\u2764\u200d\ud83e\uddd1\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart person person medium-dark skin tone light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart person person medium-dark skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\u2764\u200d\ud83e\uddd1\ud83c\udffc",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart person person medium-dark skin tone medium-light skin tone",
@@ -25844,21 +19964,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\u2764\u200d\ud83e\uddd1\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart person person medium-dark skin tone medium skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart person person medium-dark skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\u2764\u200d\ud83e\uddd1\ud83c\udfff",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart person person medium-dark skin tone dark skin tone",
@@ -25872,21 +19978,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\u2764\u200d\ud83e\uddd1\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart person person dark skin tone light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart person person dark skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\u2764\u200d\ud83e\uddd1\ud83c\udffc",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart person person dark skin tone medium-light skin tone",
@@ -25900,21 +19992,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\u2764\u200d\ud83e\uddd1\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart person person dark skin tone medium skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart person person dark skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\u2764\u200d\ud83e\uddd1\ud83c\udffe",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart person person dark skin tone medium-dark skin tone",
@@ -25928,21 +20006,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\u200d\u2764\u200d\ud83d\udc68",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\u200d\ud83d\udc68\ud83c\udffb",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart woman man light skin tone",
@@ -25956,21 +20020,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man light skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man light skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\u200d\ud83d\udc68\ud83c\udffd",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart woman man light skin tone medium skin tone",
@@ -25984,21 +20034,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man light skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man light skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\u200d\ud83d\udc68\ud83c\udfff",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart woman man light skin tone dark skin tone",
@@ -26012,21 +20048,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man medium-light skin tone light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\u200d\ud83d\udc68\ud83c\udffc",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart woman man medium-light skin tone",
@@ -26040,21 +20062,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man medium-light skin tone medium skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man medium-light skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\u200d\ud83d\udc68\ud83c\udffe",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart woman man medium-light skin tone medium-dark skin tone",
@@ -26068,21 +20076,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man medium-light skin tone dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man medium skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\u200d\ud83d\udc68\ud83c\udffb",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart woman man medium skin tone light skin tone",
@@ -26096,21 +20090,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man medium skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\u200d\ud83d\udc68\ud83c\udffd",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart woman man medium skin tone",
@@ -26124,21 +20104,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man medium skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man medium skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\u200d\ud83d\udc68\ud83c\udfff",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart woman man medium skin tone dark skin tone",
@@ -26152,21 +20118,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man medium-dark skin tone light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man medium-dark skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\u200d\ud83d\udc68\ud83c\udffc",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart woman man medium-dark skin tone medium-light skin tone",
@@ -26180,21 +20132,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man medium-dark skin tone medium skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\u200d\ud83d\udc68\ud83c\udffe",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart woman man medium-dark skin tone",
@@ -26208,21 +20146,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man medium-dark skin tone dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man dark skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\u200d\ud83d\udc68\ud83c\udffb",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart woman man dark skin tone light skin tone",
@@ -26236,21 +20160,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man dark skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man dark skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\u200d\ud83d\udc68\ud83c\udffd",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart woman man dark skin tone medium skin tone",
@@ -26264,21 +20174,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man dark skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\u200d\ud83d\udc68\ud83c\udfff",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart woman man dark skin tone",
@@ -26292,21 +20188,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc68\u200d\u2764\u200d\ud83d\udc68",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2764\u200d\ud83d\udc68\ud83c\udffb",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart man man light skin tone",
@@ -26320,21 +20202,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2764\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man light skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man light skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2764\u200d\ud83d\udc68\ud83c\udffd",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart man man light skin tone medium skin tone",
@@ -26348,21 +20216,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2764\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man light skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man light skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2764\u200d\ud83d\udc68\ud83c\udfff",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart man man light skin tone dark skin tone",
@@ -26376,21 +20230,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2764\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man medium-light skin tone light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2764\u200d\ud83d\udc68\ud83c\udffc",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart man man medium-light skin tone",
@@ -26404,21 +20244,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2764\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man medium-light skin tone medium skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man medium-light skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2764\u200d\ud83d\udc68\ud83c\udffe",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart man man medium-light skin tone medium-dark skin tone",
@@ -26432,21 +20258,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2764\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man medium-light skin tone dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man medium skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2764\u200d\ud83d\udc68\ud83c\udffb",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart man man medium skin tone light skin tone",
@@ -26460,21 +20272,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2764\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man medium skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2764\u200d\ud83d\udc68\ud83c\udffd",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart man man medium skin tone",
@@ -26488,21 +20286,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2764\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man medium skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man medium skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2764\u200d\ud83d\udc68\ud83c\udfff",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart man man medium skin tone dark skin tone",
@@ -26516,21 +20300,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2764\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man medium-dark skin tone light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man medium-dark skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2764\u200d\ud83d\udc68\ud83c\udffc",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart man man medium-dark skin tone medium-light skin tone",
@@ -26544,21 +20314,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2764\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man medium-dark skin tone medium skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2764\u200d\ud83d\udc68\ud83c\udffe",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart man man medium-dark skin tone",
@@ -26572,21 +20328,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2764\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man medium-dark skin tone dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man dark skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2764\u200d\ud83d\udc68\ud83c\udffb",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart man man dark skin tone light skin tone",
@@ -26600,21 +20342,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2764\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man dark skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man dark skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2764\u200d\ud83d\udc68\ud83c\udffd",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart man man dark skin tone medium skin tone",
@@ -26628,21 +20356,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2764\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man dark skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2764\u200d\ud83d\udc68\ud83c\udfff",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart man man dark skin tone",
@@ -26656,21 +20370,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\u200d\u2764\u200d\ud83d\udc69",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\u200d\ud83d\udc69\ud83c\udffb",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart woman woman light skin tone",
@@ -26684,21 +20384,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\u200d\ud83d\udc69\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman light skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman light skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\u200d\ud83d\udc69\ud83c\udffd",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart woman woman light skin tone medium skin tone",
@@ -26712,21 +20398,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\u200d\ud83d\udc69\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman light skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman light skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\u200d\ud83d\udc69\ud83c\udfff",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart woman woman light skin tone dark skin tone",
@@ -26740,21 +20412,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\u200d\ud83d\udc69\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman medium-light skin tone light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\u200d\ud83d\udc69\ud83c\udffc",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart woman woman medium-light skin tone",
@@ -26768,21 +20426,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\u200d\ud83d\udc69\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman medium-light skin tone medium skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman medium-light skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\u200d\ud83d\udc69\ud83c\udffe",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart woman woman medium-light skin tone medium-dark skin tone",
@@ -26796,21 +20440,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\u200d\ud83d\udc69\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman medium-light skin tone dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman medium skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\u200d\ud83d\udc69\ud83c\udffb",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart woman woman medium skin tone light skin tone",
@@ -26824,21 +20454,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\u200d\ud83d\udc69\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman medium skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\u200d\ud83d\udc69\ud83c\udffd",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart woman woman medium skin tone",
@@ -26852,21 +20468,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\u200d\ud83d\udc69\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman medium skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman medium skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\u200d\ud83d\udc69\ud83c\udfff",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart woman woman medium skin tone dark skin tone",
@@ -26880,21 +20482,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\u200d\ud83d\udc69\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman medium-dark skin tone light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman medium-dark skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\u200d\ud83d\udc69\ud83c\udffc",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart woman woman medium-dark skin tone medium-light skin tone",
@@ -26908,21 +20496,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\u200d\ud83d\udc69\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman medium-dark skin tone medium skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\u200d\ud83d\udc69\ud83c\udffe",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart woman woman medium-dark skin tone",
@@ -26936,21 +20510,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\u200d\ud83d\udc69\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman medium-dark skin tone dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman dark skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\u200d\ud83d\udc69\ud83c\udffb",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart woman woman dark skin tone light skin tone",
@@ -26964,21 +20524,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\u200d\ud83d\udc69\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman dark skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman dark skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\u200d\ud83d\udc69\ud83c\udffd",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart woman woman dark skin tone medium skin tone",
@@ -26992,21 +20538,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\u200d\ud83d\udc69\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman dark skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\u200d\ud83d\udc69\ud83c\udfff",
       "type": "emoji",
       "system": "People-Body",
       "label": "couple with heart woman woman dark skin tone",
@@ -27202,13 +20734,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udde3",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "speaking head",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc64",
       "type": "emoji",
       "system": "People-Body",
@@ -27370,13 +20895,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u263a",
-      "type": "emoji",
-      "system": "Smileys-Emotion",
-      "label": "smiling face",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\ude1a",
       "type": "emoji",
       "system": "Smileys-Emotion",
@@ -27504,13 +21022,6 @@ export const items = [
     },
     {
       "symbol": "\ud83d\ude36\u200d\ud83c\udf2b\ufe0f",
-      "type": "emoji",
-      "system": "Smileys-Emotion",
-      "label": "face in clouds",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude36\u200d\ud83c\udf2b",
       "type": "emoji",
       "system": "Smileys-Emotion",
       "label": "face in clouds",
@@ -27748,13 +21259,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u2639",
-      "type": "emoji",
-      "system": "Smileys-Emotion",
-      "label": "frowning face",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\ude2e",
       "type": "emoji",
       "system": "Smileys-Emotion",
@@ -27945,13 +21449,6 @@ export const items = [
     },
     {
       "symbol": "\u2620\ufe0f",
-      "type": "emoji",
-      "system": "Smileys-Emotion",
-      "label": "skull and crossbones",
-      "tags": []
-    },
-    {
-      "symbol": "\u2620",
       "type": "emoji",
       "system": "Smileys-Emotion",
       "label": "skull and crossbones",
@@ -28175,13 +21672,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u2763",
-      "type": "emoji",
-      "system": "Smileys-Emotion",
-      "label": "heart exclamation",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udc94",
       "type": "emoji",
       "system": "Smileys-Emotion",
@@ -28196,13 +21686,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u2764\u200d\ud83d\udd25",
-      "type": "emoji",
-      "system": "Smileys-Emotion",
-      "label": "heart on fire",
-      "tags": []
-    },
-    {
       "symbol": "\u2764\ufe0f\u200d\ud83e\ude79",
       "type": "emoji",
       "system": "Smileys-Emotion",
@@ -28210,21 +21693,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u2764\u200d\ud83e\ude79",
-      "type": "emoji",
-      "system": "Smileys-Emotion",
-      "label": "mending heart",
-      "tags": []
-    },
-    {
       "symbol": "\u2764\ufe0f",
-      "type": "emoji",
-      "system": "Smileys-Emotion",
-      "label": "red heart",
-      "tags": []
-    },
-    {
-      "symbol": "\u2764",
       "type": "emoji",
       "system": "Smileys-Emotion",
       "label": "red heart",
@@ -28336,13 +21805,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udd73",
-      "type": "emoji",
-      "system": "Smileys-Emotion",
-      "label": "hole",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udca3",
       "type": "emoji",
       "system": "Smileys-Emotion",
@@ -28364,27 +21826,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udc41\u200d\ud83d\udde8\ufe0f",
-      "type": "emoji",
-      "system": "Smileys-Emotion",
-      "label": "eye in speech bubble",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc41\ufe0f\u200d\ud83d\udde8",
-      "type": "emoji",
-      "system": "Smileys-Emotion",
-      "label": "eye in speech bubble",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc41\u200d\ud83d\udde8",
-      "type": "emoji",
-      "system": "Smileys-Emotion",
-      "label": "eye in speech bubble",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udde8\ufe0f",
       "type": "emoji",
       "system": "Smileys-Emotion",
@@ -28392,21 +21833,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udde8",
-      "type": "emoji",
-      "system": "Smileys-Emotion",
-      "label": "left speech bubble",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\uddef\ufe0f",
-      "type": "emoji",
-      "system": "Smileys-Emotion",
-      "label": "right anger bubble",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\uddef",
       "type": "emoji",
       "system": "Smileys-Emotion",
       "label": "right anger bubble",
@@ -28525,13 +21952,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u26a0",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "warning",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udeb8",
       "type": "emoji",
       "system": "Symbols",
@@ -28609,21 +22029,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u2622",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "radioactive",
-      "tags": []
-    },
-    {
       "symbol": "\u2623\ufe0f",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "biohazard",
-      "tags": []
-    },
-    {
-      "symbol": "\u2623",
       "type": "emoji",
       "system": "Symbols",
       "label": "biohazard",
@@ -28637,21 +22043,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u2b06",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "up arrow",
-      "tags": []
-    },
-    {
       "symbol": "\u2197\ufe0f",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "up-right arrow",
-      "tags": []
-    },
-    {
-      "symbol": "\u2197",
       "type": "emoji",
       "system": "Symbols",
       "label": "up-right arrow",
@@ -28665,21 +22057,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u27a1",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "right arrow",
-      "tags": []
-    },
-    {
       "symbol": "\u2198\ufe0f",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "down-right arrow",
-      "tags": []
-    },
-    {
-      "symbol": "\u2198",
       "type": "emoji",
       "system": "Symbols",
       "label": "down-right arrow",
@@ -28693,21 +22071,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u2b07",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "down arrow",
-      "tags": []
-    },
-    {
       "symbol": "\u2199\ufe0f",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "down-left arrow",
-      "tags": []
-    },
-    {
-      "symbol": "\u2199",
       "type": "emoji",
       "system": "Symbols",
       "label": "down-left arrow",
@@ -28721,21 +22085,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u2b05",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "left arrow",
-      "tags": []
-    },
-    {
       "symbol": "\u2196\ufe0f",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "up-left arrow",
-      "tags": []
-    },
-    {
-      "symbol": "\u2196",
       "type": "emoji",
       "system": "Symbols",
       "label": "up-left arrow",
@@ -28749,21 +22099,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u2195",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "up-down arrow",
-      "tags": []
-    },
-    {
       "symbol": "\u2194\ufe0f",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "left-right arrow",
-      "tags": []
-    },
-    {
-      "symbol": "\u2194",
       "type": "emoji",
       "system": "Symbols",
       "label": "left-right arrow",
@@ -28777,21 +22113,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u21a9",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "right arrow curving left",
-      "tags": []
-    },
-    {
       "symbol": "\u21aa\ufe0f",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "left arrow curving right",
-      "tags": []
-    },
-    {
-      "symbol": "\u21aa",
       "type": "emoji",
       "system": "Symbols",
       "label": "left arrow curving right",
@@ -28805,21 +22127,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u2934",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "right arrow curving up",
-      "tags": []
-    },
-    {
       "symbol": "\u2935\ufe0f",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "right arrow curving down",
-      "tags": []
-    },
-    {
-      "symbol": "\u2935",
       "type": "emoji",
       "system": "Symbols",
       "label": "right arrow curving down",
@@ -28889,21 +22197,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u269b",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "atom symbol",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udd49\ufe0f",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "om",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd49",
       "type": "emoji",
       "system": "Symbols",
       "label": "om",
@@ -28917,21 +22211,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u2721",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "star of David",
-      "tags": []
-    },
-    {
       "symbol": "\u2638\ufe0f",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "wheel of dharma",
-      "tags": []
-    },
-    {
-      "symbol": "\u2638",
       "type": "emoji",
       "system": "Symbols",
       "label": "wheel of dharma",
@@ -28945,21 +22225,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u262f",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "yin yang",
-      "tags": []
-    },
-    {
       "symbol": "\u271d\ufe0f",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "latin cross",
-      "tags": []
-    },
-    {
-      "symbol": "\u271d",
       "type": "emoji",
       "system": "Symbols",
       "label": "latin cross",
@@ -28973,13 +22239,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u2626",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "orthodox cross",
-      "tags": []
-    },
-    {
       "symbol": "\u262a\ufe0f",
       "type": "emoji",
       "system": "Symbols",
@@ -28987,21 +22246,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u262a",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "star and crescent",
-      "tags": []
-    },
-    {
       "symbol": "\u262e\ufe0f",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "peace symbol",
-      "tags": []
-    },
-    {
-      "symbol": "\u262e",
       "type": "emoji",
       "system": "Symbols",
       "label": "peace symbol",
@@ -29141,13 +22386,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u25b6",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "play button",
-      "tags": []
-    },
-    {
       "symbol": "\u23e9",
       "type": "emoji",
       "system": "Symbols",
@@ -29162,13 +22400,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u23ed",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "next track button",
-      "tags": []
-    },
-    {
       "symbol": "\u23ef\ufe0f",
       "type": "emoji",
       "system": "Symbols",
@@ -29176,21 +22407,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u23ef",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "play or pause button",
-      "tags": []
-    },
-    {
       "symbol": "\u25c0\ufe0f",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "reverse button",
-      "tags": []
-    },
-    {
-      "symbol": "\u25c0",
       "type": "emoji",
       "system": "Symbols",
       "label": "reverse button",
@@ -29205,13 +22422,6 @@ export const items = [
     },
     {
       "symbol": "\u23ee\ufe0f",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "last track button",
-      "tags": []
-    },
-    {
-      "symbol": "\u23ee",
       "type": "emoji",
       "system": "Symbols",
       "label": "last track button",
@@ -29253,21 +22463,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u23f8",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "pause button",
-      "tags": []
-    },
-    {
       "symbol": "\u23f9\ufe0f",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "stop button",
-      "tags": []
-    },
-    {
-      "symbol": "\u23f9",
       "type": "emoji",
       "system": "Symbols",
       "label": "stop button",
@@ -29281,21 +22477,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u23fa",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "record button",
-      "tags": []
-    },
-    {
       "symbol": "\u23cf\ufe0f",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "eject button",
-      "tags": []
-    },
-    {
-      "symbol": "\u23cf",
       "type": "emoji",
       "system": "Symbols",
       "label": "eject button",
@@ -29351,21 +22533,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u2640",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "female sign",
-      "tags": []
-    },
-    {
       "symbol": "\u2642\ufe0f",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "male sign",
-      "tags": []
-    },
-    {
-      "symbol": "\u2642",
       "type": "emoji",
       "system": "Symbols",
       "label": "male sign",
@@ -29379,21 +22547,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u26a7",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "transgender symbol",
-      "tags": []
-    },
-    {
       "symbol": "\u2716\ufe0f",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "multiply",
-      "tags": []
-    },
-    {
-      "symbol": "\u2716",
       "type": "emoji",
       "system": "Symbols",
       "label": "multiply",
@@ -29428,13 +22582,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u267e",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "infinity",
-      "tags": []
-    },
-    {
       "symbol": "\u203c\ufe0f",
       "type": "emoji",
       "system": "Symbols",
@@ -29442,21 +22589,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u203c",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "double exclamation mark",
-      "tags": []
-    },
-    {
       "symbol": "\u2049\ufe0f",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "exclamation question mark",
-      "tags": []
-    },
-    {
-      "symbol": "\u2049",
       "type": "emoji",
       "system": "Symbols",
       "label": "exclamation question mark",
@@ -29498,13 +22631,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u3030",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "wavy dash",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udcb1",
       "type": "emoji",
       "system": "Symbols",
@@ -29526,13 +22652,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u2695",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "medical symbol",
-      "tags": []
-    },
-    {
       "symbol": "\u267b\ufe0f",
       "type": "emoji",
       "system": "Symbols",
@@ -29540,21 +22659,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u267b",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "recycling symbol",
-      "tags": []
-    },
-    {
       "symbol": "\u269c\ufe0f",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "fleur-de-lis",
-      "tags": []
-    },
-    {
-      "symbol": "\u269c",
       "type": "emoji",
       "system": "Symbols",
       "label": "fleur-de-lis",
@@ -29603,21 +22708,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u2611",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "check box with check",
-      "tags": []
-    },
-    {
       "symbol": "\u2714\ufe0f",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "check mark",
-      "tags": []
-    },
-    {
-      "symbol": "\u2714",
       "type": "emoji",
       "system": "Symbols",
       "label": "check mark",
@@ -29659,21 +22750,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u303d",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "part alternation mark",
-      "tags": []
-    },
-    {
       "symbol": "\u2733\ufe0f",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "eight-spoked asterisk",
-      "tags": []
-    },
-    {
-      "symbol": "\u2733",
       "type": "emoji",
       "system": "Symbols",
       "label": "eight-spoked asterisk",
@@ -29687,21 +22764,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u2734",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "eight-pointed star",
-      "tags": []
-    },
-    {
       "symbol": "\u2747\ufe0f",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "sparkle",
-      "tags": []
-    },
-    {
-      "symbol": "\u2747",
       "type": "emoji",
       "system": "Symbols",
       "label": "sparkle",
@@ -29715,21 +22778,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u00a9",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "copyright",
-      "tags": []
-    },
-    {
       "symbol": "\u00ae\ufe0f",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "registered",
-      "tags": []
-    },
-    {
-      "symbol": "\u00ae",
       "type": "emoji",
       "system": "Symbols",
       "label": "registered",
@@ -29743,35 +22792,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u2122",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "trade mark",
-      "tags": []
-    },
-    {
       "symbol": "#\ufe0f\u20e3",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "keycap",
-      "tags": []
-    },
-    {
-      "symbol": "#\u20e3",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "keycap",
-      "tags": []
-    },
-    {
-      "symbol": "*\ufe0f\u20e3",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "keycap",
-      "tags": []
-    },
-    {
-      "symbol": "*\u20e3",
       "type": "emoji",
       "system": "Symbols",
       "label": "keycap",
@@ -29785,21 +22806,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "0\u20e3",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "keycap 0",
-      "tags": []
-    },
-    {
       "symbol": "1\ufe0f\u20e3",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "keycap 1",
-      "tags": []
-    },
-    {
-      "symbol": "1\u20e3",
       "type": "emoji",
       "system": "Symbols",
       "label": "keycap 1",
@@ -29813,21 +22820,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "2\u20e3",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "keycap 2",
-      "tags": []
-    },
-    {
       "symbol": "3\ufe0f\u20e3",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "keycap 3",
-      "tags": []
-    },
-    {
-      "symbol": "3\u20e3",
       "type": "emoji",
       "system": "Symbols",
       "label": "keycap 3",
@@ -29841,21 +22834,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "4\u20e3",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "keycap 4",
-      "tags": []
-    },
-    {
       "symbol": "5\ufe0f\u20e3",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "keycap 5",
-      "tags": []
-    },
-    {
-      "symbol": "5\u20e3",
       "type": "emoji",
       "system": "Symbols",
       "label": "keycap 5",
@@ -29869,21 +22848,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "6\u20e3",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "keycap 6",
-      "tags": []
-    },
-    {
       "symbol": "7\ufe0f\u20e3",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "keycap 7",
-      "tags": []
-    },
-    {
-      "symbol": "7\u20e3",
       "type": "emoji",
       "system": "Symbols",
       "label": "keycap 7",
@@ -29897,21 +22862,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "8\u20e3",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "keycap 8",
-      "tags": []
-    },
-    {
       "symbol": "9\ufe0f\u20e3",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "keycap 9",
-      "tags": []
-    },
-    {
-      "symbol": "9\u20e3",
       "type": "emoji",
       "system": "Symbols",
       "label": "keycap 9",
@@ -29967,13 +22918,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udd70",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "A button blood type",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udd8e",
       "type": "emoji",
       "system": "Symbols",
@@ -29982,13 +22926,6 @@ export const items = [
     },
     {
       "symbol": "\ud83c\udd71\ufe0f",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "B button blood type",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udd71",
       "type": "emoji",
       "system": "Symbols",
       "label": "B button blood type",
@@ -30023,13 +22960,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u2139",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "information",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udd94",
       "type": "emoji",
       "system": "Symbols",
@@ -30038,13 +22968,6 @@ export const items = [
     },
     {
       "symbol": "\u24c2\ufe0f",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "circled M",
-      "tags": []
-    },
-    {
-      "symbol": "\u24c2",
       "type": "emoji",
       "system": "Symbols",
       "label": "circled M",
@@ -30072,13 +22995,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udd7e",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "O button blood type",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udd97",
       "type": "emoji",
       "system": "Symbols",
@@ -30087,13 +23003,6 @@ export const items = [
     },
     {
       "symbol": "\ud83c\udd7f\ufe0f",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "P button",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udd7f",
       "type": "emoji",
       "system": "Symbols",
       "label": "P button",
@@ -30135,21 +23044,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\ude02",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "Japanese service charge button",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\ude37\ufe0f",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "Japanese monthly amount button",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\ude37",
       "type": "emoji",
       "system": "Symbols",
       "label": "Japanese monthly amount button",
@@ -30233,21 +23128,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u3297",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "Japanese congratulations button",
-      "tags": []
-    },
-    {
       "symbol": "\u3299\ufe0f",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "Japanese secret button",
-      "tags": []
-    },
-    {
-      "symbol": "\u3299",
       "type": "emoji",
       "system": "Symbols",
       "label": "Japanese secret button",
@@ -30401,21 +23282,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u25fc",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "black medium square",
-      "tags": []
-    },
-    {
       "symbol": "\u25fb\ufe0f",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "white medium square",
-      "tags": []
-    },
-    {
-      "symbol": "\u25fb",
       "type": "emoji",
       "system": "Symbols",
       "label": "white medium square",
@@ -30443,21 +23310,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u25aa",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "black small square",
-      "tags": []
-    },
-    {
       "symbol": "\u25ab\ufe0f",
-      "type": "emoji",
-      "system": "Symbols",
-      "label": "white small square",
-      "tags": []
-    },
-    {
-      "symbol": "\u25ab",
       "type": "emoji",
       "system": "Symbols",
       "label": "white small square",
@@ -30569,13 +23422,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\uddfa",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "world map",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\uddfe",
       "type": "emoji",
       "system": "Travel-Places",
@@ -30597,21 +23443,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udfd4",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "snow-capped mountain",
-      "tags": []
-    },
-    {
       "symbol": "\u26f0\ufe0f",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "mountain",
-      "tags": []
-    },
-    {
-      "symbol": "\u26f0",
       "type": "emoji",
       "system": "Travel-Places",
       "label": "mountain",
@@ -30639,21 +23471,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udfd5",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "camping",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udfd6\ufe0f",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "beach with umbrella",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfd6",
       "type": "emoji",
       "system": "Travel-Places",
       "label": "beach with umbrella",
@@ -30667,21 +23485,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udfdc",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "desert",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udfdd\ufe0f",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "desert island",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfdd",
       "type": "emoji",
       "system": "Travel-Places",
       "label": "desert island",
@@ -30695,21 +23499,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udfde",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "national park",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udfdf\ufe0f",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "stadium",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfdf",
       "type": "emoji",
       "system": "Travel-Places",
       "label": "stadium",
@@ -30723,21 +23513,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udfdb",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "classical building",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udfd7\ufe0f",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "building construction",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfd7",
       "type": "emoji",
       "system": "Travel-Places",
       "label": "building construction",
@@ -30779,21 +23555,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udfd8",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "houses",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udfda\ufe0f",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "derelict house",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfda",
       "type": "emoji",
       "system": "Travel-Places",
       "label": "derelict house",
@@ -30961,13 +23723,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u26e9",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "shinto shrine",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udd4b",
       "type": "emoji",
       "system": "Travel-Places",
@@ -31010,13 +23765,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udfd9",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "cityscape",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udf04",
       "type": "emoji",
       "system": "Travel-Places",
@@ -31053,13 +23801,6 @@ export const items = [
     },
     {
       "symbol": "\u2668\ufe0f",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "hot springs",
-      "tags": []
-    },
-    {
-      "symbol": "\u2668",
       "type": "emoji",
       "system": "Travel-Places",
       "label": "hot springs",
@@ -31311,21 +24052,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udfce",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "racing car",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udfcd\ufe0f",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "motorcycle",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcd",
       "type": "emoji",
       "system": "Travel-Places",
       "label": "motorcycle",
@@ -31402,13 +24129,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udee3",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "motorway",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udee4\ufe0f",
       "type": "emoji",
       "system": "Travel-Places",
@@ -31416,21 +24136,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udee4",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "railway track",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udee2\ufe0f",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "oil drum",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udee2",
       "type": "emoji",
       "system": "Travel-Places",
       "label": "oil drum",
@@ -31514,13 +24220,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udef3",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "passenger ship",
-      "tags": []
-    },
-    {
       "symbol": "\u26f4\ufe0f",
       "type": "emoji",
       "system": "Travel-Places",
@@ -31528,21 +24227,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u26f4",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "ferry",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udee5\ufe0f",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "motor boat",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udee5",
       "type": "emoji",
       "system": "Travel-Places",
       "label": "motor boat",
@@ -31563,21 +24248,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u2708",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "airplane",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udee9\ufe0f",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "small airplane",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udee9",
       "type": "emoji",
       "system": "Travel-Places",
       "label": "small airplane",
@@ -31647,13 +24318,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83d\udef0",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "satellite",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\ude80",
       "type": "emoji",
       "system": "Travel-Places",
@@ -31669,13 +24333,6 @@ export const items = [
     },
     {
       "symbol": "\ud83d\udece\ufe0f",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "bellhop bell",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udece",
       "type": "emoji",
       "system": "Travel-Places",
       "label": "bellhop bell",
@@ -31724,13 +24381,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u23f1",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "stopwatch",
-      "tags": []
-    },
-    {
       "symbol": "\u23f2\ufe0f",
       "type": "emoji",
       "system": "Travel-Places",
@@ -31738,21 +24388,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u23f2",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "timer clock",
-      "tags": []
-    },
-    {
       "symbol": "\ud83d\udd70\ufe0f",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "mantelpiece clock",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd70",
       "type": "emoji",
       "system": "Travel-Places",
       "label": "mantelpiece clock",
@@ -32018,21 +24654,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udf21",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "thermometer",
-      "tags": []
-    },
-    {
       "symbol": "\u2600\ufe0f",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "sun",
-      "tags": []
-    },
-    {
-      "symbol": "\u2600",
       "type": "emoji",
       "system": "Travel-Places",
       "label": "sun",
@@ -32095,13 +24717,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u2601",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "cloud",
-      "tags": []
-    },
-    {
       "symbol": "\u26c5",
       "type": "emoji",
       "system": "Travel-Places",
@@ -32116,21 +24731,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u26c8",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "cloud with lightning and rain",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udf24\ufe0f",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "sun behind small cloud",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udf24",
       "type": "emoji",
       "system": "Travel-Places",
       "label": "sun behind small cloud",
@@ -32144,21 +24745,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udf25",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "sun behind large cloud",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udf26\ufe0f",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "sun behind rain cloud",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udf26",
       "type": "emoji",
       "system": "Travel-Places",
       "label": "sun behind rain cloud",
@@ -32172,21 +24759,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udf27",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "cloud with rain",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udf28\ufe0f",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "cloud with snow",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udf28",
       "type": "emoji",
       "system": "Travel-Places",
       "label": "cloud with snow",
@@ -32200,21 +24773,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udf29",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "cloud with lightning",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udf2a\ufe0f",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "tornado",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udf2a",
       "type": "emoji",
       "system": "Travel-Places",
       "label": "tornado",
@@ -32228,21 +24787,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\ud83c\udf2b",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "fog",
-      "tags": []
-    },
-    {
       "symbol": "\ud83c\udf2c\ufe0f",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "wind face",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udf2c",
       "type": "emoji",
       "system": "Travel-Places",
       "label": "wind face",
@@ -32277,13 +24822,6 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u2602",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "umbrella",
-      "tags": []
-    },
-    {
       "symbol": "\u2614",
       "type": "emoji",
       "system": "Travel-Places",
@@ -32292,13 +24830,6 @@ export const items = [
     },
     {
       "symbol": "\u26f1\ufe0f",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "umbrella on ground",
-      "tags": []
-    },
-    {
-      "symbol": "\u26f1",
       "type": "emoji",
       "system": "Travel-Places",
       "label": "umbrella on ground",
@@ -32319,21 +24850,7 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "\u2744",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "snowflake",
-      "tags": []
-    },
-    {
       "symbol": "\u2603\ufe0f",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "snowman",
-      "tags": []
-    },
-    {
-      "symbol": "\u2603",
       "type": "emoji",
       "system": "Travel-Places",
       "label": "snowman",
@@ -32348,13 +24865,6 @@ export const items = [
     },
     {
       "symbol": "\u2604\ufe0f",
-      "type": "emoji",
-      "system": "Travel-Places",
-      "label": "comet",
-      "tags": []
-    },
-    {
-      "symbol": "\u2604",
       "type": "emoji",
       "system": "Travel-Places",
       "label": "comet",
