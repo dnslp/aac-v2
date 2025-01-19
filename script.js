@@ -1,6 +1,6 @@
 
 import { items } from './items.js'; // Import items.js
-    console.log('version 1')
+    console.log('version 3')
     const symbolContainer = document.getElementById('symbolContainer');
     const decreaseSizeButton = document.getElementById('decreaseSize');
     const increaseSizeButton = document.getElementById('increaseSize');

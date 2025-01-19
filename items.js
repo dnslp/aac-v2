@@ -306,7 +306,7 @@ export const items = [
       ]
     },
     {
-      "symbol": "../../images/Proloquo2go/more.png",
+      "symbol": "./images/Proloquo2go/more.png",
       "type": "image",
       "system": "Proloquo2Go",
       "label": "More",
@@ -315,7 +315,7 @@ export const items = [
       ]
     },
     {
-      "symbol": "../../images/Proloquo2go/all-done.png",
+      "symbol": "./images/Proloquo2go/all-done.png",
       "type": "image",
       "system": "Proloquo2Go",
       "label": "All Done",
@@ -24964,210 +24964,210 @@ export const items = [
       "tags": []
     },
     {
-      "symbol": "../images/LAMP/all.png",
+      "symbol": "./images/LAMP/all.png",
       "type": "image",
       "system": "LAMP",
       "label": "all",
       "tags": []
     },
     {
-      "symbol": "../images/LAMP/color.png",
+      "symbol": "./images/LAMP/color.png",
       "type": "image",
       "system": "LAMP",
       "label": "color",
       "tags": []
     },
     {
-      "symbol": "../images/LAMP/come.png",
+      "symbol": "./images/LAMP/come.png",
       "type": "image",
       "system": "LAMP",
       "label": "come",
       "tags": []
     },
     {
-      "symbol": "../images/LAMP/do.png",
+      "symbol": "./images/LAMP/do.png",
       "type": "image",
       "system": "LAMP",
       "label": "do",
       "tags": []
     },
     {
-      "symbol": "../images/LAMP/drink.png",
+      "symbol": "./images/LAMP/drink.png",
       "type": "image",
       "system": "LAMP",
       "label": "drink",
       "tags": []
     },
     {
-      "symbol": "../images/LAMP/eat.png",
+      "symbol": "./images/LAMP/eat.png",
       "type": "image",
       "system": "LAMP",
       "label": "eat",
       "tags": []
     },
     {
-      "symbol": "../images/LAMP/end.png",
+      "symbol": "./images/LAMP/end.png",
       "type": "image",
       "system": "LAMP",
       "label": "end",
       "tags": []
     },
     {
-      "symbol": "../images/LAMP/feel.png",
+      "symbol": "./images/LAMP/feel.png",
       "type": "image",
       "system": "LAMP",
       "label": "feel",
       "tags": []
     },
     {
-      "symbol": "../images/LAMP/follow.png",
+      "symbol": "./images/LAMP/follow.png",
       "type": "image",
       "system": "LAMP",
       "label": "follow",
       "tags": []
     },
     {
-      "symbol": "../images/LAMP/get.png",
+      "symbol": "./images/LAMP/get.png",
       "type": "image",
       "system": "LAMP",
       "label": "get",
       "tags": []
     },
     {
-      "symbol": "../images/LAMP/go.png",
+      "symbol": "./images/LAMP/go.png",
       "type": "image",
       "system": "LAMP",
       "label": "go",
       "tags": []
     },
     {
-      "symbol": "../images/LAMP/help.png",
+      "symbol": "./images/LAMP/help.png",
       "type": "image",
       "system": "LAMP",
       "label": "help",
       "tags": []
     },
     {
-      "symbol": "../images/LAMP/live.png",
+      "symbol": "./images/LAMP/live.png",
       "type": "image",
       "system": "LAMP",
       "label": "live",
       "tags": []
     },
     {
-      "symbol": "../images/LAMP/make.png",
+      "symbol": "./images/LAMP/make.png",
       "type": "image",
       "system": "LAMP",
       "label": "make",
       "tags": []
     },
     {
-      "symbol": "../images/LAMP/more.png",
+      "symbol": "./images/LAMP/more.png",
       "type": "image",
       "system": "LAMP",
       "label": "more",
       "tags": []
     },
     {
-      "symbol": "../images/LAMP/my.png",
+      "symbol": "./images/LAMP/my.png",
       "type": "image",
       "system": "LAMP",
       "label": "my",
       "tags": []
     },
     {
-      "symbol": "../images/LAMP/need.png",
+      "symbol": "./images/LAMP/need.png",
       "type": "image",
       "system": "LAMP",
       "label": "need",
       "tags": []
     },
     {
-      "symbol": "../images/LAMP/off.png",
+      "symbol": "./images/LAMP/off.png",
       "type": "image",
       "system": "LAMP",
       "label": "off",
       "tags": []
     },
     {
-      "symbol": "../images/LAMP/play.png",
+      "symbol": "./images/LAMP/play.png",
       "type": "image",
       "system": "LAMP",
       "label": "play",
       "tags": []
     },
     {
-      "symbol": "../images/LAMP/please.png",
+      "symbol": "./images/LAMP/please.png",
       "type": "image",
       "system": "LAMP",
       "label": "please",
       "tags": []
     },
     {
-      "symbol": "../images/LAMP/put.png",
+      "symbol": "./images/LAMP/put.png",
       "type": "image",
       "system": "LAMP",
       "label": "put",
       "tags": []
     },
     {
-      "symbol": "../images/LAMP/ride.png",
+      "symbol": "./images/LAMP/ride.png",
       "type": "image",
       "system": "LAMP",
       "label": "ride",
       "tags": []
     },
     {
-      "symbol": "../images/LAMP/sit.png",
+      "symbol": "./images/LAMP/sit.png",
       "type": "image",
       "system": "LAMP",
       "label": "sit",
       "tags": []
     },
     {
-      "symbol": "../images/LAMP/sleep.png",
+      "symbol": "./images/LAMP/sleep.png",
       "type": "image",
       "system": "LAMP",
       "label": "sleep",
       "tags": []
     },
     {
-      "symbol": "../images/LAMP/some.png",
+      "symbol": "./images/LAMP/some.png",
       "type": "image",
       "system": "LAMP",
       "label": "some",
       "tags": []
     },
     {
-      "symbol": "../images/LAMP/time.png",
+      "symbol": "./images/LAMP/time.png",
       "type": "image",
       "system": "LAMP",
       "label": "time",
       "tags": []
     },
     {
-      "symbol": "../images/LAMP/turn.png",
+      "symbol": "./images/LAMP/turn.png",
       "type": "image",
       "system": "LAMP",
       "label": "turn",
       "tags": []
     },
     {
-      "symbol": "../images/LAMP/watch.png",
+      "symbol": "./images/LAMP/watch.png",
       "type": "image",
       "system": "LAMP",
       "label": "watch",
       "tags": []
     },
     {
-      "symbol": "../images/LAMP/wear.png",
+      "symbol": "./images/LAMP/wear.png",
       "type": "image",
       "system": "LAMP",
       "label": "wear",
       "tags": []
     },
     {
-      "symbol": "../images/LAMP/work.png",
+      "symbol": "./images/LAMP/work.png",
       "type": "image",
       "system": "LAMP",
       "label": "work",
