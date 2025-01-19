@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>_AAC</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<script src="script.js" type="module"></script>
+
+<body>
+    <div style="float: right;"> <button id="reset" class="action-button">Reset</button></div>
+
+    <h1>Symbols</h1>
+
+    <div class="controls">
+
+        <div class="button-group">
+
+            <button id="sortAscending" class="action-button">A-Z</button>
+            <button id="sortDescending" class="action-button">Z-A</button>
+            <button id="toggleFilterBar" class="action-button">⛭</button>
+        </div>
+
+    </div>
+
+    <div id="filterBar" class="filter-bar">
+        <button id="decreaseSize" class="action-button">-</button>
+        <button id="increaseSize" class="action-button">+</button>
+        <label for="filterSystem" class="filter-label" style="display: none;">Filter by system:</label>
+        <select id="filterSystem" class="styled-dropdown" style="display: none;">
+            <option value="all">All</option>
+        </select>
+
+
+        <label for="filterTag" class="filter-label">Scene:</label>
+        <select id="filterTag" class="styled-dropdown">
+            <option value="all">All</option>
+        </select>
+
+        <label for="voiceSelect" class="filter-label">Choose a voice:</label>
+        <select id="voiceSelect" class="styled-dropdown"></select>
+    </div>
+
+    <div class="symbol-container" id="symbolContainer"></div>
+
+
+    </div>
+
+
+</body>
+
+</html>
