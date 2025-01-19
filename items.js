@@ -234,6 +234,78 @@ export const items = [
       ]
     },
     {
+      "symbol": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"40\" fill=\"red\" stroke=\"black\" stroke-width=\"3\"/></svg>",
+      "type": "svg",
+      "system": "shapes",
+      "label": "Circle",
+      "tags": [
+        "OT"
+      ]
+    },
+    {
+      "symbol": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" fill=\"blue\" stroke=\"black\" stroke-width=\"3\"/></svg>",
+      "type": "svg",
+      "system": "shapes",
+      "label": "Square",
+      "tags": [
+        "OT"
+      ]
+    },
+    {
+      "symbol": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,90 10,90\" fill=\"green\" stroke=\"black\" stroke-width=\"3\"/></svg>",
+      "type": "svg",
+      "system": "shapes",
+      "label": "Triangle",
+      "tags": [
+        "OT"
+      ]
+    },
+    {
+      "symbol": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><ellipse cx=\"50\" cy=\"50\" rx=\"40\" ry=\"25\" fill=\"purple\" stroke=\"black\" stroke-width=\"3\"/></svg>",
+      "type": "svg",
+      "system": "shapes",
+      "label": "Oval",
+      "tags": [
+        "OT"
+      ]
+    },
+    {
+      "symbol": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><polygon points=\"50,10 85.36,35 69.3,90 30.7,90 14.64,35\" fill=\"cyan\" stroke=\"black\" stroke-width=\"3\"/></svg>",
+      "type": "svg",
+      "system": "shapes",
+      "label": "Pentagon",
+      "tags": [
+        "OT"
+      ]
+    },
+    {
+      "symbol": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><polygon points=\"50,10 61,40 90,40 67,60 76,90 50,70 24,90 33,60 10,40 39,40\" fill=\"yellow\" stroke=\"black\" stroke-width=\"3\"/></svg>",
+      "type": "svg",
+      "system": "shapes",
+      "label": "Star",
+      "tags": [
+        "OT"
+      ]
+    },
+    {
+      "symbol": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><polygon points=\"50,10 80.88,25 90,50 80.88,75 50,90 19.12,75 10,50 19.12,25\" fill=\"pink\" stroke=\"black\" stroke-width=\"3\"/></svg>",
+      "type": "svg",
+      "system": "shapes",
+      "label": "Hexagon",
+      "tags": [
+        "OT"
+      ]
+    },
+    {
+      "symbol": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><line x1=\"10\" y1=\"10\" x2=\"90\" y2=\"90\" stroke=\"black\" stroke-width=\"5\"/><line x1=\"90\" y1=\"10\" x2=\"10\" y2=\"90\" stroke=\"black\" stroke-width=\"5\"/></svg>",
+      "type": "svg",
+      "system": "shapes",
+      "label": "Cross",
+      "tags": [
+        "OT"
+      ]
+    },
+    {
       "symbol": "../../images/more.png",
       "type": "image",
       "system": "Proloquo2Go",
