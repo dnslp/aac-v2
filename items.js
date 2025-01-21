@@ -24964,6 +24964,83 @@ export const items = [
       "tags": []
     },
     {
+        "symbol": "./images/Mr-Potato-Head/Mr-Potato-Head-body.png",
+        "type": "image",
+        "system": "Toys",
+        "label": "Mr. Potato Head Body",
+        "tags": []
+      },
+      {
+        "symbol": "./images/Mr-Potato-Head/Mr-Potato-Head-arms.png",
+        "type": "image",
+        "system": "Toys",
+        "label": "Mr. Potato Head Arms",
+        "tags": []
+      },
+      {
+        "symbol": "./images/Mr-Potato-Head/Mr-Potato-Head-ear.png",
+        "type": "image",
+        "system": "Toys",
+        "label": "Mr. Potato Head Ear",
+        "tags": []
+      },
+      {
+        "symbol": "./images/Mr-Potato-Head/Mr-Potato-Head-eyes.png",
+        "type": "image",
+        "system": "Toys",
+        "label": "Mr. Potato Head Eyes",
+        "tags": []
+      },
+      {
+        "symbol": "./images/Mr-Potato-Head/Mr-Potato-Head-feet.png",
+        "type": "image",
+        "system": "Toys",
+        "label": "Mr. Potato Head Feet",
+        "tags": []
+      },
+      {
+        "symbol": "./images/Mr-Potato-Head/Mr-Potato-Head-glasses.png",
+        "type": "image",
+        "system": "Toys",
+        "label": "Mr. Potato Head Glasses",
+        "tags": []
+      },
+      {
+        "symbol": "./images/Mr-Potato-Head/Mr-Potato-Head-hat.png",
+        "type": "image",
+        "system": "Toys",
+        "label": "Mr. Potato Head Hat",
+        "tags": []
+      },
+      {
+        "symbol": "./images/Mr-Potato-Head/Mr-Potato-Head-mouth.png",
+        "type": "image",
+        "system": "Toys",
+        "label": "Mr. Potato Head Mouth",
+        "tags": []
+      },
+      {
+        "symbol": "./images/Mr-Potato-Head/Mr-Potato-Head-mustache.png",
+        "type": "image",
+        "system": "Toys",
+        "label": "Mr. Potato Head Mustache",
+        "tags": []
+      },
+      {
+        "symbol": "./images/Mr-Potato-Head/Mr-Potato-Head-nose.png",
+        "type": "image",
+        "system": "Toys",
+        "label": "Mr. Potato Head Nose",
+        "tags": []
+      },
+      {
+        "symbol": "./images/Mr-Potato-Head/Mr-Potato-Head-tongue.png",
+        "type": "image",
+        "system": "Toys",
+        "label": "Mr. Potato Head Tongue",
+        "tags": []
+      },
+    {
       "symbol": "./images/LAMP/all.png",
       "type": "image",
       "system": "LAMP",
