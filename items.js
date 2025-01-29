@@ -491,7 +491,7 @@ export const items = [
       ]
     },
     {
-      "symbol": "<svg xmlns=\"http://www.w3.org/2000/svg\" id=\"SvgjsSvg1131\" viewBox=\"0 0 512 512\" width=\"200\" height=\"200" version=\"1.1\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:svgjs=\"http://svgjs.dev/svgjs\"><path d=\"m485.291 129.408-224-128a10.645 10.645 0 0 0-10.581 0l-224 128a10.665 10.665 0 0 0-5.376 9.259v234.667c0 3.819 2.048 7.36 5.376 9.259l224 128c1.643.939 3.456 1.408 5.291 1.408s3.648-.469 5.291-1.408l224-128a10.665 10.665 0 0 0 5.376-9.259V138.667a10.668 10.668 0 0 0-5.377-9.259z\" fill=\"rgba(255, 164, 0, 1)\"></path></svg>",
+  "symbol": "<svg xmlns='http://www.w3.org/2000/svg' id='SvgjsSvg1131' viewBox='0 0 512 512' width='200' height='200' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs'><path d='m485.291 129.408-224-128a10.645 10.645 0 0 0-10.581 0l-224 128a10.665 10.665 0 0 0-5.376 9.259v234.667c0 3.819 2.048 7.36 5.376 9.259l224 128c1.643.939 3.456 1.408 5.291 1.408s3.648-.469 5.291-1.408l224-128a10.665 10.665 0 0 0 5.376-9.259V138.667a10.668 10.668 0 0 0-5.377-9.259z' fill='rgba(255, 164, 0, 1)'></path></svg>",
       "type": "svg",
       "system": "shapes",
       "label": "Hexagon",
