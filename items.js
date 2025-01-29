@@ -233,6 +233,209 @@ export const items = [
         "OT"
       ]
     },
+      {
+    "symbol": "1",
+    "type": "text",
+    "system": "Number",
+    "label": "One",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": "2",
+    "type": "text",
+    "system": "Number",
+    "label": "Two",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": "3",
+    "type": "text",
+    "system": "Number",
+    "label": "Three",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": "4",
+    "type": "text",
+    "system": "Number",
+    "label": "Four",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": "5",
+    "type": "text",
+    "system": "Number",
+    "label": "Five",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": "6",
+    "type": "text",
+    "system": "Number",
+    "label": "Six",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": "7",
+    "type": "text",
+    "system": "Number",
+    "label": "Seven",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": "8",
+    "type": "text",
+    "system": "Number",
+    "label": "Eight",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": "9",
+    "type": "text",
+    "system": "Number",
+    "label": "Nine",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": "10",
+    "type": "text",
+    "system": "Number",
+    "label": "Ten",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": "11",
+    "type": "text",
+    "system": "Number",
+    "label": "Eleven",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": "12",
+    "type": "text",
+    "system": "Number",
+    "label": "Twelve",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": "13",
+    "type": "text",
+    "system": "Number",
+    "label": "Thirteen",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": "14",
+    "type": "text",
+    "system": "Number",
+    "label": "Fourteen",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": "15",
+    "type": "text",
+    "system": "Number",
+    "label": "Fifteen",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": "16",
+    "type": "text",
+    "system": "Number",
+    "label": "Sixteen",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": "17",
+    "type": "text",
+    "system": "Number",
+    "label": "Seventeen",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": "18",
+    "type": "text",
+    "system": "Number",
+    "label": "Eighteen",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": "19",
+    "type": "text",
+    "system": "Number",
+    "label": "Nineteen",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": "20",
+    "type": "text",
+    "system": "Number",
+    "label": "Twenty",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": "30",
+    "type": "text",
+    "system": "Number",
+    "label": "Thirty",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": "40",
+    "type": "text",
+    "system": "Number",
+    "label": "Forty",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": "50",
+    "type": "text",
+    "system": "Number",
+    "label": "Fifty",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": "60",
+    "type": "text",
+    "system": "Number",
+    "label": "Sixty",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": "70",
+    "type": "text",
+    "system": "Number",
+    "label": "Seventy",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": "80",
+    "type": "text",
+    "system": "Number",
+    "label": "Eighty",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": "90",
+    "type": "text",
+    "system": "Number",
+    "label": "Ninety",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": "100",
+    "type": "text",
+    "system": "Number",
+    "label": "One Hundred",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": "1000",
+    "type": "text",
+    "system": "Number",
+    "label": "One Thousand",
+    "tags": ["OT"]
+  },
     {
       "symbol": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"40\" fill=\"red\" stroke=\"black\" stroke-width=\"3\"/></svg>",
       "type": "svg",
