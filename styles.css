@@ -4,6 +4,23 @@
     src: url('OpenDyslexic3-Regular.ttf') format('truetype');
 }
 
+.styled-dropdown {
+    max-height: 200px; /* Adjust height */
+    overflow-y: auto;  /* Enable vertical scroll */
+    width: 180px; /* Ensure enough width */
+    padding: 5px;
+    font-size: 1rem;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+}
+
+.styled-dropdown option {
+    padding: 5px;
+}
+
 /* Body Styles */
 body {
     font-family: Arial, sans-serif; /* Default font */
@@ -225,6 +242,7 @@ display: flex;
     gap: 2px;
     justify-content: center;
 }
+
 
 /* Responsive Layout */
 @media (max-width: 768px) {
