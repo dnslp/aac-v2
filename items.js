@@ -1,3 +1,8 @@
+const SVG_SHAPE_TEMPLATE = (color) => 
+  `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+      <circle cx="50" cy="50" r="40" fill="${color}" stroke="black" stroke-width="3"/>
+  </svg>`;
+
 export const items = [
     {
       "symbol": "A",
@@ -233,6 +238,125 @@ export const items = [
         "OT"
       ]
     },
+      {
+    "symbol": SVG_SHAPE_TEMPLATE("red"),
+    "type": "svg",
+    "system": "Colors",
+    "label": "Red",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": SVG_SHAPE_TEMPLATE("blue"),
+    "type": "svg",
+    "system": "Colors",
+    "label": "Blue",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": SVG_SHAPE_TEMPLATE("green"),
+    "type": "svg",
+    "system": "Colors",
+    "label": "Green",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": SVG_SHAPE_TEMPLATE("yellow"),
+    "type": "svg",
+    "system": "Colors",
+    "label": "Yellow",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": SVG_SHAPE_TEMPLATE("orange"),
+    "type": "svg",
+    "system": "Colors",
+    "label": "Orange",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": SVG_SHAPE_TEMPLATE("purple"),
+    "type": "svg",
+    "system": "Colors",
+    "label": "Purple",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": SVG_SHAPE_TEMPLATE("pink"),
+    "type": "svg",
+    "system": "Colors",
+    "label": "Pink",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": SVG_SHAPE_TEMPLATE("brown"),
+    "type": "svg",
+    "system": "Colors",
+    "label": "Brown",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": SVG_SHAPE_TEMPLATE("gray"),
+    "type": "svg",
+    "system": "Colors",
+    "label": "Gray",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": SVG_SHAPE_TEMPLATE("black"),
+    "type": "svg",
+    "system": "Colors",
+    "label": "Black",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": SVG_SHAPE_TEMPLATE("white"),
+    "type": "svg",
+    "system": "Colors",
+    "label": "White",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": SVG_SHAPE_TEMPLATE("#FFD700"),
+    "type": "svg",
+    "system": "Colors",
+    "label": "Gold",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": SVG_SHAPE_TEMPLATE("#00FFFF"),
+    "type": "svg",
+    "system": "Colors",
+    "label": "Cyan",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": SVG_SHAPE_TEMPLATE("#FF00FF"),
+    "type": "svg",
+    "system": "Colors",
+    "label": "Magenta",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": SVG_SHAPE_TEMPLATE("#A52A2A"),
+    "type": "svg",
+    "system": "Colors",
+    "label": "Maroon",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": SVG_SHAPE_TEMPLATE("#8A2BE2"),
+    "type": "svg",
+    "system": "Colors",
+    "label": "Blue Violet",
+    "tags": ["OT"]
+  },
+  {
+    "symbol": SVG_SHAPE_TEMPLATE("#00FA9A"),
+    "type": "svg",
+    "system": "Colors",
+    "label": "Spring Green",
+    "tags": ["OT"]
+  },
       {
     "symbol": "1",
     "type": "text",
