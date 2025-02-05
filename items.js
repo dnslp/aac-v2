@@ -288,7 +288,7 @@ export const items = [
     "tags": ["OT"]
   },
   {
-    "symbol": SVG_SHAPE_TEMPLATE("brown"),
+    "symbol": SVG_SHAPE_TEMPLATE("#B87333"),
     "type": "svg",
     "system": "Colors",
     "label": "Brown",
