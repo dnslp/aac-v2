@@ -337,7 +337,7 @@ export const items = [
     "tags": ["OT"]
   },
   {
-    "symbol": SVG_SHAPE_TEMPLATE("#A52A2A"),
+    "symbol": SVG_SHAPE_TEMPLATE("#800000"),
     "type": "svg",
     "system": "Colors",
     "label": "Maroon",
