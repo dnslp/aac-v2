@@ -641,6 +641,42 @@ export const items = [
         "OT"
       ]
     },
+      {
+      "symbol": "./images/Proloquo2go/Yes.png",
+      "type": "image",
+      "system": "Proloquo2Go",
+      "label": "Yes",
+      "tags": [
+        "OT"
+      ]
+    },
+        {
+      "symbol": "./images/Proloquo2go/Maybe.png",
+      "type": "image",
+      "system": "Proloquo2Go",
+      "label": "Maybe",
+      "tags": [
+        "OT"
+      ]
+    },
+        {
+      "symbol": "./images/Proloquo2go/No.png",
+      "type": "image",
+      "system": "Proloquo2Go",
+      "label": "No",
+      "tags": [
+        "OT"
+      ]
+    },
+          {
+      "symbol": "./images/Proloquo2go/I-Dont-Know.png",
+      "type": "image",
+      "system": "Proloquo2Go",
+      "label": "I Don't Know",
+      "tags": [
+        "OT"
+      ]
+    },
     {
       "symbol": "./images/Proloquo2go/more.png",
       "type": "image",
