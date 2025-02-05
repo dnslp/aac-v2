@@ -1,37 +1,31 @@
-/* Font Face */
+/* 🌎 Global Styles */
+:root {
+    --primary-color: #007bff;
+    --primary-hover: #0056b3;
+    --danger-color: #dc3545;
+    --danger-hover: #a71d2a;
+    --border-radius: 5px;
+    --padding: 10px;
+    --font-size: 16px;
+    --text-color: #333;
+    --background-color: #f5f5f5;
+}
+
+/* 📜 Font Face */
 @font-face {
     font-family: 'OpenDyslexic';
     src: url('OpenDyslexic3-Regular.ttf') format('truetype');
 }
 
-.styled-dropdown {
-    max-height: 200px; /* Adjust height */
-    overflow-y: auto;  /* Enable vertical scroll */
-    width: 180px; /* Ensure enough width */
-    padding: 5px;
-    font-size: 1rem;
-    border: 2px solid #007BFF;
-    border-radius: 5px;
-    background-color: #fff;
-    color: #333;
-    cursor: pointer;
-}
-
-.styled-dropdown option {
-    padding: 5px;
-}
-
-/* Body Styles */
+/* 🌎 General Page Styling */
 body {
-    font-family: Arial, sans-serif; /* Default font */
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
     text-align: center;
     margin: 0;
-    padding-top: 1px;
-    padding-left: 1px;
-    padding-right: 1px;
-    background-color: #f4f4f9;
-    color: #333;
-    font-size: 16px;
+    padding: 10px;
+    font-size: var(--font-size);
     line-height: 1.5;
 }
 
@@ -39,135 +33,137 @@ body.opendyslexic-font {
     font-family: 'OpenDyslexic', sans-serif;
 }
 
-/* Headings */
+/* 🏷️ Header */
 h1 {
     font-size: 2rem;
-    margin-bottom: 0px;
-    margin-top: 0px;
     color: #444;
+    margin: 10px 0;
 }
 
-.header {
-    color: red;
-}
-
-.rest {
-    margin-left: auto; 
-    margin-right: 0;
-    float:right;
-}
-
-
-/* Controls Section */
+/* 🔹 Controls Section */
 .controls {
     position: sticky;
     top: 0;
+    z-index: 1000;
+    background-color: white;
+    padding: 10px;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    border-bottom: 2px solid #ddd;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* 🎛️ Button Group */
+.button-group {
+    display: flex;
     align-items: center;
     gap: 10px;
-    margin-bottom: 20px;
-    padding: 10px 20px;
-    background-color: #f4f4f9;
-    border-bottom: 2px solid #ddd;
-    z-index: 100;
 }
 
-.button-group {
-display: flex;
+/* 🎨 Buttons */
+.action-button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: var(--padding);
+    font-size: var(--font-size);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
 }
 
-/* Basic Controls */
-.basic-controls {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
+.action-button:hover {
+    background-color: var(--primary-hover);
 }
 
-/* Advanced Controls */
-.advanced-controls {
-    display: none;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 10px;
+/* 🛑 Reset Button */
+#reset {
+    background-color: var(--danger-color);
+    font-weight: bold;
+}
+
+#reset:hover {
+    background-color: var(--danger-hover);
+}
+
+/* 🏷️ Labels */
+.filter-label {
+    font-size: var(--font-size);
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+/* 🔽 Dropdown Styling */
+.styled-dropdown {
+    width: 180px;
+    padding: 8px;
+    font-size: var(--font-size);
+    border: 1px solid #ccc;
+    border-radius: var(--border-radius);
+    background-color: white;
+    cursor: pointer;
+    transition: border 0.2s ease-in-out;
+}
+
+.styled-dropdown:focus {
+    border-color: var(--primary-color);
+    outline: none;
+}
+
+/* 🔽 Multiselect Dropdown */
+.multiselect-dropdown {
+    width: 220px !important;
+    padding: 8px;
+    font-size: var(--font-size);
+    border-radius: var(--border-radius);
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+/* 🟢 Dropdown Options */
+.multiselect-dropdown-list-wrapper {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: var(--border-radius);
+    max-height: 300px;
+    overflow-y: auto;
+    width: 100%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* 📝 Dropdown Items */
+.multiselect-dropdown-list div {
     padding: 10px;
-    border: 2px solid #ddd;
-    border-radius: 5px;
+    font-size: var(--font-size);
+    cursor: pointer;
 }
 
-/* Filter Bar */
-/* Filter Bar */
+.multiselect-dropdown-list div:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* 🎨 Align Elements Properly */
+select[multiselect-dropdown] {
+    display: none !important;
+}
+
+/* 🟦 Filter Bar */
 .filter-bar {
     display: none; /* Hidden by default */
     grid-template-columns: 1fr 1fr;
     gap: 10px;
     align-items: center;
-    margin-top: 10px;
     padding: 10px;
     border: 2px solid #ddd;
-    border-radius: 5px;
+    border-radius: var(--border-radius);
     background-color: #f9f9f9;
 }
 
-/* Action Button */
-.action-button {
-    padding: 10px 15px;
-    font-size: 1.5rem;
-    background-color: #007BFF;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.2s;
-    margin: 0px 10px;
-}
-
-.action-button:hover {
-    background-color: #0056b3;
-}
-
-/* Styled Dropdown */
-.styled-dropdown {
-    padding: 5px 10px;
-    font-size: 1rem;
-    border: 2px solid #007BFF;
-    border-radius: 5px;
-    background-color: #fff;
-    color: #333;
-    cursor: pointer;
-    transition: border-color 0.3s;
-    width: 100%; /* Full width for responsiveness */
-}
-
-
-#reset {
-    background-color: red;
-}
-
-/* Dropdown Styling */
-.styled-dropdown {
-    padding: 5px 10px;
-    font-size: 1rem;
-    border: 2px solid #007BFF;
-    border-radius: 5px;
-    background-color: #fff;
-    color: #333;
-    cursor: pointer;
-    transition: border-color 0.3s;
-    width: 150px;
-}
-
-.styled-dropdown:focus {
-    outline: none;
-    border-color: #0056b3;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
-}
-
-.styled-dropdown:hover {
-    border-color: #0056b3;
-}
-
-/* Symbol Container */
+/* 🏷️ Symbol Container */
 .symbol-container {
     display: flex;
     flex-wrap: wrap;
@@ -176,7 +172,7 @@ display: flex;
     margin-top: 20px;
 }
 
-/* Symbol Items */
+/* 🔷 Symbol Items */
 .symbol-item {
     display: flex;
     flex-direction: column;
@@ -188,41 +184,38 @@ display: flex;
     background-color: #fff;
     width: var(--symbol-size, 120px);
     height: var(--symbol-size, 120px);
-    overflow: hidden; /* Ensures content doesn't spill out */
+    overflow: hidden;
     transition: border-color 0.3s, transform 0.2s;
-    /* box-sizing: border-box;  */
 }
 
+/* 🔠 Symbol Content */
 .symbol {
     font-size: calc(var(--symbol-size, 100px) / 2.5);
-    max-width: 80%; /* Prevents emojis or text from exceeding width */
+    max-width: 70%;
     max-height: 50%;
     text-align: center;
     overflow: hidden;
     text-overflow: ellipsis;
-    white-space: nowrap; /* Prevent wrapping of long content */
-    object-fit: contain; /* Ensures SVGs and images fit */
+    white-space: nowrap;
+    object-fit: contain;
 }
 
+/* 🏷️ Symbol Labels */
 .label {
-    font-size: calc(var(--symbol-size, 100px) / 8); /* Scales font size dynamically */
+    font-size: calc(var(--symbol-size, 100px) / 8);
     color: #555;
     text-align: center;
-    margin-top: 5px;
-    max-width: 90%; /* Constrain the label width */
-    line-height: 1.2; /* Adjust line height for better readability */
-    word-wrap: break-word; /* Forces long words to break */
-    overflow: hidden; /* Ensures no overflow */
-    text-overflow: ellipsis; /* Adds "..." if the text is truncated */
-    white-space: normal; /* Allows text to wrap naturally */
-    display: -webkit-box; /* For limiting lines with ellipsis */
-    -webkit-line-clamp: 2; /* Limits text to 2 lines */
-    -webkit-box-orient: vertical; /* Required for webkit-based line clamping */
+    max-width: 90%;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
 }
 
-
-
-/* Categories */
+/* 🔹 Category Section */
 .category {
     margin-bottom: 40px;
 }
@@ -231,7 +224,7 @@ display: flex;
     text-align: center;
     font-size: 1.5rem;
     margin-bottom: 10px;
-    color: #333;
+    color: var(--text-color);
     border-bottom: 2px solid #ddd;
     padding-bottom: 5px;
 }
@@ -242,16 +235,179 @@ display: flex;
     gap: 2px;
     justify-content: center;
 }
+/* 🎨 Button Styling for Better Intuitiveness */
+.action-button {
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out, transform 0.1s;
+}
+
+/* 🟦 Sorting Buttons (A-Z, Z-A) */
+#sortAscending, #sortDescending {
+    background-color: #17a2b8; /* Cyan */
+}
+
+#sortAscending:hover, #sortDescending:hover {
+    background-color: #138496; /* Darker Cyan */
+}
+
+/* 🟩 Increase Size Button */
+#increaseSize {
+    background-color: #28a745; /* Green */
+}
+
+#increaseSize:hover {
+    background-color: #218838; /* Darker Green */
+}
+
+/* 🟧 Decrease Size Button */
+#decreaseSize {
+    background-color: #ff9800; /* Orange */
+}
+
+#decreaseSize:hover {
+    background-color: #e68900; /* Darker Orange */
+}
+
+/* 🔴 Reset Button */
+#reset {
+    background-color: #dc3545; /* Red */
+    font-weight: bold;
+}
+
+#reset:hover {
+    background-color: #a71d2a; /* Darker Red */
+}
+
+/* 🔽 Styled Dropdowns */
+.styled-dropdown {
+    width: 180px;
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #007bff; /* Blue border */
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    transition: border-color 0.3s;
+}
+
+.styled-dropdown:focus {
+    border-color: #0056b3;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
 
 
-/* Responsive Layout */
+/* 🎨 General Dropdown Styling */
+.styled-dropdown {
+    width: 220px; /* Wider for better readability */
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+/* 🔹 Dropdown Hover Effect */
+.styled-dropdown:hover {
+    border-color: #0056b3;
+    background-color: #f8f9fa;
+}
+
+/* 🔹 Dropdown Focus Effect */
+.styled-dropdown:focus {
+    outline: none;
+    border-color: #0056b3;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+/* 🔹 Multiselect Dropdown Styling */
+.multiselect-dropdown {
+    width: 220px !important;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid #007bff;
+    background-color: white;
+    transition: border-color 0.3s ease-in-out;
+}
+
+/* 🔽 Dropdown Options List */
+.multiselect-dropdown-list-wrapper {
+    background: white;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    max-height: 300px;
+    overflow-y: auto;
+    width: 100%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+}
+
+/* 🔽 Dropdown Items */
+.multiselect-dropdown-list div {
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+    border-radius: 6px;
+}
+
+/* 🔽 Dropdown Item Hover */
+.multiselect-dropdown-list div:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* 🔹 Selected Items Styling */
+.multiselect-dropdown-list div.selected {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+/* 🔹 Disabled Dropdown Option */
+.multiselect-dropdown-list div.disabled {
+    color: #bbb;
+    cursor: not-allowed;
+}
+
+/* 🔹 Mobile Responsive Adjustments */
 @media (max-width: 768px) {
-    .basic-controls {
+    .styled-dropdown {
+        width: 100%; /* Make full-width for mobile */
+    }
+
+    .multiselect-dropdown {
+        width: 100% !important;
+    }
+}
+
+/* 📏 Responsive Adjustments */
+@media (max-width: 768px) {
+    .controls {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button-group {
         flex-wrap: wrap;
         gap: 5px;
     }
 
     .action-button {
         font-size: 0.9rem;
+        padding: 8px;
+    }
+
+    .styled-dropdown {
+        width: 100%; /* Make dropdown full-width for mobile */
     }
 }

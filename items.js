@@ -439,7 +439,7 @@ export const items = [
     {
       "symbol": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"40\" fill=\"red\" stroke=\"black\" stroke-width=\"3\"/></svg>",
       "type": "svg",
-      "system": "shapes",
+      "system": "Shapes",
       "label": "Circle",
       "tags": [
         "OT"
@@ -448,7 +448,7 @@ export const items = [
     {
       "symbol": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" fill=\"blue\" stroke=\"black\" stroke-width=\"3\"/></svg>",
       "type": "svg",
-      "system": "shapes",
+      "system": "Shapes",
       "label": "Square",
       "tags": [
         "OT"
@@ -457,7 +457,7 @@ export const items = [
     {
       "symbol": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,90 10,90\" fill=\"green\" stroke=\"black\" stroke-width=\"3\"/></svg>",
       "type": "svg",
-      "system": "shapes",
+      "system": "Shapes",
       "label": "Triangle",
       "tags": [
         "OT"
@@ -466,7 +466,7 @@ export const items = [
     {
       "symbol": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><ellipse cx=\"50\" cy=\"50\" rx=\"40\" ry=\"25\" fill=\"purple\" stroke=\"black\" stroke-width=\"3\"/></svg>",
       "type": "svg",
-      "system": "shapes",
+      "system": "Shapes",
       "label": "Oval",
       "tags": [
         "OT"
@@ -475,26 +475,39 @@ export const items = [
     {
       "symbol": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><polygon points=\"50,10 85.36,35 69.3,90 30.7,90 14.64,35\" fill=\"cyan\" stroke=\"black\" stroke-width=\"3\"/></svg>",
       "type": "svg",
-      "system": "shapes",
+      "system": "Shapes",
       "label": "Pentagon",
       "tags": [
         "OT"
       ]
     },
     {
-      "symbol": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><polygon points=\"50,10 61,40 90,40 67,60 76,90 50,70 24,90 33,60 10,40 39,40\" fill=\"yellow\" stroke=\"black\" stroke-width=\"3\"/></svg>",
+      "symbol": "<svg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'>\
+    <polygon points='50,10 90,35 90,65 50,90 10,65 10,35' \
+        stroke='black' stroke-width='4' fill='orange'/>\
+</svg>"
+,
       "type": "svg",
-      "system": "shapes",
-      "label": "Star",
+      "system": "Shapes",
+      "label": "Hexagon",
       "tags": [
         "OT"
       ]
     },
     {
+        "symbol": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><polygon points=\"50,10 61,40 90,40 67,60 76,90 50,70 24,90 33,60 10,40 39,40\" fill=\"yellow\" stroke=\"black\" stroke-width=\"3\"/></svg>",
+        "type": "svg",
+        "system": "Shapes",
+        "label": "Star",
+        "tags": [
+          "OT"
+        ]
+      },
+    {
       "symbol": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><polygon points=\"50,10 80.88,25 90,50 80.88,75 50,90 19.12,75 10,50 19.12,25\" fill=\"pink\" stroke=\"black\" stroke-width=\"3\"/></svg>",
       "type": "svg",
-      "system": "shapes",
-      "label": "Hexagon",
+      "system": "Shapes",
+      "label": "Octogon",
       "tags": [
         "OT"
       ]
@@ -502,7 +515,7 @@ export const items = [
     {
       "symbol": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><line x1=\"10\" y1=\"10\" x2=\"90\" y2=\"90\" stroke=\"black\" stroke-width=\"5\"/><line x1=\"90\" y1=\"10\" x2=\"10\" y2=\"90\" stroke=\"black\" stroke-width=\"5\"/></svg>",
       "type": "svg",
-      "system": "shapes",
+      "system": "Shapes",
       "label": "Cross",
       "tags": [
         "OT"
@@ -2094,69 +2107,69 @@ export const items = [
       "label": "leaf fluttering in wind",
       "tags": []
     },
-    {
-      "symbol": "\ud83c\udffb",
-      "type": "emoji",
-      "system": "Component",
-      "label": "light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udffc",
-      "type": "emoji",
-      "system": "Component",
-      "label": "medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udffd",
-      "type": "emoji",
-      "system": "Component",
-      "label": "medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udffe",
-      "type": "emoji",
-      "system": "Component",
-      "label": "medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfff",
-      "type": "emoji",
-      "system": "Component",
-      "label": "dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb0",
-      "type": "emoji",
-      "system": "Component",
-      "label": "red hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb1",
-      "type": "emoji",
-      "system": "Component",
-      "label": "curly hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb3",
-      "type": "emoji",
-      "system": "Component",
-      "label": "white hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb2",
-      "type": "emoji",
-      "system": "Component",
-      "label": "bald",
-      "tags": []
-    },
+    // {
+    //   "symbol": "\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "Component",
+    //   "label": "light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "Component",
+    //   "label": "medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "Component",
+    //   "label": "medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "Component",
+    //   "label": "medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "Component",
+    //   "label": "dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb0",
+    //   "type": "emoji",
+    //   "system": "Component",
+    //   "label": "red hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb1",
+    //   "type": "emoji",
+    //   "system": "Component",
+    //   "label": "curly hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb3",
+    //   "type": "emoji",
+    //   "system": "Component",
+    //   "label": "white hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb2",
+    //   "type": "emoji",
+    //   "system": "Component",
+    //   "label": "bald",
+    //   "tags": []
+    // },
     {
       "symbol": "\ud83c\udfc1",
       "type": "emoji",
@@ -6693,14349 +6706,14349 @@ export const items = [
       "label": "placard",
       "tags": []
     },
-    {
-      "symbol": "\ud83d\udc4b",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "waving hand",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc4b\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "waving hand light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc4b\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "waving hand medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc4b\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "waving hand medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc4b\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "waving hand medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc4b\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "waving hand dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd1a",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "raised back of hand",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd1a\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "raised back of hand light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd1a\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "raised back of hand medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd1a\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "raised back of hand medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd1a\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "raised back of hand medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd1a\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "raised back of hand dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd90\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "hand with fingers splayed",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd90\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "hand with fingers splayed light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd90\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "hand with fingers splayed medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd90\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "hand with fingers splayed medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd90\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "hand with fingers splayed medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd90\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "hand with fingers splayed dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u270b",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "raised hand",
-      "tags": []
-    },
-    {
-      "symbol": "\u270b\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "raised hand light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u270b\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "raised hand medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u270b\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "raised hand medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u270b\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "raised hand medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u270b\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "raised hand dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd96",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "vulcan salute",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd96\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "vulcan salute light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd96\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "vulcan salute medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd96\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "vulcan salute medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd96\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "vulcan salute medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd96\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "vulcan salute dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc4c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "OK hand",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc4c\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "OK hand light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc4c\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "OK hand medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc4c\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "OK hand medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc4c\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "OK hand medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc4c\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "OK hand dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd0c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "pinched fingers",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd0c\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "pinched fingers light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd0c\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "pinched fingers medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd0c\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "pinched fingers medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd0c\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "pinched fingers medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd0c\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "pinched fingers dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "pinching hand",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd0f\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "pinching hand light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd0f\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "pinching hand medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd0f\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "pinching hand medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd0f\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "pinching hand medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd0f\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "pinching hand dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u270c\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "victory hand",
-      "tags": []
-    },
-    {
-      "symbol": "\u270c\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "victory hand light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u270c\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "victory hand medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u270c\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "victory hand medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u270c\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "victory hand medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u270c\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "victory hand dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd1e",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "crossed fingers",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd1e\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "crossed fingers light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd1e\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "crossed fingers medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd1e\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "crossed fingers medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd1e\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "crossed fingers medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd1e\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "crossed fingers dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd1f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "love-you gesture",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd1f\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "love-you gesture light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd1f\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "love-you gesture medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd1f\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "love-you gesture medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd1f\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "love-you gesture medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd1f\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "love-you gesture dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd18",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "sign of the horns",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd18\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "sign of the horns light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd18\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "sign of the horns medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd18\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "sign of the horns medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd18\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "sign of the horns medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd18\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "sign of the horns dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd19",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "call me hand",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd19\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "call me hand light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd19\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "call me hand medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd19\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "call me hand medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd19\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "call me hand medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd19\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "call me hand dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc48",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "backhand index pointing left",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc48\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "backhand index pointing left light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc48\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "backhand index pointing left medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc48\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "backhand index pointing left medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc48\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "backhand index pointing left medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc48\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "backhand index pointing left dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc49",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "backhand index pointing right",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc49\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "backhand index pointing right light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc49\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "backhand index pointing right medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc49\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "backhand index pointing right medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc49\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "backhand index pointing right medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc49\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "backhand index pointing right dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc46",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "backhand index pointing up",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc46\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "backhand index pointing up light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc46\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "backhand index pointing up medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc46\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "backhand index pointing up medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc46\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "backhand index pointing up medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc46\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "backhand index pointing up dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd95",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "middle finger",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd95\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "middle finger light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd95\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "middle finger medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd95\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "middle finger medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd95\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "middle finger medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd95\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "middle finger dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc47",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "backhand index pointing down",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc47\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "backhand index pointing down light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc47\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "backhand index pointing down medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc47\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "backhand index pointing down medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc47\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "backhand index pointing down medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc47\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "backhand index pointing down dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u261d\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "index pointing up",
-      "tags": []
-    },
-    {
-      "symbol": "\u261d\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "index pointing up light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u261d\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "index pointing up medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u261d\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "index pointing up medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u261d\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "index pointing up medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u261d\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "index pointing up dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc4d",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "thumbs up",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc4d\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "thumbs up light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc4d\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "thumbs up medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc4d\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "thumbs up medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc4d\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "thumbs up medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc4d\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "thumbs up dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc4e",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "thumbs down",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc4e\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "thumbs down light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc4e\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "thumbs down medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc4e\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "thumbs down medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc4e\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "thumbs down medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc4e\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "thumbs down dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u270a",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "raised fist",
-      "tags": []
-    },
-    {
-      "symbol": "\u270a\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "raised fist light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u270a\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "raised fist medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u270a\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "raised fist medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u270a\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "raised fist medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u270a\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "raised fist dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc4a",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "oncoming fist",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc4a\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "oncoming fist light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc4a\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "oncoming fist medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc4a\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "oncoming fist medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc4a\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "oncoming fist medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc4a\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "oncoming fist dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd1b",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "left-facing fist",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd1b\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "left-facing fist light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd1b\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "left-facing fist medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd1b\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "left-facing fist medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd1b\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "left-facing fist medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd1b\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "left-facing fist dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd1c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "right-facing fist",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd1c\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "right-facing fist light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd1c\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "right-facing fist medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd1c\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "right-facing fist medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd1c\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "right-facing fist medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd1c\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "right-facing fist dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc4f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "clapping hands",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc4f\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "clapping hands light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc4f\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "clapping hands medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc4f\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "clapping hands medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc4f\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "clapping hands medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc4f\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "clapping hands dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "raising hands",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4c\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "raising hands light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4c\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "raising hands medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4c\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "raising hands medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4c\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "raising hands medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4c\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "raising hands dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc50",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "open hands",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc50\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "open hands light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc50\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "open hands medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc50\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "open hands medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc50\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "open hands medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc50\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "open hands dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd32",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "palms up together",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd32\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "palms up together light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd32\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "palms up together medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd32\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "palms up together medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd32\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "palms up together medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd32\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "palms up together dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd1d",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "handshake",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "folded hands",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4f\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "folded hands light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4f\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "folded hands medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4f\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "folded hands medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4f\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "folded hands medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4f\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "folded hands dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u270d\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "writing hand",
-      "tags": []
-    },
-    {
-      "symbol": "\u270d\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "writing hand light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u270d\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "writing hand medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u270d\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "writing hand medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u270d\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "writing hand medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u270d\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "writing hand dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc85",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "nail polish",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc85\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "nail polish light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc85\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "nail polish medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc85\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "nail polish medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc85\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "nail polish medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc85\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "nail polish dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd33",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "selfie",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd33\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "selfie light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd33\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "selfie medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd33\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "selfie medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd33\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "selfie medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd33\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "selfie dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udcaa",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "flexed biceps",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udcaa\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "flexed biceps light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udcaa\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "flexed biceps medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udcaa\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "flexed biceps medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udcaa\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "flexed biceps medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udcaa\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "flexed biceps dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddbe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "mechanical arm",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddbf",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "mechanical leg",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb5",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "leg",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb5\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "leg light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb5\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "leg medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb5\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "leg medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb5\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "leg medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb5\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "leg dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb6",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "foot",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb6\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "foot light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb6\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "foot medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb6\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "foot medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb6\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "foot medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb6\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "foot dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc42",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "ear",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc42\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "ear light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc42\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "ear medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc42\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "ear medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc42\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "ear medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc42\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "ear dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddbb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "ear with hearing aid",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddbb\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "ear with hearing aid light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddbb\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "ear with hearing aid medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddbb\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "ear with hearing aid medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddbb\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "ear with hearing aid medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddbb\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "ear with hearing aid dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc43",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "nose",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc43\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "nose light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc43\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "nose medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc43\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "nose medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc43\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "nose medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc43\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "nose dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udde0",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "brain",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udec0",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "anatomical heart",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udec1",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "lungs",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb7",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "tooth",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb4",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "bone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc40",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "eyes",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc41\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "eye",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc45",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "tongue",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc44",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "mouth",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc76",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "baby",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc76\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "baby light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc76\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "baby medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc76\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "baby medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc76\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "baby medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc76\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "baby dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd2",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "child",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd2\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "child light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd2\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "child medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd2\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "child medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd2\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "child medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd2\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "child dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc66",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "boy",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc66\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "boy light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc66\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "boy medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc66\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "boy medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc66\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "boy medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc66\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "boy dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc67",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "girl",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc67\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "girl light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc67\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "girl medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc67\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "girl medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc67\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "girl medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc67\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "girl dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc71",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person blond hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc71\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person light skin tone blond hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc71\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person medium-light skin tone blond hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc71\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person medium skin tone blond hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc71\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person medium-dark skin tone blond hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc71\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person dark skin tone blond hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd4",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person beard",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd4\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person light skin tone beard",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd4\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person medium-light skin tone beard",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd4\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person medium skin tone beard",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd4\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person medium-dark skin tone beard",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd4\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person dark skin tone beard",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd4\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man beard",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd4\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man light skin tone beard",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd4\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man medium-light skin tone beard",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd4\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man medium skin tone beard",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd4\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man medium-dark skin tone beard",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd4\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man dark skin tone beard",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd4\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman beard",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd4\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman light skin tone beard",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd4\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman medium-light skin tone beard",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd4\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman medium skin tone beard",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd4\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman medium-dark skin tone beard",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd4\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman dark skin tone beard",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\u200d\ud83e\uddb0",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man red hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83e\uddb0",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man light skin tone red hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83e\uddb0",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man medium-light skin tone red hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83e\uddb0",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man medium skin tone red hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83e\uddb0",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man medium-dark skin tone red hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83e\uddb0",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man dark skin tone red hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\u200d\ud83e\uddb1",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man curly hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83e\uddb1",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man light skin tone curly hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83e\uddb1",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man medium-light skin tone curly hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83e\uddb1",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man medium skin tone curly hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83e\uddb1",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man medium-dark skin tone curly hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83e\uddb1",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man dark skin tone curly hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\u200d\ud83e\uddb3",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man white hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83e\uddb3",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man light skin tone white hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83e\uddb3",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man medium-light skin tone white hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83e\uddb3",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man medium skin tone white hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83e\uddb3",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man medium-dark skin tone white hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83e\uddb3",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man dark skin tone white hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\u200d\ud83e\uddb2",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man bald",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83e\uddb2",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man light skin tone bald",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83e\uddb2",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man medium-light skin tone bald",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83e\uddb2",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man medium skin tone bald",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83e\uddb2",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man medium-dark skin tone bald",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83e\uddb2",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man dark skin tone bald",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\u200d\ud83e\uddb0",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman red hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83e\uddb0",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman light skin tone red hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83e\uddb0",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman medium-light skin tone red hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83e\uddb0",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman medium skin tone red hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83e\uddb0",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman medium-dark skin tone red hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83e\uddb0",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman dark skin tone red hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\u200d\ud83e\uddb0",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person red hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83e\uddb0",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person light skin tone red hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83e\uddb0",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person medium-light skin tone red hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83e\uddb0",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person medium skin tone red hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83e\uddb0",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person medium-dark skin tone red hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83e\uddb0",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person dark skin tone red hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\u200d\ud83e\uddb1",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman curly hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83e\uddb1",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman light skin tone curly hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83e\uddb1",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman medium-light skin tone curly hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83e\uddb1",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman medium skin tone curly hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83e\uddb1",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman medium-dark skin tone curly hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83e\uddb1",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman dark skin tone curly hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\u200d\ud83e\uddb1",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person curly hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83e\uddb1",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person light skin tone curly hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83e\uddb1",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person medium-light skin tone curly hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83e\uddb1",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person medium skin tone curly hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83e\uddb1",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person medium-dark skin tone curly hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83e\uddb1",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person dark skin tone curly hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\u200d\ud83e\uddb3",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman white hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83e\uddb3",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman light skin tone white hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83e\uddb3",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman medium-light skin tone white hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83e\uddb3",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman medium skin tone white hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83e\uddb3",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman medium-dark skin tone white hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83e\uddb3",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman dark skin tone white hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\u200d\ud83e\uddb3",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person white hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83e\uddb3",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person light skin tone white hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83e\uddb3",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person medium-light skin tone white hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83e\uddb3",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person medium skin tone white hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83e\uddb3",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person medium-dark skin tone white hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83e\uddb3",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person dark skin tone white hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\u200d\ud83e\uddb2",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman bald",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83e\uddb2",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman light skin tone bald",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83e\uddb2",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman medium-light skin tone bald",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83e\uddb2",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman medium skin tone bald",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83e\uddb2",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman medium-dark skin tone bald",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83e\uddb2",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman dark skin tone bald",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\u200d\ud83e\uddb2",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person bald",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83e\uddb2",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person light skin tone bald",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83e\uddb2",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person medium-light skin tone bald",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83e\uddb2",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person medium skin tone bald",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83e\uddb2",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person medium-dark skin tone bald",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83e\uddb2",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person dark skin tone bald",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc71\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman blond hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc71\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman light skin tone blond hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc71\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman medium-light skin tone blond hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc71\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman medium skin tone blond hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc71\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman medium-dark skin tone blond hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc71\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman dark skin tone blond hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc71\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man blond hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc71\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man light skin tone blond hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc71\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man medium-light skin tone blond hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc71\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man medium skin tone blond hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc71\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man medium-dark skin tone blond hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc71\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man dark skin tone blond hair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd3",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "older person",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd3\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "older person light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd3\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "older person medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd3\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "older person medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd3\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "older person medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd3\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "older person dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc74",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "old man",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc74\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "old man light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc74\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "old man medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc74\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "old man medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc74\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "old man medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc74\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "old man dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc75",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "old woman",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc75\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "old woman light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc75\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "old woman medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc75\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "old woman medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc75\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "old woman medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc75\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "old woman dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4d",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person frowning",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4d\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person frowning light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4d\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person frowning medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4d\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person frowning medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4d\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person frowning medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4d\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person frowning dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4d\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man frowning",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4d\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man frowning light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4d\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man frowning medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4d\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man frowning medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4d\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man frowning medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4d\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man frowning dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4d\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman frowning",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4d\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman frowning light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4d\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman frowning medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4d\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman frowning medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4d\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman frowning medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4d\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman frowning dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4e",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person pouting",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4e\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person pouting light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4e\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person pouting medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4e\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person pouting medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4e\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person pouting medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4e\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person pouting dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4e\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man pouting",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4e\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man pouting light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4e\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man pouting medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4e\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man pouting medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4e\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man pouting medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4e\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man pouting dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4e\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman pouting",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4e\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman pouting light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4e\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman pouting medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4e\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman pouting medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4e\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman pouting medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4e\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman pouting dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude45",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person gesturing NO",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude45\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person gesturing NO light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude45\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person gesturing NO medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude45\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person gesturing NO medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude45\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person gesturing NO medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude45\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person gesturing NO dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude45\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man gesturing NO",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude45\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man gesturing NO light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude45\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man gesturing NO medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude45\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man gesturing NO medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude45\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man gesturing NO medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude45\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man gesturing NO dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude45\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman gesturing NO",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude45\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman gesturing NO light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude45\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman gesturing NO medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude45\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman gesturing NO medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude45\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman gesturing NO medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude45\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman gesturing NO dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude46",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person gesturing OK",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude46\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person gesturing OK light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude46\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person gesturing OK medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude46\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person gesturing OK medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude46\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person gesturing OK medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude46\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person gesturing OK dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude46\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man gesturing OK",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude46\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man gesturing OK light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude46\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man gesturing OK medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude46\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man gesturing OK medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude46\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man gesturing OK medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude46\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man gesturing OK dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude46\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman gesturing OK",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude46\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman gesturing OK light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude46\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman gesturing OK medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude46\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman gesturing OK medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude46\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman gesturing OK medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude46\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman gesturing OK dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc81",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person tipping hand",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc81\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person tipping hand light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc81\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person tipping hand medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc81\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person tipping hand medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc81\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person tipping hand medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc81\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person tipping hand dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc81\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man tipping hand",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc81\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man tipping hand light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc81\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man tipping hand medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc81\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man tipping hand medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc81\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man tipping hand medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc81\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man tipping hand dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc81\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman tipping hand",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc81\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman tipping hand light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc81\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman tipping hand medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc81\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman tipping hand medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc81\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman tipping hand medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc81\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman tipping hand dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4b",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person raising hand",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4b\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person raising hand light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4b\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person raising hand medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4b\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person raising hand medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4b\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person raising hand medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4b\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person raising hand dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4b\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man raising hand",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4b\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man raising hand light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4b\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man raising hand medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4b\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man raising hand medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4b\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man raising hand medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4b\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man raising hand dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4b\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman raising hand",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4b\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman raising hand light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4b\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman raising hand medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4b\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman raising hand medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4b\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman raising hand medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude4b\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman raising hand dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcf",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "deaf person",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcf\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "deaf person light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcf\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "deaf person medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcf\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "deaf person medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcf\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "deaf person medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcf\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "deaf person dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcf\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "deaf man",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcf\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "deaf man light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcf\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "deaf man medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcf\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "deaf man medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcf\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "deaf man medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcf\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "deaf man dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcf\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "deaf woman",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcf\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "deaf woman light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcf\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "deaf woman medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcf\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "deaf woman medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcf\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "deaf woman medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcf\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "deaf woman dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude47",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person bowing",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude47\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person bowing light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude47\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person bowing medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude47\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person bowing medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude47\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person bowing medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude47\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person bowing dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude47\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man bowing",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude47\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man bowing light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude47\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man bowing medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude47\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man bowing medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude47\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man bowing medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude47\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man bowing dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude47\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman bowing",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude47\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman bowing light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude47\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman bowing medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude47\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman bowing medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude47\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman bowing medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\ude47\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman bowing dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd26",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person facepalming",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd26\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person facepalming light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd26\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person facepalming medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd26\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person facepalming medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd26\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person facepalming medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd26\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person facepalming dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd26\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man facepalming",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd26\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man facepalming light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd26\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man facepalming medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd26\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man facepalming medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd26\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man facepalming medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd26\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man facepalming dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd26\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman facepalming",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd26\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman facepalming light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd26\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman facepalming medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd26\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman facepalming medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd26\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman facepalming medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd26\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman facepalming dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd37",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person shrugging",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd37\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person shrugging light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd37\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person shrugging medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd37\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person shrugging medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd37\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person shrugging medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd37\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person shrugging dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd37\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man shrugging",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd37\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man shrugging light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd37\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man shrugging medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd37\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man shrugging medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd37\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man shrugging medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd37\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man shrugging dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd37\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman shrugging",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd37\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman shrugging light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd37\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman shrugging medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd37\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman shrugging medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd37\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman shrugging medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd37\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman shrugging dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\u200d\u2695\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "health worker",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\u2695\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "health worker light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\u2695\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "health worker medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\u2695\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "health worker medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\u2695\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "health worker medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\u2695\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "health worker dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\u200d\u2695\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man health worker",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2695\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man health worker light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2695\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man health worker medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2695\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man health worker medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2695\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man health worker medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2695\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man health worker dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\u200d\u2695\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman health worker",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2695\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman health worker light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2695\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman health worker medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2695\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman health worker medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2695\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman health worker medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2695\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman health worker dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\u200d\ud83c\udf93",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "student",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83c\udf93",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "student light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83c\udf93",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "student medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83c\udf93",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "student medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83c\udf93",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "student medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83c\udf93",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "student dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\u200d\ud83c\udf93",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man student",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83c\udf93",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man student light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83c\udf93",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man student medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83c\udf93",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man student medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83c\udf93",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man student medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83c\udf93",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man student dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\u200d\ud83c\udf93",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman student",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83c\udf93",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman student light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83c\udf93",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman student medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83c\udf93",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman student medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83c\udf93",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman student medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83c\udf93",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman student dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\u200d\ud83c\udfeb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "teacher",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83c\udfeb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "teacher light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83c\udfeb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "teacher medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83c\udfeb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "teacher medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83c\udfeb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "teacher medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83c\udfeb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "teacher dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\u200d\ud83c\udfeb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man teacher",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83c\udfeb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man teacher light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83c\udfeb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man teacher medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83c\udfeb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man teacher medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83c\udfeb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man teacher medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83c\udfeb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man teacher dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\u200d\ud83c\udfeb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman teacher",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83c\udfeb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman teacher light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83c\udfeb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman teacher medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83c\udfeb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman teacher medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83c\udfeb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman teacher medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83c\udfeb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman teacher dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\u200d\u2696\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "judge",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\u2696\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "judge light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\u2696\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "judge medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\u2696\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "judge medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\u2696\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "judge medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\u2696\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "judge dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\u200d\u2696\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man judge",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2696\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man judge light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2696\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man judge medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2696\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man judge medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2696\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man judge medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2696\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man judge dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\u200d\u2696\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman judge",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2696\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman judge light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2696\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman judge medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2696\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman judge medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2696\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman judge medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2696\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman judge dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\u200d\ud83c\udf3e",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "farmer",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83c\udf3e",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "farmer light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83c\udf3e",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "farmer medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83c\udf3e",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "farmer medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83c\udf3e",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "farmer medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83c\udf3e",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "farmer dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\u200d\ud83c\udf3e",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man farmer",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83c\udf3e",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man farmer light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83c\udf3e",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man farmer medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83c\udf3e",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man farmer medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83c\udf3e",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man farmer medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83c\udf3e",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man farmer dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\u200d\ud83c\udf3e",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman farmer",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83c\udf3e",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman farmer light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83c\udf3e",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman farmer medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83c\udf3e",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman farmer medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83c\udf3e",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman farmer medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83c\udf3e",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman farmer dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\u200d\ud83c\udf73",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "cook",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83c\udf73",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "cook light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83c\udf73",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "cook medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83c\udf73",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "cook medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83c\udf73",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "cook medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83c\udf73",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "cook dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\u200d\ud83c\udf73",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man cook",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83c\udf73",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man cook light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83c\udf73",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man cook medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83c\udf73",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man cook medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83c\udf73",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man cook medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83c\udf73",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man cook dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\u200d\ud83c\udf73",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman cook",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83c\udf73",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman cook light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83c\udf73",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman cook medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83c\udf73",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman cook medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83c\udf73",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman cook medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83c\udf73",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman cook dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\u200d\ud83d\udd27",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "mechanic",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83d\udd27",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "mechanic light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83d\udd27",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "mechanic medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83d\udd27",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "mechanic medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83d\udd27",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "mechanic medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83d\udd27",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "mechanic dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\u200d\ud83d\udd27",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man mechanic",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83d\udd27",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man mechanic light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83d\udd27",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man mechanic medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83d\udd27",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man mechanic medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83d\udd27",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man mechanic medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\udd27",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man mechanic dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\u200d\ud83d\udd27",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman mechanic",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83d\udd27",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman mechanic light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83d\udd27",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman mechanic medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83d\udd27",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman mechanic medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83d\udd27",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman mechanic medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83d\udd27",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman mechanic dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\u200d\ud83c\udfed",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "factory worker",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83c\udfed",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "factory worker light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83c\udfed",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "factory worker medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83c\udfed",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "factory worker medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83c\udfed",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "factory worker medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83c\udfed",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "factory worker dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\u200d\ud83c\udfed",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man factory worker",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83c\udfed",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man factory worker light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83c\udfed",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man factory worker medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83c\udfed",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man factory worker medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83c\udfed",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man factory worker medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83c\udfed",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man factory worker dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\u200d\ud83c\udfed",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman factory worker",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83c\udfed",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman factory worker light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83c\udfed",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman factory worker medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83c\udfed",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman factory worker medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83c\udfed",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman factory worker medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83c\udfed",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman factory worker dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\u200d\ud83d\udcbc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "office worker",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83d\udcbc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "office worker light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83d\udcbc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "office worker medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83d\udcbc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "office worker medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83d\udcbc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "office worker medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83d\udcbc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "office worker dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\u200d\ud83d\udcbc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man office worker",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83d\udcbc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man office worker light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83d\udcbc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man office worker medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83d\udcbc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man office worker medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83d\udcbc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man office worker medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\udcbc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man office worker dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\u200d\ud83d\udcbc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman office worker",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83d\udcbc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman office worker light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83d\udcbc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman office worker medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83d\udcbc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman office worker medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83d\udcbc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman office worker medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83d\udcbc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman office worker dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\u200d\ud83d\udd2c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "scientist",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83d\udd2c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "scientist light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83d\udd2c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "scientist medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83d\udd2c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "scientist medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83d\udd2c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "scientist medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83d\udd2c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "scientist dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\u200d\ud83d\udd2c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man scientist",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83d\udd2c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man scientist light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83d\udd2c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man scientist medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83d\udd2c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man scientist medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83d\udd2c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man scientist medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\udd2c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man scientist dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\u200d\ud83d\udd2c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman scientist",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83d\udd2c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman scientist light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83d\udd2c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman scientist medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83d\udd2c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman scientist medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83d\udd2c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman scientist medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83d\udd2c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman scientist dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\u200d\ud83d\udcbb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "technologist",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83d\udcbb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "technologist light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83d\udcbb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "technologist medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83d\udcbb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "technologist medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83d\udcbb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "technologist medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83d\udcbb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "technologist dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\u200d\ud83d\udcbb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man technologist",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83d\udcbb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man technologist light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83d\udcbb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man technologist medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83d\udcbb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man technologist medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83d\udcbb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man technologist medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\udcbb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man technologist dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\u200d\ud83d\udcbb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman technologist",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83d\udcbb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman technologist light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83d\udcbb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman technologist medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83d\udcbb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman technologist medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83d\udcbb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman technologist medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83d\udcbb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman technologist dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\u200d\ud83c\udfa4",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "singer",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83c\udfa4",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "singer light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83c\udfa4",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "singer medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83c\udfa4",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "singer medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83c\udfa4",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "singer medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83c\udfa4",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "singer dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\u200d\ud83c\udfa4",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man singer",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83c\udfa4",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man singer light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83c\udfa4",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man singer medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83c\udfa4",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man singer medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83c\udfa4",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man singer medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83c\udfa4",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man singer dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\u200d\ud83c\udfa4",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman singer",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83c\udfa4",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman singer light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83c\udfa4",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman singer medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83c\udfa4",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman singer medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83c\udfa4",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman singer medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83c\udfa4",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman singer dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\u200d\ud83c\udfa8",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "artist",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83c\udfa8",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "artist light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83c\udfa8",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "artist medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83c\udfa8",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "artist medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83c\udfa8",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "artist medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83c\udfa8",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "artist dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\u200d\ud83c\udfa8",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man artist",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83c\udfa8",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man artist light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83c\udfa8",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man artist medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83c\udfa8",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man artist medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83c\udfa8",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man artist medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83c\udfa8",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man artist dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\u200d\ud83c\udfa8",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman artist",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83c\udfa8",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman artist light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83c\udfa8",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman artist medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83c\udfa8",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman artist medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83c\udfa8",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman artist medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83c\udfa8",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman artist dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\u200d\u2708\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "pilot",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\u2708\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "pilot light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\u2708\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "pilot medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\u2708\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "pilot medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\u2708\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "pilot medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\u2708\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "pilot dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\u200d\u2708\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man pilot",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2708\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man pilot light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2708\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man pilot medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2708\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man pilot medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2708\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man pilot medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2708\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man pilot dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\u200d\u2708\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman pilot",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2708\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman pilot light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2708\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman pilot medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2708\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman pilot medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2708\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman pilot medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2708\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman pilot dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\u200d\ud83d\ude80",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "astronaut",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83d\ude80",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "astronaut light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83d\ude80",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "astronaut medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83d\ude80",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "astronaut medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83d\ude80",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "astronaut medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83d\ude80",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "astronaut dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\u200d\ud83d\ude80",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man astronaut",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83d\ude80",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man astronaut light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83d\ude80",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man astronaut medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83d\ude80",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man astronaut medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83d\ude80",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man astronaut medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man astronaut dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\u200d\ud83d\ude80",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman astronaut",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83d\ude80",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman astronaut light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83d\ude80",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman astronaut medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83d\ude80",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman astronaut medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83d\ude80",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman astronaut medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83d\ude80",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman astronaut dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\u200d\ud83d\ude92",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "firefighter",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83d\ude92",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "firefighter light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83d\ude92",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "firefighter medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83d\ude92",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "firefighter medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83d\ude92",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "firefighter medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83d\ude92",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "firefighter dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\u200d\ud83d\ude92",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man firefighter",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83d\ude92",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man firefighter light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83d\ude92",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man firefighter medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83d\ude92",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man firefighter medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83d\ude92",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man firefighter medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude92",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man firefighter dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\u200d\ud83d\ude92",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman firefighter",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83d\ude92",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman firefighter light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83d\ude92",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman firefighter medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83d\ude92",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman firefighter medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83d\ude92",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman firefighter medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83d\ude92",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman firefighter dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6e",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "police officer",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6e\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "police officer light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6e\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "police officer medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6e\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "police officer medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6e\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "police officer medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6e\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "police officer dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6e\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man police officer",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6e\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man police officer light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6e\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man police officer medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6e\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man police officer medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6e\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man police officer medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6e\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man police officer dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6e\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman police officer",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6e\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman police officer light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6e\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman police officer medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6e\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman police officer medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6e\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman police officer medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6e\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman police officer dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd75\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "detective",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd75\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "detective light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd75\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "detective medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd75\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "detective medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd75\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "detective medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd75\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "detective dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man detective",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd75\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man detective light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd75\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man detective medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd75\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man detective medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd75\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man detective medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd75\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man detective dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd75\ufe0f\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman detective",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd75\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman detective light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd75\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman detective medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd75\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman detective medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd75\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman detective medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd75\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman detective dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc82",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "guard",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc82\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "guard light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc82\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "guard medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc82\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "guard medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc82\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "guard medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc82\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "guard dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc82\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man guard",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc82\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man guard light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc82\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man guard medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc82\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man guard medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc82\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man guard medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc82\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man guard dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc82\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman guard",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc82\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman guard light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc82\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman guard medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc82\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman guard medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc82\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman guard medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc82\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman guard dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd77",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "ninja",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd77\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "ninja light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd77\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "ninja medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd77\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "ninja medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd77\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "ninja medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd77\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "ninja dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc77",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "construction worker",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc77\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "construction worker light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc77\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "construction worker medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc77\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "construction worker medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc77\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "construction worker medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc77\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "construction worker dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc77\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man construction worker",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc77\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man construction worker light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc77\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man construction worker medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc77\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man construction worker medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc77\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man construction worker medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc77\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man construction worker dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc77\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman construction worker",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc77\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman construction worker light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc77\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman construction worker medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc77\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman construction worker medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc77\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman construction worker medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc77\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman construction worker dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd34",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "prince",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd34\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "prince light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd34\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "prince medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd34\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "prince medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd34\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "prince medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd34\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "prince dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc78",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "princess",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc78\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "princess light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc78\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "princess medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc78\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "princess medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc78\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "princess medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc78\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "princess dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc73",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person wearing turban",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc73\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person wearing turban light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc73\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person wearing turban medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc73\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person wearing turban medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc73\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person wearing turban medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc73\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person wearing turban dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc73\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man wearing turban",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc73\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man wearing turban light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc73\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man wearing turban medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc73\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man wearing turban medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc73\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man wearing turban medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc73\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man wearing turban dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc73\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman wearing turban",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc73\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman wearing turban light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc73\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman wearing turban medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc73\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman wearing turban medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc73\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman wearing turban medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc73\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman wearing turban dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc72",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person with skullcap",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc72\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person with skullcap light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc72\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person with skullcap medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc72\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person with skullcap medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc72\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person with skullcap medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc72\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person with skullcap dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd5",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman with headscarf",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd5\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman with headscarf light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd5\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman with headscarf medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd5\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman with headscarf medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd5\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman with headscarf medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd5\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman with headscarf dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd35",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in tuxedo",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd35\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in tuxedo light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd35\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in tuxedo medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd35\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in tuxedo medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd35\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in tuxedo medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd35\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in tuxedo dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd35\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in tuxedo",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd35\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in tuxedo light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd35\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in tuxedo medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd35\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in tuxedo medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd35\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in tuxedo medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd35\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in tuxedo dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd35\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in tuxedo",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd35\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in tuxedo light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd35\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in tuxedo medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd35\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in tuxedo medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd35\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in tuxedo medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd35\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in tuxedo dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc70",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person with veil",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc70\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person with veil light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc70\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person with veil medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc70\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person with veil medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc70\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person with veil medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc70\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person with veil dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc70\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man with veil",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc70\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man with veil light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc70\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man with veil medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc70\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man with veil medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc70\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man with veil medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc70\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man with veil dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc70\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman with veil",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc70\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman with veil light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc70\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman with veil medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc70\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman with veil medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc70\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman with veil medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc70\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman with veil dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd30",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "pregnant woman",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd30\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "pregnant woman light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd30\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "pregnant woman medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd30\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "pregnant woman medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd30\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "pregnant woman medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd30\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "pregnant woman dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd31",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "breast-feeding",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd31\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "breast-feeding light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd31\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "breast-feeding medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd31\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "breast-feeding medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd31\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "breast-feeding medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd31\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "breast-feeding dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\u200d\ud83c\udf7c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman feeding baby",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83c\udf7c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman feeding baby light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83c\udf7c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman feeding baby medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83c\udf7c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman feeding baby medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83c\udf7c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman feeding baby medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83c\udf7c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman feeding baby dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\u200d\ud83c\udf7c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man feeding baby",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83c\udf7c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man feeding baby light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83c\udf7c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man feeding baby medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83c\udf7c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man feeding baby medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83c\udf7c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man feeding baby medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83c\udf7c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man feeding baby dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\u200d\ud83c\udf7c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person feeding baby",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83c\udf7c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person feeding baby light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83c\udf7c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person feeding baby medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83c\udf7c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person feeding baby medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83c\udf7c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person feeding baby medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83c\udf7c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person feeding baby dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc7c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "baby angel",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc7c\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "baby angel light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc7c\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "baby angel medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc7c\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "baby angel medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc7c\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "baby angel medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc7c\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "baby angel dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udf85",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "Santa Claus",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udf85\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "Santa Claus light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udf85\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "Santa Claus medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udf85\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "Santa Claus medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udf85\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "Santa Claus medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udf85\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "Santa Claus dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd36",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "Mrs Claus",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd36\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "Mrs Claus light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd36\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "Mrs Claus medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd36\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "Mrs Claus medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd36\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "Mrs Claus medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd36\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "Mrs Claus dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\u200d\ud83c\udf84",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "mx claus",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83c\udf84",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "mx claus light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83c\udf84",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "mx claus medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83c\udf84",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "mx claus medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83c\udf84",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "mx claus medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83c\udf84",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "mx claus dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb8",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "superhero",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb8\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "superhero light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb8\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "superhero medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb8\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "superhero medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb8\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "superhero medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb8\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "superhero dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb8\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man superhero",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb8\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man superhero light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb8\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man superhero medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb8\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man superhero medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb8\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man superhero medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb8\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man superhero dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb8\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman superhero",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb8\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman superhero light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb8\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman superhero medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb8\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman superhero medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb8\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman superhero medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb8\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman superhero dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb9",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "supervillain",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb9\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "supervillain light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb9\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "supervillain medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb9\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "supervillain medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb9\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "supervillain medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb9\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "supervillain dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb9\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man supervillain",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb9\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man supervillain light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb9\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man supervillain medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb9\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man supervillain medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb9\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man supervillain medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb9\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man supervillain dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb9\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman supervillain",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb9\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman supervillain light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb9\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman supervillain medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb9\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman supervillain medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb9\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman supervillain medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddb9\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman supervillain dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd9",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "mage",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd9\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "mage light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd9\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "mage medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd9\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "mage medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd9\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "mage medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd9\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "mage dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd9\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man mage",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd9\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man mage light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd9\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man mage medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd9\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man mage medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd9\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man mage medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd9\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man mage dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd9\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman mage",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd9\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman mage light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd9\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman mage medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd9\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman mage medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd9\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman mage medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd9\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman mage dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddda",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "fairy",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddda\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "fairy light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddda\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "fairy medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddda\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "fairy medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddda\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "fairy medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddda\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "fairy dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddda\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man fairy",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddda\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man fairy light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddda\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man fairy medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddda\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man fairy medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddda\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man fairy medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddda\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man fairy dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddda\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman fairy",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddda\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman fairy light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddda\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman fairy medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddda\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman fairy medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddda\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman fairy medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddda\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman fairy dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "vampire",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddb\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "vampire light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddb\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "vampire medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddb\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "vampire medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddb\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "vampire medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddb\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "vampire dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man vampire",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddb\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man vampire light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddb\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man vampire medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddb\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man vampire medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddb\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man vampire medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddb\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man vampire dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman vampire",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddb\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman vampire light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddb\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman vampire medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddb\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman vampire medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddb\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman vampire medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddb\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman vampire dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "merperson",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddc\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "merperson light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddc\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "merperson medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddc\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "merperson medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddc\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "merperson medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddc\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "merperson dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "merman",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddc\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "merman light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddc\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "merman medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddc\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "merman medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddc\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "merman medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddc\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "merman dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "mermaid",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddc\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "mermaid light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddc\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "mermaid medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddc\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "mermaid medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddc\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "mermaid medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddc\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "mermaid dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "elf",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddd\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "elf light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddd\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "elf medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddd\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "elf medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddd\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "elf medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddd\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "elf dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man elf",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddd\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man elf light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddd\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man elf medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddd\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man elf medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddd\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man elf medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddd\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man elf dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman elf",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddd\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman elf light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddd\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman elf medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddd\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman elf medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddd\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman elf medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddd\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman elf dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddde",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "genie",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddde\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man genie",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddde\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman genie",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddf",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "zombie",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddf\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man zombie",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udddf\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman zombie",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc86",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person getting massage",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc86\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person getting massage light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc86\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person getting massage medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc86\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person getting massage medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc86\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person getting massage medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc86\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person getting massage dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc86\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man getting massage",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc86\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man getting massage light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc86\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man getting massage medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc86\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man getting massage medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc86\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man getting massage medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc86\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man getting massage dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc86\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman getting massage",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc86\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman getting massage light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc86\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman getting massage medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc86\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman getting massage medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc86\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman getting massage medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc86\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman getting massage dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc87",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person getting haircut",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc87\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person getting haircut light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc87\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person getting haircut medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc87\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person getting haircut medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc87\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person getting haircut medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc87\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person getting haircut dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc87\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man getting haircut",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc87\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man getting haircut light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc87\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man getting haircut medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc87\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man getting haircut medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc87\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man getting haircut medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc87\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man getting haircut dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc87\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman getting haircut",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc87\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman getting haircut light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc87\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman getting haircut medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc87\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman getting haircut medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc87\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman getting haircut medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc87\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman getting haircut dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb6",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person walking",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb6\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person walking light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb6\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person walking medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb6\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person walking medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb6\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person walking medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb6\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person walking dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb6\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man walking",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb6\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man walking light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb6\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man walking medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb6\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man walking medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb6\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man walking medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb6\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man walking dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb6\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman walking",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb6\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman walking light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb6\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman walking medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb6\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman walking medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb6\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman walking medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb6\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman walking dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person standing",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcd\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person standing light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcd\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person standing medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcd\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person standing medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcd\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person standing medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcd\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person standing dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man standing",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcd\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man standing light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcd\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man standing medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcd\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man standing medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcd\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man standing medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcd\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man standing dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman standing",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcd\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman standing light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcd\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman standing medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcd\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman standing medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcd\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman standing medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddcd\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman standing dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddce",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person kneeling",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddce\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person kneeling light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddce\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person kneeling medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddce\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person kneeling medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddce\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person kneeling medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddce\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person kneeling dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddce\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man kneeling",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddce\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man kneeling light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddce\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man kneeling medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddce\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man kneeling medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddce\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man kneeling medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddce\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man kneeling dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddce\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman kneeling",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddce\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman kneeling light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddce\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman kneeling medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddce\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman kneeling medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddce\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman kneeling medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddce\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman kneeling dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\u200d\ud83e\uddaf",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person with white cane",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83e\uddaf",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person with white cane light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83e\uddaf",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person with white cane medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83e\uddaf",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person with white cane medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83e\uddaf",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person with white cane medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83e\uddaf",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person with white cane dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\u200d\ud83e\uddaf",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man with white cane",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83e\uddaf",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man with white cane light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83e\uddaf",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man with white cane medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83e\uddaf",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man with white cane medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83e\uddaf",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man with white cane medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83e\uddaf",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man with white cane dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\u200d\ud83e\uddaf",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman with white cane",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83e\uddaf",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman with white cane light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83e\uddaf",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman with white cane medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83e\uddaf",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman with white cane medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83e\uddaf",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman with white cane medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83e\uddaf",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman with white cane dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\u200d\ud83e\uddbc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in motorized wheelchair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83e\uddbc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in motorized wheelchair light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83e\uddbc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in motorized wheelchair medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83e\uddbc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in motorized wheelchair medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83e\uddbc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in motorized wheelchair medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83e\uddbc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in motorized wheelchair dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\u200d\ud83e\uddbc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in motorized wheelchair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83e\uddbc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in motorized wheelchair light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83e\uddbc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in motorized wheelchair medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83e\uddbc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in motorized wheelchair medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83e\uddbc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in motorized wheelchair medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83e\uddbc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in motorized wheelchair dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\u200d\ud83e\uddbc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in motorized wheelchair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83e\uddbc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in motorized wheelchair light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83e\uddbc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in motorized wheelchair medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83e\uddbc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in motorized wheelchair medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83e\uddbc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in motorized wheelchair medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83e\uddbc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in motorized wheelchair dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\u200d\ud83e\uddbd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in manual wheelchair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83e\uddbd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in manual wheelchair light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83e\uddbd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in manual wheelchair medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83e\uddbd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in manual wheelchair medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83e\uddbd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in manual wheelchair medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83e\uddbd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in manual wheelchair dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\u200d\ud83e\uddbd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in manual wheelchair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83e\uddbd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in manual wheelchair light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83e\uddbd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in manual wheelchair medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83e\uddbd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in manual wheelchair medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83e\uddbd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in manual wheelchair medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83e\uddbd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in manual wheelchair dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\u200d\ud83e\uddbd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in manual wheelchair",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83e\uddbd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in manual wheelchair light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83e\uddbd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in manual wheelchair medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83e\uddbd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in manual wheelchair medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83e\uddbd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in manual wheelchair medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83e\uddbd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in manual wheelchair dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc3",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person running",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc3\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person running light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc3\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person running medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc3\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person running medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc3\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person running medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc3\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person running dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc3\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man running",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc3\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man running light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc3\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man running medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc3\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man running medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc3\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man running medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc3\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man running dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc3\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman running",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc3\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman running light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc3\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman running medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc3\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman running medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc3\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman running medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc3\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman running dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc83",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman dancing",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc83\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman dancing light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc83\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman dancing medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc83\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman dancing medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc83\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman dancing medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc83\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman dancing dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd7a",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man dancing",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd7a\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man dancing light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd7a\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man dancing medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd7a\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man dancing medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd7a\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man dancing medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd7a\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man dancing dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd74\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in suit levitating",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd74\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in suit levitating light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd74\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in suit levitating medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd74\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in suit levitating medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd74\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in suit levitating medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udd74\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in suit levitating dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "people with bunny ears",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6f\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "men with bunny ears",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6f\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "women with bunny ears",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd6",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in steamy room",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd6\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in steamy room light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd6\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in steamy room medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd6\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in steamy room medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd6\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in steamy room medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd6\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in steamy room dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd6\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in steamy room",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd6\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in steamy room light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd6\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in steamy room medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd6\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in steamy room medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd6\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in steamy room medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd6\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in steamy room dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd6\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in steamy room",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd6\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in steamy room light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd6\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in steamy room medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd6\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in steamy room medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd6\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in steamy room medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd6\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in steamy room dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd7",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person climbing",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd7\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person climbing light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd7\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person climbing medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd7\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person climbing medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd7\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person climbing medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd7\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person climbing dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd7\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man climbing",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd7\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man climbing light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd7\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man climbing medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd7\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man climbing medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd7\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man climbing medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd7\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man climbing dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd7\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman climbing",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd7\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman climbing light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd7\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman climbing medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd7\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman climbing medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd7\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman climbing medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd7\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman climbing dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3a",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person fencing",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc7",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "horse racing",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc7\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "horse racing light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc7\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "horse racing medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc7\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "horse racing medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc7\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "horse racing medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc7\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "horse racing dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u26f7\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "skier",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc2",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "snowboarder",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc2\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "snowboarder light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc2\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "snowboarder medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc2\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "snowboarder medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc2\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "snowboarder medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc2\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "snowboarder dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcc\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person golfing",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcc\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person golfing light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcc\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person golfing medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcc\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person golfing medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcc\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person golfing medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcc\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person golfing dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcc\ufe0f\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man golfing",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcc\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man golfing light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcc\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man golfing medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcc\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man golfing medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcc\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man golfing medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcc\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man golfing dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcc\ufe0f\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman golfing",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcc\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman golfing light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcc\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman golfing medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcc\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman golfing medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcc\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman golfing medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcc\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman golfing dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc4",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person surfing",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc4\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person surfing light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc4\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person surfing medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc4\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person surfing medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc4\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person surfing medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc4\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person surfing dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc4\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man surfing",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc4\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man surfing light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc4\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man surfing medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc4\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man surfing medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc4\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man surfing medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc4\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man surfing dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc4\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman surfing",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc4\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman surfing light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc4\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman surfing medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc4\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman surfing medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc4\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman surfing medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfc4\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman surfing dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udea3",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person rowing boat",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udea3\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person rowing boat light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udea3\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person rowing boat medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udea3\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person rowing boat medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udea3\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person rowing boat medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udea3\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person rowing boat dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udea3\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man rowing boat",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udea3\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man rowing boat light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udea3\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man rowing boat medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udea3\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man rowing boat medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udea3\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man rowing boat medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udea3\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man rowing boat dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udea3\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman rowing boat",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udea3\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman rowing boat light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udea3\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman rowing boat medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udea3\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman rowing boat medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udea3\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman rowing boat medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udea3\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman rowing boat dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfca",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person swimming",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfca\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person swimming light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfca\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person swimming medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfca\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person swimming medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfca\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person swimming medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfca\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person swimming dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfca\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man swimming",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfca\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man swimming light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfca\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man swimming medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfca\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man swimming medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfca\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man swimming medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfca\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man swimming dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfca\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman swimming",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfca\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman swimming light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfca\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman swimming medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfca\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman swimming medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfca\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman swimming medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfca\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman swimming dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u26f9\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person bouncing ball",
-      "tags": []
-    },
-    {
-      "symbol": "\u26f9\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person bouncing ball light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u26f9\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person bouncing ball medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u26f9\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person bouncing ball medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u26f9\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person bouncing ball medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u26f9\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person bouncing ball dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u26f9\ufe0f\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man bouncing ball",
-      "tags": []
-    },
-    {
-      "symbol": "\u26f9\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man bouncing ball light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u26f9\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man bouncing ball medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u26f9\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man bouncing ball medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u26f9\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man bouncing ball medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u26f9\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man bouncing ball dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u26f9\ufe0f\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman bouncing ball",
-      "tags": []
-    },
-    {
-      "symbol": "\u26f9\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman bouncing ball light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u26f9\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman bouncing ball medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u26f9\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman bouncing ball medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u26f9\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman bouncing ball medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\u26f9\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman bouncing ball dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcb\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person lifting weights",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcb\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person lifting weights light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcb\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person lifting weights medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcb\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person lifting weights medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcb\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person lifting weights medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcb\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person lifting weights dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcb\ufe0f\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man lifting weights",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcb\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man lifting weights light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcb\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man lifting weights medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcb\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man lifting weights medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcb\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man lifting weights medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcb\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man lifting weights dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcb\ufe0f\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman lifting weights",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcb\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman lifting weights light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcb\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman lifting weights medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcb\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman lifting weights medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcb\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman lifting weights medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83c\udfcb\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman lifting weights dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb4",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person biking",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb4\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person biking light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb4\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person biking medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb4\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person biking medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb4\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person biking medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb4\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person biking dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb4\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man biking",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb4\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man biking light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb4\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man biking medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb4\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man biking medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb4\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man biking medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb4\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man biking dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb4\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman biking",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb4\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman biking light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb4\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman biking medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb4\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman biking medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb4\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman biking medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb4\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman biking dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb5",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person mountain biking",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb5\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person mountain biking light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb5\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person mountain biking medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb5\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person mountain biking medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb5\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person mountain biking medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb5\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person mountain biking dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb5\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man mountain biking",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb5\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man mountain biking light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb5\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man mountain biking medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb5\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man mountain biking medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb5\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man mountain biking medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb5\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man mountain biking dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb5\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman mountain biking",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb5\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman mountain biking light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb5\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman mountain biking medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb5\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman mountain biking medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb5\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman mountain biking medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udeb5\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman mountain biking dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd38",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person cartwheeling",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd38\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person cartwheeling light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd38\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person cartwheeling medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd38\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person cartwheeling medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd38\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person cartwheeling medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd38\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person cartwheeling dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd38\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man cartwheeling",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd38\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man cartwheeling light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd38\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man cartwheeling medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd38\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man cartwheeling medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd38\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man cartwheeling medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd38\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man cartwheeling dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd38\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman cartwheeling",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd38\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman cartwheeling light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd38\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman cartwheeling medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd38\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman cartwheeling medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd38\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman cartwheeling medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd38\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman cartwheeling dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "people wrestling",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3c\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "men wrestling",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3c\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "women wrestling",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3d",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person playing water polo",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3d\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person playing water polo light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3d\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person playing water polo medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3d\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person playing water polo medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3d\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person playing water polo medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3d\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person playing water polo dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3d\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man playing water polo",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3d\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man playing water polo light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3d\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man playing water polo medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3d\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man playing water polo medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3d\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man playing water polo medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3d\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man playing water polo dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3d\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman playing water polo",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3d\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman playing water polo light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3d\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman playing water polo medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3d\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman playing water polo medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3d\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman playing water polo medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3d\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman playing water polo dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3e",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person playing handball",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3e\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person playing handball light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3e\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person playing handball medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3e\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person playing handball medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3e\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person playing handball medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3e\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person playing handball dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3e\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man playing handball",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3e\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man playing handball light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3e\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man playing handball medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3e\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man playing handball medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3e\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man playing handball medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3e\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man playing handball dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3e\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman playing handball",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3e\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman playing handball light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3e\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman playing handball medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3e\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman playing handball medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3e\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman playing handball medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd3e\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman playing handball dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd39",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person juggling",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd39\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person juggling light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd39\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person juggling medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd39\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person juggling medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd39\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person juggling medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd39\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person juggling dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd39\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man juggling",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd39\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man juggling light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd39\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man juggling medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd39\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man juggling medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd39\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man juggling medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd39\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man juggling dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd39\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman juggling",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd39\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman juggling light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd39\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman juggling medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd39\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman juggling medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd39\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman juggling medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udd39\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman juggling dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd8",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in lotus position",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd8\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in lotus position light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd8\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in lotus position medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd8\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in lotus position medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd8\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in lotus position medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd8\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in lotus position dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd8\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in lotus position",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd8\ud83c\udffb\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in lotus position light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd8\ud83c\udffc\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in lotus position medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd8\ud83c\udffd\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in lotus position medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd8\ud83c\udffe\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in lotus position medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd8\ud83c\udfff\u200d\u2642\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "man in lotus position dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd8\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in lotus position",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd8\ud83c\udffb\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in lotus position light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd8\ud83c\udffc\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in lotus position medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd8\ud83c\udffd\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in lotus position medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd8\ud83c\udffe\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in lotus position medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd8\ud83c\udfff\u200d\u2640\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman in lotus position dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udec0",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person taking bath",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udec0\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person taking bath light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udec0\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person taking bath medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udec0\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person taking bath medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udec0\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person taking bath medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udec0\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person taking bath dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udecc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in bed",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udecc\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in bed light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udecc\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in bed medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udecc\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in bed medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udecc\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in bed medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udecc\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "person in bed dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\u200d\ud83e\udd1d\u200d\ud83e\uddd1",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "people holding hands",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "people holding hands light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "people holding hands light skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "people holding hands light skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "people holding hands light skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "people holding hands light skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "people holding hands medium-light skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "people holding hands medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "people holding hands medium-light skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "people holding hands medium-light skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "people holding hands medium-light skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "people holding hands medium skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "people holding hands medium skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "people holding hands medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "people holding hands medium skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "people holding hands medium skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "people holding hands medium-dark skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "people holding hands medium-dark skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "people holding hands medium-dark skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "people holding hands medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "people holding hands medium-dark skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "people holding hands dark skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "people holding hands dark skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "people holding hands dark skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "people holding hands dark skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "people holding hands dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6d",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "women holding hands",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6d\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "women holding hands light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "women holding hands light skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "women holding hands light skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "women holding hands light skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "women holding hands light skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "women holding hands medium-light skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6d\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "women holding hands medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "women holding hands medium-light skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "women holding hands medium-light skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "women holding hands medium-light skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "women holding hands medium skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "women holding hands medium skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6d\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "women holding hands medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "women holding hands medium skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "women holding hands medium skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "women holding hands medium-dark skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "women holding hands medium-dark skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "women holding hands medium-dark skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6d\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "women holding hands medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "women holding hands medium-dark skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "women holding hands dark skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "women holding hands dark skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "women holding hands dark skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "women holding hands dark skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6d\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "women holding hands dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6b",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman and man holding hands",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6b\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman and man holding hands light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman and man holding hands light skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman and man holding hands light skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman and man holding hands light skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman and man holding hands light skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman and man holding hands medium-light skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6b\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman and man holding hands medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman and man holding hands medium-light skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman and man holding hands medium-light skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman and man holding hands medium-light skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman and man holding hands medium skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman and man holding hands medium skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6b\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman and man holding hands medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman and man holding hands medium skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman and man holding hands medium skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman and man holding hands medium-dark skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman and man holding hands medium-dark skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman and man holding hands medium-dark skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6b\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman and man holding hands medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman and man holding hands medium-dark skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman and man holding hands dark skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman and man holding hands dark skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman and man holding hands dark skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman and man holding hands dark skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6b\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "woman and man holding hands dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6c",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "men holding hands",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6c\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "men holding hands light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "men holding hands light skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "men holding hands light skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "men holding hands light skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "men holding hands light skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "men holding hands medium-light skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6c\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "men holding hands medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "men holding hands medium-light skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "men holding hands medium-light skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "men holding hands medium-light skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "men holding hands medium skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "men holding hands medium skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6c\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "men holding hands medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "men holding hands medium skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "men holding hands medium skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "men holding hands medium-dark skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "men holding hands medium-dark skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "men holding hands medium-dark skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6c\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "men holding hands medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "men holding hands medium-dark skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "men holding hands dark skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "men holding hands dark skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "men holding hands dark skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "men holding hands dark skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6c\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "men holding hands dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc8f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc8f\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc8f\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc8f\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc8f\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc8f\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss person person light skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss person person light skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss person person light skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss person person light skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss person person medium-light skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss person person medium-light skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss person person medium-light skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss person person medium-light skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss person person medium skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss person person medium skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss person person medium skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss person person medium skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss person person medium-dark skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss person person medium-dark skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss person person medium-dark skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss person person medium-dark skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss person person dark skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss person person dark skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss person person dark skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss person person dark skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man light skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man light skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man light skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man light skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man medium-light skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man medium-light skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man medium-light skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man medium-light skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man medium skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man medium skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man medium skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man medium skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man medium-dark skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man medium-dark skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man medium-dark skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man medium-dark skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man dark skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man dark skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man dark skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man dark skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman man dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man light skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man light skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man light skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man light skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man medium-light skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man medium-light skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man medium-light skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man medium-light skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man medium skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man medium skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man medium skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man medium skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man medium-dark skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man medium-dark skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man medium-dark skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man medium-dark skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man dark skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man dark skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man dark skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man dark skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss man man dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman light skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman light skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman light skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman light skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman medium-light skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman medium-light skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman medium-light skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman medium-light skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman medium skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman medium skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman medium skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman medium skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman medium-dark skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman medium-dark skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman medium-dark skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman medium-dark skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman dark skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman dark skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman dark skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman dark skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "kiss woman woman dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc91",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc91\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc91\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc91\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc91\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc91\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart person person light skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart person person light skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart person person light skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart person person light skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart person person medium-light skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart person person medium-light skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart person person medium-light skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart person person medium-light skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart person person medium skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart person person medium skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart person person medium skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart person person medium skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart person person medium-dark skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart person person medium-dark skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart person person medium-dark skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart person person medium-dark skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart person person dark skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart person person dark skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart person person dark skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart person person dark skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\u200d\u2764\ufe0f\u200d\ud83d\udc68",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man light skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man light skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man light skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man light skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man medium-light skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man medium-light skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man medium-light skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man medium-light skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man medium skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man medium skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man medium skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man medium skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man medium-dark skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man medium-dark skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man medium-dark skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man medium-dark skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man dark skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man dark skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man dark skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man dark skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman man dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\u200d\u2764\ufe0f\u200d\ud83d\udc68",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man light skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man light skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man light skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man light skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man medium-light skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man medium-light skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man medium-light skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man medium-light skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man medium skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man medium skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man medium skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man medium skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man medium-dark skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man medium-dark skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man medium-dark skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man medium-dark skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man dark skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man dark skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man dark skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man dark skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart man man dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\u200d\u2764\ufe0f\u200d\ud83d\udc69",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman light skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman light skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman light skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman light skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman medium-light skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman medium-light skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman medium-light skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman medium-light skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman medium skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman medium skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman medium skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman medium skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman medium-dark skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman medium-dark skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman medium-dark skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman medium-dark skin tone dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffb",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman dark skin tone light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffc",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman dark skin tone medium-light skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffd",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman dark skin tone medium skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffe",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman dark skin tone medium-dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udfff",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "couple with heart woman woman dark skin tone",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc6a",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "family",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc66",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "family man woman boy",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "family man woman girl",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "family man woman girl boy",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc66\u200d\ud83d\udc66",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "family man woman boy boy",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc67",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "family man woman girl girl",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\u200d\ud83d\udc68\u200d\ud83d\udc66",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "family man man boy",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\u200d\ud83d\udc68\u200d\ud83d\udc67",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "family man man girl",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\u200d\ud83d\udc68\u200d\ud83d\udc67\u200d\ud83d\udc66",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "family man man girl boy",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\u200d\ud83d\udc68\u200d\ud83d\udc66\u200d\ud83d\udc66",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "family man man boy boy",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\u200d\ud83d\udc68\u200d\ud83d\udc67\u200d\ud83d\udc67",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "family man man girl girl",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\u200d\ud83d\udc69\u200d\ud83d\udc66",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "family woman woman boy",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\u200d\ud83d\udc69\u200d\ud83d\udc67",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "family woman woman girl",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "family woman woman girl boy",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\u200d\ud83d\udc69\u200d\ud83d\udc66\u200d\ud83d\udc66",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "family woman woman boy boy",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc67",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "family woman woman girl girl",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\u200d\ud83d\udc66",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "family man boy",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\u200d\ud83d\udc66\u200d\ud83d\udc66",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "family man boy boy",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\u200d\ud83d\udc67",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "family man girl",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\u200d\ud83d\udc67\u200d\ud83d\udc66",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "family man girl boy",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc68\u200d\ud83d\udc67\u200d\ud83d\udc67",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "family man girl girl",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\u200d\ud83d\udc66",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "family woman boy",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\u200d\ud83d\udc66\u200d\ud83d\udc66",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "family woman boy boy",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\u200d\ud83d\udc67",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "family woman girl",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "family woman girl boy",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc67",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "family woman girl girl",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udde3\ufe0f",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "speaking head",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc64",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "bust in silhouette",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc65",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "busts in silhouette",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83e\udec2",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "people hugging",
-      "tags": []
-    },
-    {
-      "symbol": "\ud83d\udc63",
-      "type": "emoji",
-      "system": "People-Body",
-      "label": "footprints",
-      "tags": []
-    },
+    // {
+    //   "symbol": "\ud83d\udc4b",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "waving hand",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc4b\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "waving hand light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc4b\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "waving hand medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc4b\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "waving hand medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc4b\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "waving hand medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc4b\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "waving hand dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd1a",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "raised back of hand",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd1a\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "raised back of hand light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd1a\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "raised back of hand medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd1a\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "raised back of hand medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd1a\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "raised back of hand medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd1a\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "raised back of hand dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd90\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "hand with fingers splayed",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd90\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "hand with fingers splayed light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd90\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "hand with fingers splayed medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd90\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "hand with fingers splayed medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd90\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "hand with fingers splayed medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd90\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "hand with fingers splayed dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u270b",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "raised hand",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u270b\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "raised hand light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u270b\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "raised hand medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u270b\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "raised hand medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u270b\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "raised hand medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u270b\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "raised hand dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd96",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "vulcan salute",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd96\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "vulcan salute light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd96\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "vulcan salute medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd96\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "vulcan salute medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd96\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "vulcan salute medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd96\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "vulcan salute dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc4c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "OK hand",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc4c\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "OK hand light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc4c\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "OK hand medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc4c\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "OK hand medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc4c\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "OK hand medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc4c\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "OK hand dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd0c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "pinched fingers",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd0c\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "pinched fingers light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd0c\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "pinched fingers medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd0c\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "pinched fingers medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd0c\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "pinched fingers medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd0c\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "pinched fingers dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "pinching hand",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd0f\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "pinching hand light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd0f\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "pinching hand medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd0f\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "pinching hand medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd0f\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "pinching hand medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd0f\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "pinching hand dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u270c\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "victory hand",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u270c\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "victory hand light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u270c\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "victory hand medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u270c\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "victory hand medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u270c\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "victory hand medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u270c\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "victory hand dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd1e",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "crossed fingers",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd1e\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "crossed fingers light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd1e\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "crossed fingers medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd1e\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "crossed fingers medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd1e\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "crossed fingers medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd1e\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "crossed fingers dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd1f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "love-you gesture",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd1f\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "love-you gesture light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd1f\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "love-you gesture medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd1f\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "love-you gesture medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd1f\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "love-you gesture medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd1f\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "love-you gesture dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd18",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "sign of the horns",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd18\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "sign of the horns light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd18\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "sign of the horns medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd18\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "sign of the horns medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd18\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "sign of the horns medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd18\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "sign of the horns dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd19",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "call me hand",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd19\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "call me hand light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd19\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "call me hand medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd19\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "call me hand medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd19\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "call me hand medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd19\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "call me hand dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc48",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "backhand index pointing left",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc48\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "backhand index pointing left light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc48\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "backhand index pointing left medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc48\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "backhand index pointing left medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc48\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "backhand index pointing left medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc48\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "backhand index pointing left dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc49",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "backhand index pointing right",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc49\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "backhand index pointing right light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc49\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "backhand index pointing right medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc49\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "backhand index pointing right medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc49\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "backhand index pointing right medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc49\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "backhand index pointing right dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc46",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "backhand index pointing up",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc46\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "backhand index pointing up light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc46\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "backhand index pointing up medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc46\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "backhand index pointing up medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc46\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "backhand index pointing up medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc46\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "backhand index pointing up dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd95",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "middle finger",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd95\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "middle finger light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd95\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "middle finger medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd95\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "middle finger medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd95\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "middle finger medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd95\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "middle finger dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc47",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "backhand index pointing down",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc47\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "backhand index pointing down light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc47\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "backhand index pointing down medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc47\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "backhand index pointing down medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc47\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "backhand index pointing down medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc47\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "backhand index pointing down dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u261d\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "index pointing up",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u261d\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "index pointing up light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u261d\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "index pointing up medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u261d\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "index pointing up medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u261d\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "index pointing up medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u261d\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "index pointing up dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc4d",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "thumbs up",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc4d\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "thumbs up light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc4d\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "thumbs up medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc4d\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "thumbs up medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc4d\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "thumbs up medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc4d\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "thumbs up dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc4e",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "thumbs down",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc4e\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "thumbs down light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc4e\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "thumbs down medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc4e\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "thumbs down medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc4e\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "thumbs down medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc4e\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "thumbs down dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u270a",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "raised fist",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u270a\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "raised fist light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u270a\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "raised fist medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u270a\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "raised fist medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u270a\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "raised fist medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u270a\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "raised fist dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc4a",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "oncoming fist",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc4a\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "oncoming fist light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc4a\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "oncoming fist medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc4a\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "oncoming fist medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc4a\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "oncoming fist medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc4a\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "oncoming fist dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd1b",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "left-facing fist",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd1b\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "left-facing fist light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd1b\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "left-facing fist medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd1b\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "left-facing fist medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd1b\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "left-facing fist medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd1b\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "left-facing fist dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd1c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "right-facing fist",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd1c\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "right-facing fist light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd1c\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "right-facing fist medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd1c\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "right-facing fist medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd1c\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "right-facing fist medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd1c\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "right-facing fist dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc4f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "clapping hands",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc4f\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "clapping hands light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc4f\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "clapping hands medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc4f\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "clapping hands medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc4f\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "clapping hands medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc4f\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "clapping hands dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "raising hands",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4c\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "raising hands light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4c\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "raising hands medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4c\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "raising hands medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4c\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "raising hands medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4c\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "raising hands dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc50",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "open hands",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc50\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "open hands light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc50\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "open hands medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc50\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "open hands medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc50\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "open hands medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc50\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "open hands dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd32",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "palms up together",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd32\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "palms up together light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd32\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "palms up together medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd32\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "palms up together medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd32\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "palms up together medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd32\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "palms up together dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd1d",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "handshake",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "folded hands",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4f\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "folded hands light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4f\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "folded hands medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4f\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "folded hands medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4f\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "folded hands medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4f\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "folded hands dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u270d\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "writing hand",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u270d\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "writing hand light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u270d\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "writing hand medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u270d\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "writing hand medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u270d\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "writing hand medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u270d\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "writing hand dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc85",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "nail polish",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc85\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "nail polish light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc85\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "nail polish medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc85\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "nail polish medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc85\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "nail polish medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc85\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "nail polish dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd33",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "selfie",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd33\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "selfie light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd33\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "selfie medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd33\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "selfie medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd33\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "selfie medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd33\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "selfie dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udcaa",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "flexed biceps",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udcaa\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "flexed biceps light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udcaa\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "flexed biceps medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udcaa\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "flexed biceps medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udcaa\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "flexed biceps medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udcaa\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "flexed biceps dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddbe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "mechanical arm",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddbf",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "mechanical leg",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb5",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "leg",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb5\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "leg light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb5\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "leg medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb5\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "leg medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb5\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "leg medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb5\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "leg dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb6",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "foot",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb6\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "foot light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb6\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "foot medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb6\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "foot medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb6\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "foot medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb6\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "foot dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc42",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "ear",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc42\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "ear light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc42\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "ear medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc42\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "ear medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc42\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "ear medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc42\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "ear dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddbb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "ear with hearing aid",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddbb\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "ear with hearing aid light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddbb\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "ear with hearing aid medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddbb\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "ear with hearing aid medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddbb\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "ear with hearing aid medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddbb\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "ear with hearing aid dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc43",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "nose",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc43\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "nose light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc43\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "nose medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc43\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "nose medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc43\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "nose medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc43\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "nose dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udde0",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "brain",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udec0",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "anatomical heart",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udec1",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "lungs",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb7",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "tooth",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb4",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "bone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc40",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "eyes",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc41\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "eye",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc45",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "tongue",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc44",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "mouth",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc76",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "baby",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc76\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "baby light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc76\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "baby medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc76\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "baby medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc76\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "baby medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc76\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "baby dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd2",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "child",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd2\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "child light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd2\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "child medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd2\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "child medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd2\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "child medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd2\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "child dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc66",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "boy",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc66\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "boy light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc66\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "boy medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc66\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "boy medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc66\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "boy medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc66\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "boy dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc67",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "girl",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc67\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "girl light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc67\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "girl medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc67\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "girl medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc67\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "girl medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc67\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "girl dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc71",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person blond hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc71\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person light skin tone blond hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc71\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person medium-light skin tone blond hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc71\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person medium skin tone blond hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc71\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person medium-dark skin tone blond hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc71\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person dark skin tone blond hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd4",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person beard",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd4\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person light skin tone beard",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd4\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person medium-light skin tone beard",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd4\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person medium skin tone beard",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd4\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person medium-dark skin tone beard",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd4\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person dark skin tone beard",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd4\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man beard",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd4\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man light skin tone beard",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd4\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man medium-light skin tone beard",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd4\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man medium skin tone beard",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd4\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man medium-dark skin tone beard",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd4\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man dark skin tone beard",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd4\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman beard",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd4\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman light skin tone beard",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd4\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman medium-light skin tone beard",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd4\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman medium skin tone beard",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd4\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman medium-dark skin tone beard",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd4\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman dark skin tone beard",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\u200d\ud83e\uddb0",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man red hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83e\uddb0",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man light skin tone red hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83e\uddb0",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man medium-light skin tone red hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83e\uddb0",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man medium skin tone red hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83e\uddb0",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man medium-dark skin tone red hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83e\uddb0",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man dark skin tone red hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\u200d\ud83e\uddb1",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man curly hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83e\uddb1",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man light skin tone curly hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83e\uddb1",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man medium-light skin tone curly hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83e\uddb1",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man medium skin tone curly hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83e\uddb1",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man medium-dark skin tone curly hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83e\uddb1",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man dark skin tone curly hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\u200d\ud83e\uddb3",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man white hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83e\uddb3",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man light skin tone white hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83e\uddb3",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man medium-light skin tone white hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83e\uddb3",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man medium skin tone white hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83e\uddb3",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man medium-dark skin tone white hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83e\uddb3",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man dark skin tone white hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\u200d\ud83e\uddb2",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man bald",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83e\uddb2",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man light skin tone bald",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83e\uddb2",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man medium-light skin tone bald",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83e\uddb2",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man medium skin tone bald",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83e\uddb2",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man medium-dark skin tone bald",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83e\uddb2",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man dark skin tone bald",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\u200d\ud83e\uddb0",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman red hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83e\uddb0",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman light skin tone red hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83e\uddb0",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman medium-light skin tone red hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83e\uddb0",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman medium skin tone red hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83e\uddb0",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman medium-dark skin tone red hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83e\uddb0",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman dark skin tone red hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\u200d\ud83e\uddb0",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person red hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83e\uddb0",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person light skin tone red hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83e\uddb0",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person medium-light skin tone red hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83e\uddb0",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person medium skin tone red hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83e\uddb0",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person medium-dark skin tone red hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83e\uddb0",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person dark skin tone red hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\u200d\ud83e\uddb1",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman curly hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83e\uddb1",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman light skin tone curly hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83e\uddb1",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman medium-light skin tone curly hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83e\uddb1",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman medium skin tone curly hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83e\uddb1",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman medium-dark skin tone curly hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83e\uddb1",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman dark skin tone curly hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\u200d\ud83e\uddb1",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person curly hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83e\uddb1",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person light skin tone curly hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83e\uddb1",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person medium-light skin tone curly hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83e\uddb1",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person medium skin tone curly hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83e\uddb1",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person medium-dark skin tone curly hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83e\uddb1",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person dark skin tone curly hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\u200d\ud83e\uddb3",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman white hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83e\uddb3",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman light skin tone white hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83e\uddb3",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman medium-light skin tone white hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83e\uddb3",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman medium skin tone white hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83e\uddb3",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman medium-dark skin tone white hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83e\uddb3",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman dark skin tone white hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\u200d\ud83e\uddb3",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person white hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83e\uddb3",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person light skin tone white hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83e\uddb3",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person medium-light skin tone white hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83e\uddb3",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person medium skin tone white hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83e\uddb3",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person medium-dark skin tone white hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83e\uddb3",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person dark skin tone white hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\u200d\ud83e\uddb2",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman bald",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83e\uddb2",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman light skin tone bald",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83e\uddb2",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman medium-light skin tone bald",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83e\uddb2",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman medium skin tone bald",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83e\uddb2",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman medium-dark skin tone bald",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83e\uddb2",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman dark skin tone bald",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\u200d\ud83e\uddb2",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person bald",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83e\uddb2",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person light skin tone bald",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83e\uddb2",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person medium-light skin tone bald",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83e\uddb2",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person medium skin tone bald",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83e\uddb2",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person medium-dark skin tone bald",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83e\uddb2",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person dark skin tone bald",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc71\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman blond hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc71\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman light skin tone blond hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc71\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman medium-light skin tone blond hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc71\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman medium skin tone blond hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc71\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman medium-dark skin tone blond hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc71\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman dark skin tone blond hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc71\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man blond hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc71\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man light skin tone blond hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc71\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man medium-light skin tone blond hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc71\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man medium skin tone blond hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc71\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man medium-dark skin tone blond hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc71\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man dark skin tone blond hair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd3",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "older person",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd3\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "older person light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd3\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "older person medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd3\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "older person medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd3\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "older person medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd3\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "older person dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc74",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "old man",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc74\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "old man light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc74\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "old man medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc74\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "old man medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc74\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "old man medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc74\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "old man dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc75",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "old woman",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc75\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "old woman light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc75\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "old woman medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc75\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "old woman medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc75\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "old woman medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc75\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "old woman dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4d",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person frowning",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4d\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person frowning light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4d\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person frowning medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4d\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person frowning medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4d\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person frowning medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4d\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person frowning dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4d\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man frowning",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4d\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man frowning light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4d\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man frowning medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4d\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man frowning medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4d\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man frowning medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4d\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man frowning dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4d\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman frowning",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4d\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman frowning light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4d\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman frowning medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4d\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman frowning medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4d\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman frowning medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4d\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman frowning dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4e",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person pouting",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4e\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person pouting light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4e\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person pouting medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4e\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person pouting medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4e\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person pouting medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4e\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person pouting dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4e\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man pouting",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4e\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man pouting light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4e\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man pouting medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4e\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man pouting medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4e\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man pouting medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4e\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man pouting dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4e\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman pouting",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4e\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman pouting light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4e\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman pouting medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4e\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman pouting medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4e\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman pouting medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4e\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman pouting dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude45",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person gesturing NO",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude45\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person gesturing NO light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude45\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person gesturing NO medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude45\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person gesturing NO medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude45\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person gesturing NO medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude45\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person gesturing NO dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude45\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man gesturing NO",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude45\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man gesturing NO light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude45\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man gesturing NO medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude45\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man gesturing NO medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude45\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man gesturing NO medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude45\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man gesturing NO dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude45\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman gesturing NO",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude45\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman gesturing NO light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude45\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman gesturing NO medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude45\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman gesturing NO medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude45\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman gesturing NO medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude45\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman gesturing NO dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude46",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person gesturing OK",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude46\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person gesturing OK light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude46\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person gesturing OK medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude46\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person gesturing OK medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude46\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person gesturing OK medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude46\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person gesturing OK dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude46\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man gesturing OK",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude46\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man gesturing OK light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude46\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man gesturing OK medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude46\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man gesturing OK medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude46\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man gesturing OK medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude46\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man gesturing OK dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude46\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman gesturing OK",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude46\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman gesturing OK light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude46\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman gesturing OK medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude46\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman gesturing OK medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude46\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman gesturing OK medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude46\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman gesturing OK dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc81",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person tipping hand",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc81\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person tipping hand light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc81\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person tipping hand medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc81\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person tipping hand medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc81\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person tipping hand medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc81\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person tipping hand dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc81\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man tipping hand",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc81\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man tipping hand light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc81\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man tipping hand medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc81\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man tipping hand medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc81\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man tipping hand medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc81\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man tipping hand dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc81\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman tipping hand",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc81\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman tipping hand light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc81\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman tipping hand medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc81\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman tipping hand medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc81\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman tipping hand medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc81\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman tipping hand dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4b",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person raising hand",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4b\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person raising hand light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4b\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person raising hand medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4b\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person raising hand medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4b\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person raising hand medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4b\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person raising hand dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4b\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man raising hand",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4b\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man raising hand light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4b\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man raising hand medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4b\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man raising hand medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4b\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man raising hand medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4b\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man raising hand dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4b\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman raising hand",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4b\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman raising hand light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4b\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman raising hand medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4b\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman raising hand medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4b\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman raising hand medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude4b\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman raising hand dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddcf",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "deaf person",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddcf\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "deaf person light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddcf\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "deaf person medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddcf\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "deaf person medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddcf\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "deaf person medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddcf\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "deaf person dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddcf\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "deaf man",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddcf\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "deaf man light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddcf\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "deaf man medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddcf\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "deaf man medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddcf\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "deaf man medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddcf\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "deaf man dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddcf\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "deaf woman",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddcf\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "deaf woman light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddcf\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "deaf woman medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddcf\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "deaf woman medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddcf\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "deaf woman medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddcf\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "deaf woman dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude47",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person bowing",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude47\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person bowing light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude47\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person bowing medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude47\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person bowing medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude47\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person bowing medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude47\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person bowing dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude47\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man bowing",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude47\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man bowing light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude47\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man bowing medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude47\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man bowing medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude47\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man bowing medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude47\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man bowing dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude47\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman bowing",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude47\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman bowing light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude47\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman bowing medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude47\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman bowing medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude47\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman bowing medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\ude47\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman bowing dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd26",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person facepalming",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd26\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person facepalming light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd26\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person facepalming medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd26\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person facepalming medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd26\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person facepalming medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd26\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person facepalming dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd26\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man facepalming",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd26\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man facepalming light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd26\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man facepalming medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd26\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man facepalming medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd26\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man facepalming medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd26\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man facepalming dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd26\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman facepalming",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd26\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman facepalming light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd26\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman facepalming medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd26\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman facepalming medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd26\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman facepalming medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd26\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman facepalming dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd37",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person shrugging",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd37\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person shrugging light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd37\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person shrugging medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd37\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person shrugging medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd37\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person shrugging medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd37\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person shrugging dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd37\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man shrugging",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd37\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man shrugging light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd37\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man shrugging medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd37\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man shrugging medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd37\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man shrugging medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd37\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man shrugging dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd37\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman shrugging",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd37\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman shrugging light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd37\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman shrugging medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd37\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman shrugging medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd37\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman shrugging medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd37\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman shrugging dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\u200d\u2695\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "health worker",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\u2695\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "health worker light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\u2695\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "health worker medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\u2695\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "health worker medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\u2695\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "health worker medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\u2695\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "health worker dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\u200d\u2695\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man health worker",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2695\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man health worker light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2695\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man health worker medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2695\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man health worker medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2695\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man health worker medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2695\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man health worker dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\u200d\u2695\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman health worker",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2695\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman health worker light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2695\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman health worker medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2695\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman health worker medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2695\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman health worker medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2695\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman health worker dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\u200d\ud83c\udf93",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "student",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83c\udf93",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "student light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83c\udf93",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "student medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83c\udf93",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "student medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83c\udf93",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "student medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83c\udf93",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "student dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\u200d\ud83c\udf93",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man student",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83c\udf93",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man student light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83c\udf93",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man student medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83c\udf93",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man student medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83c\udf93",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man student medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83c\udf93",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man student dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\u200d\ud83c\udf93",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman student",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83c\udf93",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman student light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83c\udf93",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman student medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83c\udf93",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman student medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83c\udf93",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman student medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83c\udf93",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman student dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\u200d\ud83c\udfeb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "teacher",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83c\udfeb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "teacher light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83c\udfeb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "teacher medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83c\udfeb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "teacher medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83c\udfeb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "teacher medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83c\udfeb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "teacher dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\u200d\ud83c\udfeb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man teacher",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83c\udfeb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man teacher light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83c\udfeb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man teacher medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83c\udfeb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man teacher medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83c\udfeb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man teacher medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83c\udfeb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man teacher dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\u200d\ud83c\udfeb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman teacher",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83c\udfeb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman teacher light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83c\udfeb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman teacher medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83c\udfeb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman teacher medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83c\udfeb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman teacher medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83c\udfeb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman teacher dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\u200d\u2696\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "judge",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\u2696\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "judge light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\u2696\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "judge medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\u2696\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "judge medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\u2696\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "judge medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\u2696\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "judge dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\u200d\u2696\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man judge",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2696\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man judge light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2696\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man judge medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2696\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man judge medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2696\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man judge medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2696\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man judge dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\u200d\u2696\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman judge",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2696\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman judge light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2696\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman judge medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2696\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman judge medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2696\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman judge medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2696\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman judge dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\u200d\ud83c\udf3e",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "farmer",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83c\udf3e",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "farmer light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83c\udf3e",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "farmer medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83c\udf3e",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "farmer medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83c\udf3e",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "farmer medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83c\udf3e",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "farmer dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\u200d\ud83c\udf3e",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man farmer",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83c\udf3e",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man farmer light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83c\udf3e",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man farmer medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83c\udf3e",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man farmer medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83c\udf3e",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man farmer medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83c\udf3e",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man farmer dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\u200d\ud83c\udf3e",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman farmer",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83c\udf3e",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman farmer light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83c\udf3e",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman farmer medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83c\udf3e",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman farmer medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83c\udf3e",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman farmer medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83c\udf3e",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman farmer dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\u200d\ud83c\udf73",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "cook",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83c\udf73",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "cook light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83c\udf73",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "cook medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83c\udf73",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "cook medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83c\udf73",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "cook medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83c\udf73",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "cook dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\u200d\ud83c\udf73",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man cook",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83c\udf73",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man cook light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83c\udf73",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man cook medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83c\udf73",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man cook medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83c\udf73",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man cook medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83c\udf73",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man cook dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\u200d\ud83c\udf73",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman cook",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83c\udf73",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman cook light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83c\udf73",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman cook medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83c\udf73",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman cook medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83c\udf73",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman cook medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83c\udf73",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman cook dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\u200d\ud83d\udd27",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "mechanic",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83d\udd27",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "mechanic light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83d\udd27",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "mechanic medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83d\udd27",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "mechanic medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83d\udd27",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "mechanic medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83d\udd27",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "mechanic dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\u200d\ud83d\udd27",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man mechanic",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83d\udd27",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man mechanic light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83d\udd27",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man mechanic medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83d\udd27",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man mechanic medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83d\udd27",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man mechanic medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\udd27",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man mechanic dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\u200d\ud83d\udd27",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman mechanic",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83d\udd27",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman mechanic light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83d\udd27",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman mechanic medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83d\udd27",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman mechanic medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83d\udd27",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman mechanic medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83d\udd27",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman mechanic dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\u200d\ud83c\udfed",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "factory worker",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83c\udfed",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "factory worker light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83c\udfed",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "factory worker medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83c\udfed",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "factory worker medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83c\udfed",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "factory worker medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83c\udfed",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "factory worker dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\u200d\ud83c\udfed",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man factory worker",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83c\udfed",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man factory worker light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83c\udfed",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man factory worker medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83c\udfed",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man factory worker medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83c\udfed",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man factory worker medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83c\udfed",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man factory worker dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\u200d\ud83c\udfed",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman factory worker",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83c\udfed",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman factory worker light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83c\udfed",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman factory worker medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83c\udfed",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman factory worker medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83c\udfed",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman factory worker medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83c\udfed",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman factory worker dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\u200d\ud83d\udcbc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "office worker",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83d\udcbc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "office worker light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83d\udcbc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "office worker medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83d\udcbc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "office worker medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83d\udcbc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "office worker medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83d\udcbc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "office worker dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\u200d\ud83d\udcbc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man office worker",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83d\udcbc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man office worker light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83d\udcbc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man office worker medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83d\udcbc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man office worker medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83d\udcbc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man office worker medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\udcbc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man office worker dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\u200d\ud83d\udcbc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman office worker",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83d\udcbc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman office worker light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83d\udcbc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman office worker medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83d\udcbc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman office worker medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83d\udcbc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman office worker medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83d\udcbc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman office worker dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\u200d\ud83d\udd2c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "scientist",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83d\udd2c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "scientist light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83d\udd2c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "scientist medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83d\udd2c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "scientist medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83d\udd2c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "scientist medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83d\udd2c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "scientist dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\u200d\ud83d\udd2c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man scientist",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83d\udd2c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man scientist light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83d\udd2c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man scientist medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83d\udd2c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man scientist medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83d\udd2c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man scientist medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\udd2c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man scientist dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\u200d\ud83d\udd2c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman scientist",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83d\udd2c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman scientist light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83d\udd2c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman scientist medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83d\udd2c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman scientist medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83d\udd2c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman scientist medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83d\udd2c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman scientist dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\u200d\ud83d\udcbb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "technologist",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83d\udcbb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "technologist light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83d\udcbb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "technologist medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83d\udcbb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "technologist medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83d\udcbb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "technologist medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83d\udcbb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "technologist dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\u200d\ud83d\udcbb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man technologist",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83d\udcbb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man technologist light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83d\udcbb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man technologist medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83d\udcbb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man technologist medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83d\udcbb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man technologist medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\udcbb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man technologist dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\u200d\ud83d\udcbb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman technologist",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83d\udcbb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman technologist light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83d\udcbb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman technologist medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83d\udcbb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman technologist medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83d\udcbb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman technologist medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83d\udcbb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman technologist dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\u200d\ud83c\udfa4",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "singer",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83c\udfa4",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "singer light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83c\udfa4",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "singer medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83c\udfa4",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "singer medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83c\udfa4",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "singer medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83c\udfa4",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "singer dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\u200d\ud83c\udfa4",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man singer",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83c\udfa4",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man singer light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83c\udfa4",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man singer medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83c\udfa4",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man singer medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83c\udfa4",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man singer medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83c\udfa4",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man singer dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\u200d\ud83c\udfa4",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman singer",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83c\udfa4",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman singer light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83c\udfa4",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman singer medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83c\udfa4",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman singer medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83c\udfa4",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman singer medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83c\udfa4",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman singer dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\u200d\ud83c\udfa8",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "artist",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83c\udfa8",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "artist light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83c\udfa8",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "artist medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83c\udfa8",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "artist medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83c\udfa8",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "artist medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83c\udfa8",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "artist dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\u200d\ud83c\udfa8",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man artist",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83c\udfa8",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man artist light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83c\udfa8",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man artist medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83c\udfa8",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man artist medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83c\udfa8",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man artist medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83c\udfa8",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man artist dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\u200d\ud83c\udfa8",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman artist",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83c\udfa8",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman artist light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83c\udfa8",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman artist medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83c\udfa8",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman artist medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83c\udfa8",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman artist medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83c\udfa8",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman artist dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\u200d\u2708\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "pilot",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\u2708\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "pilot light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\u2708\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "pilot medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\u2708\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "pilot medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\u2708\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "pilot medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\u2708\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "pilot dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\u200d\u2708\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man pilot",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2708\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man pilot light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2708\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man pilot medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2708\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man pilot medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2708\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man pilot medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2708\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man pilot dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\u200d\u2708\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman pilot",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2708\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman pilot light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2708\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman pilot medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2708\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman pilot medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2708\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman pilot medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2708\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman pilot dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\u200d\ud83d\ude80",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "astronaut",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83d\ude80",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "astronaut light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83d\ude80",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "astronaut medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83d\ude80",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "astronaut medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83d\ude80",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "astronaut medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83d\ude80",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "astronaut dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\u200d\ud83d\ude80",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man astronaut",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83d\ude80",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man astronaut light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83d\ude80",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man astronaut medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83d\ude80",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man astronaut medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83d\ude80",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man astronaut medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude80",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man astronaut dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\u200d\ud83d\ude80",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman astronaut",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83d\ude80",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman astronaut light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83d\ude80",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman astronaut medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83d\ude80",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman astronaut medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83d\ude80",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman astronaut medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83d\ude80",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman astronaut dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\u200d\ud83d\ude92",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "firefighter",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83d\ude92",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "firefighter light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83d\ude92",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "firefighter medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83d\ude92",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "firefighter medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83d\ude92",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "firefighter medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83d\ude92",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "firefighter dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\u200d\ud83d\ude92",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man firefighter",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83d\ude92",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man firefighter light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83d\ude92",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man firefighter medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83d\ude92",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man firefighter medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83d\ude92",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man firefighter medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83d\ude92",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man firefighter dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\u200d\ud83d\ude92",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman firefighter",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83d\ude92",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman firefighter light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83d\ude92",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman firefighter medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83d\ude92",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman firefighter medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83d\ude92",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman firefighter medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83d\ude92",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman firefighter dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc6e",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "police officer",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc6e\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "police officer light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc6e\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "police officer medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc6e\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "police officer medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc6e\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "police officer medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc6e\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "police officer dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc6e\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man police officer",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc6e\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man police officer light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc6e\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man police officer medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc6e\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man police officer medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc6e\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man police officer medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc6e\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man police officer dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc6e\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman police officer",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc6e\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman police officer light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc6e\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman police officer medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc6e\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman police officer medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc6e\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman police officer medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc6e\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman police officer dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd75\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "detective",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd75\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "detective light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd75\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "detective medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd75\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "detective medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd75\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "detective medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd75\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "detective dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man detective",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd75\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man detective light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd75\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man detective medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd75\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man detective medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd75\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man detective medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd75\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man detective dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd75\ufe0f\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman detective",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd75\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman detective light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd75\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman detective medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd75\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman detective medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd75\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman detective medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd75\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman detective dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc82",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "guard",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc82\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "guard light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc82\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "guard medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc82\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "guard medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc82\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "guard medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc82\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "guard dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc82\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man guard",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc82\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man guard light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc82\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man guard medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc82\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man guard medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc82\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man guard medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc82\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man guard dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc82\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman guard",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc82\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman guard light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc82\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman guard medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc82\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman guard medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc82\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman guard medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc82\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman guard dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd77",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "ninja",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd77\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "ninja light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd77\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "ninja medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd77\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "ninja medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd77\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "ninja medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd77\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "ninja dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc77",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "construction worker",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc77\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "construction worker light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc77\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "construction worker medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc77\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "construction worker medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc77\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "construction worker medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc77\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "construction worker dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc77\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man construction worker",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc77\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man construction worker light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc77\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man construction worker medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc77\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man construction worker medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc77\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man construction worker medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc77\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man construction worker dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc77\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman construction worker",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc77\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman construction worker light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc77\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman construction worker medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc77\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman construction worker medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc77\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman construction worker medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc77\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman construction worker dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd34",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "prince",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd34\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "prince light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd34\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "prince medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd34\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "prince medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd34\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "prince medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd34\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "prince dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc78",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "princess",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc78\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "princess light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc78\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "princess medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc78\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "princess medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc78\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "princess medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc78\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "princess dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc73",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person wearing turban",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc73\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person wearing turban light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc73\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person wearing turban medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc73\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person wearing turban medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc73\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person wearing turban medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc73\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person wearing turban dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc73\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man wearing turban",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc73\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man wearing turban light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc73\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man wearing turban medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc73\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man wearing turban medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc73\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man wearing turban medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc73\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man wearing turban dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc73\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman wearing turban",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc73\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman wearing turban light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc73\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman wearing turban medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc73\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman wearing turban medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc73\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman wearing turban medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc73\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman wearing turban dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc72",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person with skullcap",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc72\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person with skullcap light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc72\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person with skullcap medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc72\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person with skullcap medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc72\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person with skullcap medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc72\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person with skullcap dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd5",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman with headscarf",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd5\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman with headscarf light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd5\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman with headscarf medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd5\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman with headscarf medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd5\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman with headscarf medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd5\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman with headscarf dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd35",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in tuxedo",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd35\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in tuxedo light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd35\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in tuxedo medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd35\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in tuxedo medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd35\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in tuxedo medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd35\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in tuxedo dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd35\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man in tuxedo",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd35\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man in tuxedo light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd35\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man in tuxedo medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd35\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man in tuxedo medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd35\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man in tuxedo medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd35\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man in tuxedo dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd35\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman in tuxedo",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd35\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman in tuxedo light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd35\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman in tuxedo medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd35\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman in tuxedo medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd35\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman in tuxedo medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd35\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman in tuxedo dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc70",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person with veil",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc70\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person with veil light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc70\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person with veil medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc70\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person with veil medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc70\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person with veil medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc70\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person with veil dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc70\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man with veil",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc70\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man with veil light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc70\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man with veil medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc70\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man with veil medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc70\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man with veil medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc70\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man with veil dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc70\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman with veil",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc70\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman with veil light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc70\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman with veil medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc70\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman with veil medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc70\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman with veil medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc70\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman with veil dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd30",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "pregnant woman",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd30\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "pregnant woman light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd30\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "pregnant woman medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd30\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "pregnant woman medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd30\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "pregnant woman medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd30\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "pregnant woman dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd31",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "breast-feeding",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd31\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "breast-feeding light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd31\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "breast-feeding medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd31\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "breast-feeding medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd31\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "breast-feeding medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd31\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "breast-feeding dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\u200d\ud83c\udf7c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman feeding baby",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83c\udf7c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman feeding baby light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83c\udf7c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman feeding baby medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83c\udf7c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman feeding baby medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83c\udf7c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman feeding baby medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83c\udf7c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman feeding baby dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\u200d\ud83c\udf7c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man feeding baby",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83c\udf7c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man feeding baby light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83c\udf7c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man feeding baby medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83c\udf7c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man feeding baby medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83c\udf7c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man feeding baby medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83c\udf7c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man feeding baby dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\u200d\ud83c\udf7c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person feeding baby",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83c\udf7c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person feeding baby light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83c\udf7c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person feeding baby medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83c\udf7c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person feeding baby medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83c\udf7c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person feeding baby medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83c\udf7c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person feeding baby dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc7c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "baby angel",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc7c\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "baby angel light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc7c\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "baby angel medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc7c\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "baby angel medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc7c\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "baby angel medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc7c\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "baby angel dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udf85",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "Santa Claus",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udf85\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "Santa Claus light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udf85\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "Santa Claus medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udf85\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "Santa Claus medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udf85\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "Santa Claus medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udf85\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "Santa Claus dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd36",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "Mrs Claus",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd36\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "Mrs Claus light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd36\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "Mrs Claus medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd36\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "Mrs Claus medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd36\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "Mrs Claus medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd36\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "Mrs Claus dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\u200d\ud83c\udf84",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "mx claus",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83c\udf84",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "mx claus light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83c\udf84",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "mx claus medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83c\udf84",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "mx claus medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83c\udf84",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "mx claus medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83c\udf84",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "mx claus dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb8",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "superhero",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb8\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "superhero light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb8\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "superhero medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb8\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "superhero medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb8\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "superhero medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb8\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "superhero dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb8\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man superhero",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb8\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man superhero light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb8\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man superhero medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb8\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man superhero medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb8\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man superhero medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb8\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man superhero dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb8\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman superhero",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb8\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman superhero light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb8\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman superhero medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb8\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman superhero medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb8\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman superhero medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb8\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman superhero dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb9",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "supervillain",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb9\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "supervillain light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb9\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "supervillain medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb9\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "supervillain medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb9\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "supervillain medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb9\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "supervillain dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb9\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man supervillain",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb9\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man supervillain light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb9\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man supervillain medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb9\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man supervillain medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb9\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man supervillain medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb9\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man supervillain dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb9\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman supervillain",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb9\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman supervillain light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb9\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman supervillain medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb9\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman supervillain medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb9\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman supervillain medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddb9\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman supervillain dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd9",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "mage",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd9\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "mage light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd9\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "mage medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd9\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "mage medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd9\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "mage medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd9\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "mage dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd9\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man mage",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd9\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man mage light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd9\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man mage medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd9\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man mage medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd9\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man mage medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd9\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man mage dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd9\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman mage",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd9\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman mage light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd9\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman mage medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd9\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman mage medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd9\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman mage medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd9\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman mage dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddda",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "fairy",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddda\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "fairy light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddda\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "fairy medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddda\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "fairy medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddda\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "fairy medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddda\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "fairy dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddda\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man fairy",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddda\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man fairy light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddda\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man fairy medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddda\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man fairy medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddda\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man fairy medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddda\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man fairy dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddda\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman fairy",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddda\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman fairy light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddda\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman fairy medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddda\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman fairy medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddda\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman fairy medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddda\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman fairy dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "vampire",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddb\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "vampire light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddb\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "vampire medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddb\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "vampire medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddb\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "vampire medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddb\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "vampire dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man vampire",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddb\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man vampire light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddb\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man vampire medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddb\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man vampire medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddb\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man vampire medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddb\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man vampire dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman vampire",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddb\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman vampire light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddb\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman vampire medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddb\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman vampire medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddb\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman vampire medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddb\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman vampire dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "merperson",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddc\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "merperson light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddc\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "merperson medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddc\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "merperson medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddc\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "merperson medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddc\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "merperson dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "merman",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddc\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "merman light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddc\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "merman medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddc\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "merman medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddc\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "merman medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddc\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "merman dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "mermaid",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddc\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "mermaid light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddc\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "mermaid medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddc\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "mermaid medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddc\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "mermaid medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddc\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "mermaid dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "elf",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddd\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "elf light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddd\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "elf medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddd\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "elf medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddd\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "elf medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddd\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "elf dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man elf",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddd\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man elf light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddd\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man elf medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddd\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man elf medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddd\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man elf medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddd\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man elf dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman elf",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddd\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman elf light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddd\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman elf medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddd\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman elf medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddd\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman elf medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddd\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman elf dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddde",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "genie",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddde\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man genie",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddde\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman genie",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddf",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "zombie",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddf\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man zombie",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udddf\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman zombie",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc86",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person getting massage",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc86\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person getting massage light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc86\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person getting massage medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc86\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person getting massage medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc86\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person getting massage medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc86\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person getting massage dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc86\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man getting massage",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc86\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man getting massage light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc86\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man getting massage medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc86\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man getting massage medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc86\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man getting massage medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc86\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man getting massage dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc86\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman getting massage",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc86\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman getting massage light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc86\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman getting massage medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc86\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman getting massage medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc86\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman getting massage medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc86\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman getting massage dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc87",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person getting haircut",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc87\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person getting haircut light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc87\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person getting haircut medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc87\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person getting haircut medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc87\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person getting haircut medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc87\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person getting haircut dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc87\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man getting haircut",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc87\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man getting haircut light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc87\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man getting haircut medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc87\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man getting haircut medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc87\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man getting haircut medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc87\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man getting haircut dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc87\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman getting haircut",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc87\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman getting haircut light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc87\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman getting haircut medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc87\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman getting haircut medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc87\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman getting haircut medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc87\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman getting haircut dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb6",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person walking",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb6\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person walking light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb6\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person walking medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb6\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person walking medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb6\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person walking medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb6\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person walking dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb6\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man walking",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb6\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man walking light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb6\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man walking medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb6\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man walking medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb6\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man walking medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb6\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man walking dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb6\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman walking",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb6\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman walking light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb6\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman walking medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb6\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman walking medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb6\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman walking medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb6\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman walking dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddcd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person standing",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddcd\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person standing light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddcd\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person standing medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddcd\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person standing medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddcd\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person standing medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddcd\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person standing dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddcd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man standing",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddcd\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man standing light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddcd\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man standing medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddcd\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man standing medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddcd\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man standing medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddcd\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man standing dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddcd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman standing",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddcd\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman standing light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddcd\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman standing medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddcd\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman standing medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddcd\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman standing medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddcd\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman standing dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddce",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person kneeling",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddce\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person kneeling light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddce\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person kneeling medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddce\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person kneeling medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddce\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person kneeling medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddce\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person kneeling dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddce\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man kneeling",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddce\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man kneeling light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddce\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man kneeling medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddce\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man kneeling medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddce\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man kneeling medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddce\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man kneeling dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddce\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman kneeling",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddce\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman kneeling light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddce\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman kneeling medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddce\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman kneeling medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddce\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman kneeling medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddce\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman kneeling dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\u200d\ud83e\uddaf",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person with white cane",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83e\uddaf",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person with white cane light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83e\uddaf",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person with white cane medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83e\uddaf",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person with white cane medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83e\uddaf",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person with white cane medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83e\uddaf",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person with white cane dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\u200d\ud83e\uddaf",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man with white cane",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83e\uddaf",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man with white cane light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83e\uddaf",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man with white cane medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83e\uddaf",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man with white cane medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83e\uddaf",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man with white cane medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83e\uddaf",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man with white cane dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\u200d\ud83e\uddaf",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman with white cane",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83e\uddaf",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman with white cane light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83e\uddaf",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman with white cane medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83e\uddaf",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman with white cane medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83e\uddaf",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman with white cane medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83e\uddaf",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman with white cane dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\u200d\ud83e\uddbc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in motorized wheelchair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83e\uddbc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in motorized wheelchair light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83e\uddbc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in motorized wheelchair medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83e\uddbc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in motorized wheelchair medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83e\uddbc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in motorized wheelchair medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83e\uddbc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in motorized wheelchair dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\u200d\ud83e\uddbc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man in motorized wheelchair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83e\uddbc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man in motorized wheelchair light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83e\uddbc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man in motorized wheelchair medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83e\uddbc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man in motorized wheelchair medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83e\uddbc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man in motorized wheelchair medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83e\uddbc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man in motorized wheelchair dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\u200d\ud83e\uddbc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman in motorized wheelchair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83e\uddbc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman in motorized wheelchair light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83e\uddbc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman in motorized wheelchair medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83e\uddbc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman in motorized wheelchair medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83e\uddbc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman in motorized wheelchair medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83e\uddbc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman in motorized wheelchair dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\u200d\ud83e\uddbd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in manual wheelchair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83e\uddbd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in manual wheelchair light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83e\uddbd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in manual wheelchair medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83e\uddbd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in manual wheelchair medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83e\uddbd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in manual wheelchair medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83e\uddbd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in manual wheelchair dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\u200d\ud83e\uddbd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man in manual wheelchair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83e\uddbd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man in manual wheelchair light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83e\uddbd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man in manual wheelchair medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83e\uddbd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man in manual wheelchair medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83e\uddbd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man in manual wheelchair medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83e\uddbd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man in manual wheelchair dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\u200d\ud83e\uddbd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman in manual wheelchair",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83e\uddbd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman in manual wheelchair light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83e\uddbd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman in manual wheelchair medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83e\uddbd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman in manual wheelchair medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83e\uddbd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman in manual wheelchair medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83e\uddbd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman in manual wheelchair dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc3",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person running",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc3\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person running light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc3\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person running medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc3\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person running medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc3\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person running medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc3\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person running dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc3\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man running",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc3\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man running light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc3\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man running medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc3\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man running medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc3\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man running medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc3\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man running dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc3\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman running",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc3\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman running light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc3\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman running medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc3\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman running medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc3\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman running medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc3\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman running dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc83",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman dancing",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc83\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman dancing light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc83\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman dancing medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc83\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman dancing medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc83\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman dancing medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc83\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman dancing dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd7a",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man dancing",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd7a\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man dancing light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd7a\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man dancing medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd7a\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man dancing medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd7a\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man dancing medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd7a\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man dancing dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd74\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in suit levitating",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd74\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in suit levitating light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd74\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in suit levitating medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd74\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in suit levitating medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd74\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in suit levitating medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udd74\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in suit levitating dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc6f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "people with bunny ears",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc6f\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "men with bunny ears",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc6f\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "women with bunny ears",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd6",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in steamy room",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd6\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in steamy room light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd6\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in steamy room medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd6\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in steamy room medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd6\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in steamy room medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd6\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in steamy room dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd6\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man in steamy room",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd6\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man in steamy room light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd6\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man in steamy room medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd6\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man in steamy room medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd6\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man in steamy room medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd6\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man in steamy room dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd6\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman in steamy room",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd6\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman in steamy room light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd6\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman in steamy room medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd6\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman in steamy room medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd6\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman in steamy room medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd6\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman in steamy room dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd7",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person climbing",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd7\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person climbing light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd7\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person climbing medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd7\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person climbing medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd7\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person climbing medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd7\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person climbing dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd7\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man climbing",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd7\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man climbing light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd7\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man climbing medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd7\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man climbing medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd7\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man climbing medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd7\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man climbing dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd7\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman climbing",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd7\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman climbing light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd7\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman climbing medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd7\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman climbing medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd7\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman climbing medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd7\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman climbing dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd3a",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person fencing",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc7",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "horse racing",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc7\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "horse racing light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc7\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "horse racing medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc7\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "horse racing medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc7\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "horse racing medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc7\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "horse racing dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u26f7\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "skier",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc2",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "snowboarder",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc2\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "snowboarder light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc2\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "snowboarder medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc2\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "snowboarder medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc2\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "snowboarder medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc2\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "snowboarder dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfcc\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person golfing",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfcc\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person golfing light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfcc\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person golfing medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfcc\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person golfing medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfcc\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person golfing medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfcc\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person golfing dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfcc\ufe0f\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man golfing",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfcc\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man golfing light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfcc\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man golfing medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfcc\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man golfing medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfcc\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man golfing medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfcc\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man golfing dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfcc\ufe0f\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman golfing",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfcc\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman golfing light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfcc\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman golfing medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfcc\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman golfing medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfcc\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman golfing medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfcc\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman golfing dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc4",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person surfing",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc4\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person surfing light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc4\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person surfing medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc4\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person surfing medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc4\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person surfing medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc4\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person surfing dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc4\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man surfing",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc4\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man surfing light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc4\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man surfing medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc4\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man surfing medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc4\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man surfing medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc4\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man surfing dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc4\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman surfing",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc4\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman surfing light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc4\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman surfing medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc4\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman surfing medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc4\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman surfing medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfc4\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman surfing dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udea3",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person rowing boat",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udea3\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person rowing boat light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udea3\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person rowing boat medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udea3\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person rowing boat medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udea3\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person rowing boat medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udea3\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person rowing boat dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udea3\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man rowing boat",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udea3\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man rowing boat light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udea3\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man rowing boat medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udea3\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man rowing boat medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udea3\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man rowing boat medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udea3\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man rowing boat dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udea3\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman rowing boat",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udea3\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman rowing boat light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udea3\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman rowing boat medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udea3\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman rowing boat medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udea3\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman rowing boat medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udea3\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman rowing boat dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfca",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person swimming",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfca\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person swimming light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfca\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person swimming medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfca\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person swimming medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfca\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person swimming medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfca\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person swimming dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfca\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man swimming",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfca\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man swimming light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfca\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man swimming medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfca\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man swimming medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfca\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man swimming medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfca\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man swimming dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfca\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman swimming",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfca\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman swimming light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfca\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman swimming medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfca\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman swimming medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfca\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman swimming medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfca\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman swimming dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u26f9\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person bouncing ball",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u26f9\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person bouncing ball light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u26f9\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person bouncing ball medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u26f9\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person bouncing ball medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u26f9\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person bouncing ball medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u26f9\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person bouncing ball dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u26f9\ufe0f\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man bouncing ball",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u26f9\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man bouncing ball light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u26f9\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man bouncing ball medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u26f9\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man bouncing ball medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u26f9\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man bouncing ball medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u26f9\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man bouncing ball dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u26f9\ufe0f\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman bouncing ball",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u26f9\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman bouncing ball light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u26f9\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman bouncing ball medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u26f9\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman bouncing ball medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u26f9\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman bouncing ball medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\u26f9\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman bouncing ball dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfcb\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person lifting weights",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfcb\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person lifting weights light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfcb\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person lifting weights medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfcb\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person lifting weights medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfcb\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person lifting weights medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfcb\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person lifting weights dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfcb\ufe0f\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man lifting weights",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfcb\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man lifting weights light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfcb\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man lifting weights medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfcb\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man lifting weights medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfcb\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man lifting weights medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfcb\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man lifting weights dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfcb\ufe0f\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman lifting weights",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfcb\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman lifting weights light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfcb\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman lifting weights medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfcb\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman lifting weights medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfcb\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman lifting weights medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83c\udfcb\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman lifting weights dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb4",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person biking",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb4\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person biking light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb4\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person biking medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb4\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person biking medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb4\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person biking medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb4\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person biking dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb4\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man biking",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb4\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man biking light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb4\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man biking medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb4\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man biking medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb4\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man biking medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb4\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man biking dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb4\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman biking",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb4\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman biking light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb4\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman biking medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb4\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman biking medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb4\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman biking medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb4\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman biking dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb5",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person mountain biking",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb5\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person mountain biking light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb5\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person mountain biking medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb5\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person mountain biking medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb5\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person mountain biking medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb5\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person mountain biking dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb5\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man mountain biking",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb5\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man mountain biking light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb5\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man mountain biking medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb5\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man mountain biking medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb5\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man mountain biking medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb5\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man mountain biking dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb5\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman mountain biking",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb5\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman mountain biking light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb5\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman mountain biking medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb5\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman mountain biking medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb5\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman mountain biking medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udeb5\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman mountain biking dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd38",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person cartwheeling",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd38\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person cartwheeling light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd38\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person cartwheeling medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd38\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person cartwheeling medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd38\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person cartwheeling medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd38\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person cartwheeling dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd38\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man cartwheeling",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd38\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man cartwheeling light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd38\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man cartwheeling medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd38\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man cartwheeling medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd38\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man cartwheeling medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd38\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man cartwheeling dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd38\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman cartwheeling",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd38\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman cartwheeling light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd38\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman cartwheeling medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd38\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman cartwheeling medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd38\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman cartwheeling medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd38\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman cartwheeling dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd3c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "people wrestling",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd3c\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "men wrestling",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd3c\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "women wrestling",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd3d",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person playing water polo",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd3d\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person playing water polo light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd3d\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person playing water polo medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd3d\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person playing water polo medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd3d\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person playing water polo medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd3d\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person playing water polo dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd3d\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man playing water polo",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd3d\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man playing water polo light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd3d\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man playing water polo medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd3d\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man playing water polo medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd3d\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man playing water polo medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd3d\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man playing water polo dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd3d\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman playing water polo",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd3d\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman playing water polo light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd3d\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman playing water polo medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd3d\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman playing water polo medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd3d\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman playing water polo medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd3d\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman playing water polo dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd3e",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person playing handball",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd3e\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person playing handball light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd3e\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person playing handball medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd3e\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person playing handball medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd3e\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person playing handball medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd3e\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person playing handball dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd3e\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man playing handball",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd3e\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man playing handball light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd3e\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man playing handball medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd3e\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man playing handball medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd3e\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man playing handball medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd3e\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man playing handball dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd3e\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman playing handball",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd3e\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman playing handball light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd3e\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman playing handball medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd3e\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman playing handball medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd3e\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman playing handball medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd3e\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman playing handball dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd39",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person juggling",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd39\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person juggling light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd39\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person juggling medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd39\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person juggling medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd39\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person juggling medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd39\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person juggling dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd39\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man juggling",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd39\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man juggling light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd39\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man juggling medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd39\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man juggling medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd39\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man juggling medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd39\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man juggling dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd39\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman juggling",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd39\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman juggling light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd39\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman juggling medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd39\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman juggling medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd39\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman juggling medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udd39\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman juggling dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd8",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in lotus position",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd8\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in lotus position light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd8\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in lotus position medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd8\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in lotus position medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd8\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in lotus position medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd8\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in lotus position dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd8\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man in lotus position",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd8\ud83c\udffb\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man in lotus position light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd8\ud83c\udffc\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man in lotus position medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd8\ud83c\udffd\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man in lotus position medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd8\ud83c\udffe\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man in lotus position medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd8\ud83c\udfff\u200d\u2642\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "man in lotus position dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd8\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman in lotus position",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd8\ud83c\udffb\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman in lotus position light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd8\ud83c\udffc\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman in lotus position medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd8\ud83c\udffd\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman in lotus position medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd8\ud83c\udffe\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman in lotus position medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd8\ud83c\udfff\u200d\u2640\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman in lotus position dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udec0",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person taking bath",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udec0\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person taking bath light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udec0\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person taking bath medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udec0\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person taking bath medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udec0\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person taking bath medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udec0\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person taking bath dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udecc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in bed",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udecc\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in bed light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udecc\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in bed medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udecc\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in bed medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udecc\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in bed medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udecc\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "person in bed dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\u200d\ud83e\udd1d\u200d\ud83e\uddd1",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "people holding hands",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "people holding hands light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "people holding hands light skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "people holding hands light skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "people holding hands light skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "people holding hands light skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "people holding hands medium-light skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "people holding hands medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "people holding hands medium-light skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "people holding hands medium-light skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "people holding hands medium-light skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "people holding hands medium skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "people holding hands medium skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "people holding hands medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "people holding hands medium skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "people holding hands medium skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "people holding hands medium-dark skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "people holding hands medium-dark skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "people holding hands medium-dark skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "people holding hands medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "people holding hands medium-dark skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "people holding hands dark skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "people holding hands dark skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "people holding hands dark skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "people holding hands dark skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "people holding hands dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc6d",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "women holding hands",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc6d\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "women holding hands light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "women holding hands light skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "women holding hands light skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "women holding hands light skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "women holding hands light skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "women holding hands medium-light skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc6d\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "women holding hands medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "women holding hands medium-light skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "women holding hands medium-light skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "women holding hands medium-light skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "women holding hands medium skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "women holding hands medium skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc6d\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "women holding hands medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "women holding hands medium skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "women holding hands medium skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "women holding hands medium-dark skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "women holding hands medium-dark skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "women holding hands medium-dark skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc6d\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "women holding hands medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "women holding hands medium-dark skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "women holding hands dark skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "women holding hands dark skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "women holding hands dark skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "women holding hands dark skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc6d\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "women holding hands dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc6b",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman and man holding hands",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc6b\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman and man holding hands light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman and man holding hands light skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman and man holding hands light skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman and man holding hands light skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman and man holding hands light skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman and man holding hands medium-light skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc6b\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman and man holding hands medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman and man holding hands medium-light skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman and man holding hands medium-light skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman and man holding hands medium-light skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman and man holding hands medium skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman and man holding hands medium skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc6b\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman and man holding hands medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman and man holding hands medium skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman and man holding hands medium skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman and man holding hands medium-dark skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman and man holding hands medium-dark skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman and man holding hands medium-dark skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc6b\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman and man holding hands medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman and man holding hands medium-dark skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman and man holding hands dark skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman and man holding hands dark skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman and man holding hands dark skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman and man holding hands dark skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc6b\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "woman and man holding hands dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc6c",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "men holding hands",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc6c\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "men holding hands light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "men holding hands light skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "men holding hands light skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "men holding hands light skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "men holding hands light skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "men holding hands medium-light skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc6c\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "men holding hands medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "men holding hands medium-light skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "men holding hands medium-light skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "men holding hands medium-light skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "men holding hands medium skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "men holding hands medium skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc6c\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "men holding hands medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "men holding hands medium skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "men holding hands medium skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "men holding hands medium-dark skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "men holding hands medium-dark skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "men holding hands medium-dark skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc6c\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "men holding hands medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "men holding hands medium-dark skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "men holding hands dark skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "men holding hands dark skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "men holding hands dark skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "men holding hands dark skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc6c\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "men holding hands dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc8f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc8f\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc8f\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc8f\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc8f\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc8f\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss person person light skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss person person light skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss person person light skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss person person light skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss person person medium-light skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss person person medium-light skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss person person medium-light skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss person person medium-light skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss person person medium skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss person person medium skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss person person medium skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss person person medium skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss person person medium-dark skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss person person medium-dark skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss person person medium-dark skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss person person medium-dark skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss person person dark skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss person person dark skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss person person dark skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss person person dark skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman man",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman man light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman man light skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman man light skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman man light skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman man light skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman man medium-light skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman man medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman man medium-light skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman man medium-light skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman man medium-light skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman man medium skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman man medium skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman man medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman man medium skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman man medium skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman man medium-dark skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman man medium-dark skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman man medium-dark skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman man medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman man medium-dark skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman man dark skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman man dark skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman man dark skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman man dark skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman man dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss man man",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss man man light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss man man light skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss man man light skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss man man light skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss man man light skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss man man medium-light skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss man man medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss man man medium-light skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss man man medium-light skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss man man medium-light skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss man man medium skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss man man medium skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss man man medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss man man medium skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss man man medium skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss man man medium-dark skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss man man medium-dark skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss man man medium-dark skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss man man medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss man man medium-dark skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss man man dark skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss man man dark skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss man man dark skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss man man dark skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss man man dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman woman",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman woman light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman woman light skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman woman light skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman woman light skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman woman light skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman woman medium-light skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman woman medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman woman medium-light skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman woman medium-light skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman woman medium-light skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman woman medium skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman woman medium skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman woman medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman woman medium skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman woman medium skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman woman medium-dark skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman woman medium-dark skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman woman medium-dark skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman woman medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman woman medium-dark skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman woman dark skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman woman dark skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman woman dark skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman woman dark skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "kiss woman woman dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc91",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc91\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc91\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc91\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc91\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc91\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart person person light skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart person person light skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart person person light skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart person person light skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart person person medium-light skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart person person medium-light skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart person person medium-light skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart person person medium-light skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart person person medium skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart person person medium skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart person person medium skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart person person medium skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart person person medium-dark skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart person person medium-dark skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart person person medium-dark skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart person person medium-dark skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart person person dark skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart person person dark skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart person person dark skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\uddd1\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart person person dark skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\u200d\u2764\ufe0f\u200d\ud83d\udc68",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman man",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman man light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman man light skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman man light skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman man light skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman man light skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman man medium-light skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman man medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman man medium-light skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman man medium-light skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman man medium-light skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman man medium skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman man medium skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman man medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman man medium skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman man medium skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman man medium-dark skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman man medium-dark skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman man medium-dark skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman man medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman man medium-dark skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman man dark skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman man dark skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman man dark skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman man dark skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman man dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\u200d\u2764\ufe0f\u200d\ud83d\udc68",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart man man",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart man man light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart man man light skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart man man light skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart man man light skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart man man light skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart man man medium-light skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart man man medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart man man medium-light skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart man man medium-light skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart man man medium-light skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart man man medium skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart man man medium skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart man man medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart man man medium skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart man man medium skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart man man medium-dark skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart man man medium-dark skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart man man medium-dark skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart man man medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart man man medium-dark skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart man man dark skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart man man dark skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart man man dark skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart man man dark skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart man man dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\u200d\u2764\ufe0f\u200d\ud83d\udc69",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman woman",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman woman light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman woman light skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman woman light skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman woman light skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman woman light skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman woman medium-light skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman woman medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman woman medium-light skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman woman medium-light skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman woman medium-light skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman woman medium skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman woman medium skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman woman medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman woman medium skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman woman medium skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman woman medium-dark skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman woman medium-dark skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman woman medium-dark skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman woman medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman woman medium-dark skin tone dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffb",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman woman dark skin tone light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffc",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman woman dark skin tone medium-light skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffd",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman woman dark skin tone medium skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udffe",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman woman dark skin tone medium-dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c\udfff",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "couple with heart woman woman dark skin tone",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc6a",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "family",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc66",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "family man woman boy",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "family man woman girl",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "family man woman girl boy",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc66\u200d\ud83d\udc66",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "family man woman boy boy",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc67",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "family man woman girl girl",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\u200d\ud83d\udc68\u200d\ud83d\udc66",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "family man man boy",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\u200d\ud83d\udc68\u200d\ud83d\udc67",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "family man man girl",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\u200d\ud83d\udc68\u200d\ud83d\udc67\u200d\ud83d\udc66",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "family man man girl boy",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\u200d\ud83d\udc68\u200d\ud83d\udc66\u200d\ud83d\udc66",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "family man man boy boy",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\u200d\ud83d\udc68\u200d\ud83d\udc67\u200d\ud83d\udc67",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "family man man girl girl",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\u200d\ud83d\udc69\u200d\ud83d\udc66",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "family woman woman boy",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\u200d\ud83d\udc69\u200d\ud83d\udc67",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "family woman woman girl",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "family woman woman girl boy",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\u200d\ud83d\udc69\u200d\ud83d\udc66\u200d\ud83d\udc66",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "family woman woman boy boy",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc67",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "family woman woman girl girl",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\u200d\ud83d\udc66",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "family man boy",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\u200d\ud83d\udc66\u200d\ud83d\udc66",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "family man boy boy",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\u200d\ud83d\udc67",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "family man girl",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\u200d\ud83d\udc67\u200d\ud83d\udc66",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "family man girl boy",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc68\u200d\ud83d\udc67\u200d\ud83d\udc67",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "family man girl girl",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\u200d\ud83d\udc66",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "family woman boy",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\u200d\ud83d\udc66\u200d\ud83d\udc66",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "family woman boy boy",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\u200d\ud83d\udc67",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "family woman girl",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "family woman girl boy",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc67",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "family woman girl girl",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udde3\ufe0f",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "speaking head",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc64",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "bust in silhouette",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc65",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "busts in silhouette",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83e\udec2",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "people hugging",
+    //   "tags": []
+    // },
+    // {
+    //   "symbol": "\ud83d\udc63",
+    //   "type": "emoji",
+    //   "system": "People-Body",
+    //   "label": "footprints",
+    //   "tags": []
+    // },
     {
       "symbol": "\ud83d\ude00",
       "type": "emoji",
