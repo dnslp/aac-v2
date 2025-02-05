@@ -100,19 +100,16 @@ function customSortOrder(a, b) {
 
 // 🔥 Ensure items are sorted before rendering
 function renderItems() {
-    symbolContainer.innerHTML = ''; // Clear the container before rendering
+    symbolContainer.innerHTML = '';  // Clear the container before rendering
 
     let selectedSystems = Array.from(filterSystemSelect.selectedOptions).map(opt => opt.value);
 
-    // 🔥 If "All" is selected or nothing is selected, show everything except "Body-People"
+    // 🔥 If "All" is selected OR nothing is selected, show everything except "Body-People"
     if (selectedSystems.includes("all") || selectedSystems.length === 0) {
         selectedSystems = [...new Set(items.map(item => item.system))].filter(system => system !== "Body-People");
     }
 
-    // 🔥 Ensure "Body-People" is fully removed from displayed items
-    let filteredItems = currentItems
-        .filter(item => selectedSystems.includes(item.system))
-        .filter(item => item.system !== "Body-People"); // Double-check filtering
+    let filteredItems = currentItems.filter(item => selectedSystems.includes(item.system));
 
     // 🔥 If no items match, restore everything except "Body-People"
     if (filteredItems.length === 0) {
@@ -148,6 +145,7 @@ function renderItems() {
         symbolContainer.appendChild(section);
     });
 }
+
 
 
 // Creates a single symbol item
@@ -204,21 +202,20 @@ function sortSymbols(order) {
 // Resets the symbols to the original order
 function resetSymbols() {
     isGlossaryView = false;  // Reset glossary view mode
-    currentItems = [...originalOrder].filter(item => item.system !== "Body-People");  // Restore original order without "Body-People"
+    currentItems = [...originalOrder].filter(item => item.system !== "Body-People");  // Restore without "Body-People"
 
     // 🔥 Reset dropdown selections: Select "All" and deselect others
     filterSystemSelect.querySelectorAll("option").forEach(option => {
         option.selected = option.value === "all";
     });
 
-    // 🔥 Ensure dropdown refreshes correctly
-    handleSystemSelection();
-
-    // 🔥 Re-render items
+    // 🔥 Force the dropdown to visually reset
     setTimeout(() => {
-        renderItems(); // Ensure "Body-People" remains hidden after reset
+        filterSystemSelect.value = "all";
+        renderItems(); // ✅ Ensure items reload after reset
     }, 100);
 }
+
 
 
 
