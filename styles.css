@@ -187,6 +187,9 @@ select[multiselect-dropdown] {
     overflow: hidden;
     transition: border-color 0.3s, transform 0.2s;
 }
+.symbol-item:hover{
+    border: 4px solid #f55151;
+}
 
 /* 🔠 Symbol Content */
 .symbol {
