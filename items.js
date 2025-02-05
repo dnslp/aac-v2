@@ -672,7 +672,7 @@ export const items = [
       "symbol": "./images/Proloquo2go/I-Dont-Know.png",
       "type": "image",
       "system": "Proloquo2Go",
-      "label": "I Don't Know",
+      "label": "I Don\'t Know",
       "tags": [
         "OT"
       ]
