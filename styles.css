@@ -406,6 +406,19 @@ select[multiselect-dropdown] {
     }
 }
 
+.symbol-item svg {
+    width: 60px;
+    height: 60px;
+}
+
+.symbol-item circle {
+    transition: transform 0.2s ease-in-out;
+}
+
+.symbol-item:hover circle {
+    transform: scale(1.1);
+}
+
 /* 📏 Responsive Adjustments */
 @media (max-width: 768px) {
     .controls {
