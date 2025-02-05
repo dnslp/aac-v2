@@ -13,7 +13,7 @@ const resetButton = document.getElementById('reset');
 
 let voices = [];
 let currentSize = 100;
-const minSize = 50;
+const minSize = 100;
 const maxSize = 300;
 
 let originalOrder = [...items];
@@ -163,8 +163,8 @@ function createSymbolItem(item, container = symbolContainer) {
         content = document.createElement('img');
         content.src = item.symbol;
         content.alt = item.label;
-        content.style.width = '70%';
-        content.style.height = '70%';
+        content.style.width = '65%';
+        content.style.height = '65%';
     } else if (item.type === 'svg') {
         content = document.createElement('div');
         content.innerHTML = item.symbol;
@@ -241,6 +241,27 @@ function speakText(text) {
     if (voices[selectedVoiceIndex]) utterance.voice = voices[selectedVoiceIndex];
     window.speechSynthesis.speak(utterance);
 }
+// Function to change background color
+function changeBackgroundColor() {
+    const selectedColor = document.getElementById('backgroundColorPicker').value;
+    document.body.style.backgroundColor = selectedColor;
+
+    // Optional: Store preference in localStorage
+    localStorage.setItem('backgroundColor', selectedColor);
+}
+
+// Attach event listener
+document.getElementById('backgroundColorPicker').addEventListener('change', changeBackgroundColor);
+
+// 🔥 Apply saved background color on page load
+document.addEventListener('DOMContentLoaded', () => {
+    const savedColor = localStorage.getItem('backgroundColor');
+    if (savedColor) {
+        document.body.style.backgroundColor = savedColor;
+        document.getElementById('backgroundColorPicker').value = savedColor;
+    }
+});
+
 
 // Event listeners
 decreaseSizeButton.addEventListener('click', () => adjustSize(-10));

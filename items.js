@@ -482,18 +482,14 @@ export const items = [
       ]
     },
     {
-      "symbol": "<svg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'>\
-    <polygon points='50,10 90,35 90,65 50,90 10,65 10,35' \
-        stroke='black' stroke-width='4' fill='orange'/>\
-</svg>"
-,
-      "type": "svg",
-      "system": "Shapes",
-      "label": "Hexagon",
-      "tags": [
-        "OT"
-      ]
-    },
+        "symbol": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\
+          <polygon points=\"50,10 90,35 90,65 50,90 10,65 10,35\" fill=\"orange\" stroke=\"black\" stroke-width=\"3\"/>\
+        </svg>",
+        "type": "svg",
+        "system": "Shapes",
+        "label": "Hexagon",
+        "tags": ["OT"]
+      },
     {
         "symbol": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><polygon points=\"50,10 61,40 90,40 67,60 76,90 50,70 24,90 33,60 10,40 39,40\" fill=\"yellow\" stroke=\"black\" stroke-width=\"3\"/></svg>",
         "type": "svg",
