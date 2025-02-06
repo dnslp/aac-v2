@@ -17,6 +17,11 @@
     src: url('OpenDyslexic3-Regular.ttf') format('truetype');
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sono:wght@200..800&display=swap');
+
+.alphabet{
+    font-family: "Sono", serif;
+}
 
 /* 🌎 General Page Styling */
 body {
@@ -25,13 +30,49 @@ body {
     color: var(--text-color);
     text-align: center;
     margin: 0;
-    padding: 10px;
     font-size: var(--font-size);
     line-height: 1.5;
+
 }
 
 body.opendyslexic-font {
     font-family: 'OpenDyslexic', sans-serif;
+}
+/* Apply OpenDyslexic font when activated */
+body.opendyslexic-font {
+    font-family: 'OpenDyslexic', sans-serif !important;
+    font-size: 30px; /* Slightly larger for readability */
+}
+
+/* Increase icon size when Dyslexia Mode is enabled */
+body.opendyslexic-font .symbol-item {
+    width: var(--symbol-size, 100px);
+    height: var(--symbol-size, 100px);
+    font-size: 3vw !important;
+    font-family: 'OpenDyslexic', sans-serif !important;
+}
+
+/* Change button color when Dyslexia Mode is active */
+body.opendyslexic-font #toggleDyslexiaMode {
+    background-color: #ffff04; /* Orange for visibility */
+    font-family: "Sono", serif !important;
+    color: black;
+
+}
+
+body.opendyslexic-font #toggleDyslexiaMode:hover {
+    background-color: #ffff04;
+    font-family: "Sono", serif;
+}
+#toggleDyslexiaMode{
+    font-family: 'OpenDyslexic', sans-serif !important;
+    background-color: black;
+}
+
+.dyslexic-heading{
+    font-size: 2em;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000000;;
 }
 
 /* 🏷️ Header */
@@ -180,13 +221,14 @@ select[multiselect-dropdown] {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    border: 4px solid #ababab;
+    border: 2px solid #535353;
     border-radius: 8px;
     background-color: #fff;
     width: var(--symbol-size, 100px);
     height: var(--symbol-size, 100px);
     overflow: hidden;
     transition: border-color 0.3s, transform 0.2s;
+    box-sizing: border-box;
 }
 .symbol-item:hover{
     border: 4px solid #000000;
@@ -206,7 +248,7 @@ select[multiselect-dropdown] {
 
 /* 🏷️ Symbol Labels */
 .label {
-    font-size: calc(var(--symbol-size, 100px) / 8);
+    font-size: calc(var(--symbol-size, 100px) / 9);
     color: #555;
     text-align: center;
     max-width: 90%;
@@ -220,21 +262,23 @@ select[multiselect-dropdown] {
 }
 
 /* Make SVGs resize properly without exceeding the square */
-
+/* .symbol-item div 
 
 
 /* 🔹 Category Section */
 .category {
-    margin-bottom: 40px;
+    margin-bottom: 0px;
 }
 
 .category h2 {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 4.5rem;
     margin-bottom: 10px;
-    color: var(--text-color);
+    color: #ffffff;
     border-bottom: 2px solid #ddd;
     padding-bottom: 5px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000000;
 }
 
 .symbol-section {
@@ -415,8 +459,8 @@ select[multiselect-dropdown] {
 }
 
 .symbol-item {
-    width: var(--symbol-size, 100px);
-    height: var(--symbol-size, 100px);
+    width: var(--symbol-size, 140px);
+    height: var(--symbol-size, 140px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -435,6 +479,8 @@ select[multiselect-dropdown] {
     max-width: 100%;
     max-height: 100%;
 }
+
+
 /* 🎭 Wiggle Animation */
 @keyframes wiggle {
     0% { transform: rotate(0deg); }
@@ -444,9 +490,24 @@ select[multiselect-dropdown] {
     100% { transform: rotate(0deg); }
 }
 
+@keyframes borderPulse {
+    0% { border-color: rgba(0, 0, 0, 0.3); }
+    50% { border-color: rgba(0, 0, 0, 1); }
+    100% { border-color: rgba(0, 0, 0, 0.3); }
+}
+@keyframes dashMove {
+    0% { border-dashoffset: 0; }
+    100% { border-dashoffset: 20; } /* Adjust for speed */
+}
+
+
 /* 🌀 Apply Wiggle Effect on Hover */
 .symbol-item:hover {
-    animation: wiggle 0.3s ease-in-out;
+    animation: wiggle 0.3s ease-in-out, borderPulse 1.5s infinite alternate ease-in-out, dashMove 1.5s linear infinite;
+    border-radius: 8px;
+    border-style: dashed;
+    border-color: #00142a !important;
+
 }
 
 /* 📏 Responsive Adjustments */

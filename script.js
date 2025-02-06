@@ -12,7 +12,7 @@ const filterTagSelect = document.getElementById('filterTag');
 const resetButton = document.getElementById('reset');
 
 let voices = [];
-let currentSize = 100;
+let currentSize = 140;
 const minSize = 100;
 const maxSize = 300;
 
@@ -158,8 +158,9 @@ function createSymbolItem(item, container = symbolContainer) {
     if (item.type === 'emoji' || item.type === 'text') {
         content = document.createElement('div');
         content.classList.add('symbol');
+        content.classList.add('alphabet');
         content.textContent = item.symbol;
-        content.style.fontSize = '3vw'
+        content.style.fontSize = '2.7vw'
     } else if (item.type === 'image') {
         content = document.createElement('img');
         content.src = item.symbol;
@@ -195,8 +196,8 @@ function adjustSize(amount) {
 // Sorting symbols
 function sortSymbols(order) {
     isGlossaryView = true;
-    currentItems.sort((a, b) => order === 'asc' 
-        ? a.label.localeCompare(b.label) 
+    currentItems.sort((a, b) => order === 'asc'
+        ? a.label.localeCompare(b.label)
         : b.label.localeCompare(a.label));
     renderItems();
 }
@@ -244,25 +245,111 @@ function speakText(text) {
     window.speechSynthesis.speak(utterance);
 }
 // Function to change background color
+
 function changeBackgroundColor() {
     const selectedColor = document.getElementById('backgroundColorPicker').value;
-    document.body.style.backgroundColor = selectedColor;
 
-    // Optional: Store preference in localStorage
-    localStorage.setItem('backgroundColor', selectedColor);
+    if (selectedColor === "rainbow") {
+        document.body.style.background = "linear-gradient(180deg, rgba(255, 0, 0, 1) 0%, rgba(255, 154, 0, 1) 10%, rgba(208, 222, 33, 1) 20%, rgba(79, 220, 74, 1) 30%, rgba(63, 218, 216, 1) 40%, rgba(47, 201, 226, 1) 50%, rgba(28, 127, 238, 1) 60%, rgba(95, 21, 242, 1) 70%, rgba(186, 12, 248, 1) 80%, rgba(251, 7, 217, 1) 90%, rgba(255, 0, 0, 1) 100%)";
+        document.body.style.backgroundSize = "cover";
+        document.body.style.backgroundAttachment = "fixed";
+        
+        // Save "rainbow" as a string, so we know to reapply gradient on reload
+        localStorage.setItem("backgroundColor", "rainbow");
+    } else {
+        document.body.style.background = selectedColor;
+        localStorage.setItem("backgroundColor", selectedColor);
+    }
 }
+
 
 // Attach event listener
 document.getElementById('backgroundColorPicker').addEventListener('change', changeBackgroundColor);
 
 // 🔥 Apply saved background color on page load
-document.addEventListener('DOMContentLoaded', () => {
-    const savedColor = localStorage.getItem('backgroundColor');
+document.addEventListener("DOMContentLoaded", function () {
+    const dyslexiaButton = document.getElementById("toggleDyslexiaMode");
+    const increaseSizeButton = document.getElementById("increaseSize");
+    const decreaseSizeButton = document.getElementById("decreaseSize");
+    const body = document.body;
+
+    let currentSize = 140; // Default icon size
+    const minSize = 50;
+    const maxSize = 300;
+    const savedColor = localStorage.getItem("backgroundColor");
+
     if (savedColor) {
-        document.body.style.backgroundColor = savedColor;
-        document.getElementById('backgroundColorPicker').value = savedColor;
+        document.getElementById("backgroundColorPicker").value = savedColor;
+
+        if (savedColor === "rainbow") {
+            document.body.style.background = "linear-gradient(180deg, rgba(255, 0, 0, 1) 0%, rgba(255, 154, 0, 1) 10%, rgba(208, 222, 33, 1) 20%, rgba(79, 220, 74, 1) 30%, rgba(63, 218, 216, 1) 40%, rgba(47, 201, 226, 1) 50%, rgba(28, 127, 238, 1) 60%, rgba(95, 21, 242, 1) 70%, rgba(186, 12, 248, 1) 80%, rgba(251, 7, 217, 1) 90%, rgba(255, 0, 0, 1) 100%)";
+            document.body.style.backgroundSize = "cover";
+            document.body.style.backgroundAttachment = "fixed";
+        } else {
+            document.body.style.background = savedColor;
+        }
     }
+
+    
+    // Function to update sizes based on mode
+    function updateSizes() {
+        if (body.classList.contains("opendyslexic-font")) {
+            document.documentElement.style.setProperty("--symbol-size", `${currentSize + 50}px`); // Larger size for Dyslexia Mode
+            document.body.style.fontSize = "18px";
+        } else {
+            document.documentElement.style.setProperty("--symbol-size", `${currentSize}px`); // Normal size
+            document.body.style.fontSize = "16px";
+        }
+    }
+
+    // Function to enable Dyslexia Mode
+    function enableDyslexiaMode() {
+        body.classList.add("opendyslexic-font");
+        currentSize += 50; // Adjust icon size for better readability
+        updateSizes();
+        localStorage.setItem("dyslexiaMode", "enabled");
+    }
+
+    // Function to disable Dyslexia Mode
+    function disableDyslexiaMode() {
+        body.classList.remove("opendyslexic-font");
+        currentSize -= 50; // Reset icon size
+        updateSizes();
+        localStorage.setItem("dyslexiaMode", "disabled");
+    }
+
+    // Check stored preference on page load
+    if (localStorage.getItem("dyslexiaMode") === "enabled") {
+        enableDyslexiaMode();
+    }
+
+    // Toggle Dyslexia Mode on button click
+    dyslexiaButton.addEventListener("click", function () {
+        if (body.classList.contains("opendyslexic-font")) {
+            disableDyslexiaMode();
+        } else {
+            enableDyslexiaMode();
+        }
+    });
+
+    // Adjust Font & Icon Size Dynamically
+    function adjustSize(amount) {
+        currentSize = Math.max(minSize, Math.min(maxSize, currentSize + amount));
+        updateSizes();
+    }
+
+    // Attach event listeners to font size buttons
+    increaseSizeButton.addEventListener("click", function () {
+        adjustSize(10);
+    });
+
+    decreaseSizeButton.addEventListener("click", function () {
+        adjustSize(-10);
+    });
 });
+
+
+
 
 
 // Event listeners
@@ -270,7 +357,7 @@ decreaseSizeButton.addEventListener('click', () => adjustSize(-10));
 increaseSizeButton.addEventListener('click', () => adjustSize(10));
 sortAscendingButton.addEventListener('click', () => sortSymbols('asc'));
 sortDescendingButton.addEventListener('click', () => sortSymbols('desc'));
-resetButton.addEventListener('click', resetSymbols);    
+resetButton.addEventListener('click', resetSymbols);
 filterSystemSelect.addEventListener('change', () => renderItems(filterSystemSelect.value, filterTagSelect.value));
 filterTagSelect.addEventListener('change', () => renderItems(filterSystemSelect.value, filterTagSelect.value));
 window.speechSynthesis.onvoiceschanged = populateVoices;
@@ -282,3 +369,4 @@ document.addEventListener('DOMContentLoaded', () => {
     renderItems();
     populateVoices();
 });
+

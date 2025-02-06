@@ -283,203 +283,203 @@ export const items = [
       {
     "symbol": "1",
     "type": "text",
-    "system": "Number",
+    "system": "Numbers",
     "label": "One",
     "tags": ["OT"]
   },
   {
     "symbol": "2",
     "type": "text",
-    "system": "Number",
+    "system": "Numbers",
     "label": "Two",
     "tags": ["OT"]
   },
   {
     "symbol": "3",
     "type": "text",
-    "system": "Number",
+    "system": "Numbers",
     "label": "Three",
     "tags": ["OT"]
   },
   {
     "symbol": "4",
     "type": "text",
-    "system": "Number",
+    "system": "Numbers",
     "label": "Four",
     "tags": ["OT"]
   },
   {
     "symbol": "5",
     "type": "text",
-    "system": "Number",
+    "system": "Numbers",
     "label": "Five",
     "tags": ["OT"]
   },
   {
     "symbol": "6",
     "type": "text",
-    "system": "Number",
+    "system": "Numbers",
     "label": "Six",
     "tags": ["OT"]
   },
   {
     "symbol": "7",
     "type": "text",
-    "system": "Number",
+    "system": "Numbers",
     "label": "Seven",
     "tags": ["OT"]
   },
   {
     "symbol": "8",
     "type": "text",
-    "system": "Number",
+    "system": "Numbers",
     "label": "Eight",
     "tags": ["OT"]
   },
   {
     "symbol": "9",
     "type": "text",
-    "system": "Number",
+    "system": "Numbers",
     "label": "Nine",
     "tags": ["OT"]
   },
   {
     "symbol": "10",
     "type": "text",
-    "system": "Number",
+    "system": "Numbers",
     "label": "Ten",
     "tags": ["OT"]
   },
   {
     "symbol": "11",
     "type": "text",
-    "system": "Number",
+    "system": "Numbers",
     "label": "Eleven",
     "tags": ["OT"]
   },
   {
     "symbol": "12",
     "type": "text",
-    "system": "Number",
+    "system": "Numbers",
     "label": "Twelve",
     "tags": ["OT"]
   },
   {
     "symbol": "13",
     "type": "text",
-    "system": "Number",
+    "system": "Numbers",
     "label": "Thirteen",
     "tags": ["OT"]
   },
   {
     "symbol": "14",
     "type": "text",
-    "system": "Number",
+    "system": "Numbers",
     "label": "Fourteen",
     "tags": ["OT"]
   },
   {
     "symbol": "15",
     "type": "text",
-    "system": "Number",
+    "system": "Numbers",
     "label": "Fifteen",
     "tags": ["OT"]
   },
   {
     "symbol": "16",
     "type": "text",
-    "system": "Number",
+    "system": "Numbers",
     "label": "Sixteen",
     "tags": ["OT"]
   },
   {
     "symbol": "17",
     "type": "text",
-    "system": "Number",
+    "system": "Numbers",
     "label": "Seventeen",
     "tags": ["OT"]
   },
   {
     "symbol": "18",
     "type": "text",
-    "system": "Number",
+    "system": "Numbers",
     "label": "Eighteen",
     "tags": ["OT"]
   },
   {
     "symbol": "19",
     "type": "text",
-    "system": "Number",
+    "system": "Numbers",
     "label": "Nineteen",
     "tags": ["OT"]
   },
   {
     "symbol": "20",
     "type": "text",
-    "system": "Number",
+    "system": "Numbers",
     "label": "Twenty",
     "tags": ["OT"]
   },
   {
     "symbol": "30",
     "type": "text",
-    "system": "Number",
+    "system": "Numbers",
     "label": "Thirty",
     "tags": ["OT"]
   },
   {
     "symbol": "40",
     "type": "text",
-    "system": "Number",
+    "system": "Numbers",
     "label": "Forty",
     "tags": ["OT"]
   },
   {
     "symbol": "50",
     "type": "text",
-    "system": "Number",
+    "system": "Numbers",
     "label": "Fifty",
     "tags": ["OT"]
   },
   {
     "symbol": "60",
     "type": "text",
-    "system": "Number",
+    "system": "Numbers",
     "label": "Sixty",
     "tags": ["OT"]
   },
   {
     "symbol": "70",
     "type": "text",
-    "system": "Number",
+    "system": "Numbers",
     "label": "Seventy",
     "tags": ["OT"]
   },
   {
     "symbol": "80",
     "type": "text",
-    "system": "Number",
+    "system": "Numbers",
     "label": "Eighty",
     "tags": ["OT"]
   },
   {
     "symbol": "90",
     "type": "text",
-    "system": "Number",
+    "system": "Numbers",
     "label": "Ninety",
     "tags": ["OT"]
   },
   {
     "symbol": "100",
     "type": "text",
-    "system": "Number",
+    "system": "Numbers",
     "label": "One Hundred",
     "tags": ["OT"]
   },
   {
     "symbol": "1000",
     "type": "text",
-    "system": "Number",
+    "system": "Numbers",
     "label": "One Thousand",
     "tags": ["OT"]
   },

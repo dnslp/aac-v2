@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>_AAC</title>
     <link rel="stylesheet" href="styles.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sono:wght@200..800&display=swap"
+        rel="stylesheet">
 </head>
 <script src="script.js" type="module"></script>
 
@@ -18,38 +22,42 @@
     <div class="controls">
 
         <div class="button-group">
-<!--             <button id="toggleFilterBar" class="action-button">⛭</button>     -->
+            <!--             <button id="toggleFilterBar" class="action-button">⛭</button>     -->
+            <button id="toggleDyslexiaMode" class="action-button ">Aa</button>
+
             <button id="sortAscending" class="action-button">A-Z</button>
             <button id="sortDescending" class="action-button">Z-A</button>
             <button id="decreaseSize" class="action-button">-</button>
             <button id="increaseSize" class="action-button">+</button>
-            <label for="filterSystem" class="filter-label" >Filter:</label>
+            <label for="filterSystem" class="filter-label">Filter:</label>
             <select id="filterSystem" class="styled-dropdown">
                 <option value="all">All</option>
             </select>
-                     <label for="voiceSelect" class="filter-label">Voice:</label>
+            <label for="voiceSelect" class="filter-label">Voice:</label>
             <select id="voiceSelect" class="styled-dropdown"></select>
-            <label for="backgroundColorPicker" class="filter-label">Background Color:</label>
-<select id="backgroundColorPicker" class="styled-dropdown">
-    <option value="#ffffff">White</option>
-    <option value="#f4f4f4">Light Gray</option>
-    <option value="#87CEFA">Sky Blue</option>
-    <option value="#f5f382">Yellow</option>
-    <option value="#ffc2e2">Pink</option>
+            <label for="backgroundColorPicker" class="filter-label">Color:</label>
+            <select id="backgroundColorPicker" class="styled-dropdown">
+       
+                <option value="#f4f4f4">Light Gray</option>
+                <option value="#6c6c6c">Dark Gray</option>
+                <option value="#87CEFA">Sky Blue</option>
+                <option value="#f5f382">Yellow</option>
+                <option value="#ffc2e2">Pink</option>
+                <option value="rainbow">🌈 Rainbow</option>
 
-</select>
+            </select>
             <div style="float: right;"> <button id="reset" class="action-button">Reset</button></div>
 
         </div>
         <div id="filterBar" class="filter-bar">
 
-    
-    
+
+
             <label for="filterTag" class="filter-label">Scene:</label>
             <select id="filterTag" class="styled-dropdown">
                 <option value="all">All</option>
             </select>
-    
+
             <label for="voiceSelect" class="filter-label">Choose a voice:</label>
             <select id="voiceSelect" class="styled-dropdown"></select>
         </div>
