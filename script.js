@@ -160,13 +160,13 @@ function createSymbolItem(item, container = symbolContainer) {
         content.classList.add('symbol');
         content.classList.add('alphabet');
         content.textContent = item.symbol;
-        content.style.fontSize = '2.7vw'
+        content.style.fontSize = '1.5vw'
     } else if (item.type === 'image') {
         content = document.createElement('img');
         content.src = item.symbol;
         content.alt = item.label;
-        content.style.width = '80%';  // ✅ Adjusts dynamically
-        content.style.height = '80%';
+        content.style.width = '70%';  // ✅ Adjusts dynamically
+        content.style.height = '70%';
     } else if (item.type === 'svg') {
         content = document.createElement('div');
         content.innerHTML = item.symbol;

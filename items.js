@@ -6027,28 +6027,28 @@ export const items = [
       "symbol": "\ud83d\udceb",
       "type": "emoji",
       "system": "Objects",
-      "label": "closed mailbox with raised flag of ",
+      "label": "closed mailbox with raised flag",
       "tags": []
     },
     {
       "symbol": "\ud83d\udcea",
       "type": "emoji",
       "system": "Objects",
-      "label": "closed mailbox with lowered flag of ",
+      "label": "closed mailbox with lowered flag",
       "tags": []
     },
     {
       "symbol": "\ud83d\udcec",
       "type": "emoji",
       "system": "Objects",
-      "label": "open mailbox with raised flag of ",
+      "label": "open mailbox with raised flag",
       "tags": []
     },
     {
       "symbol": "\ud83d\udced",
       "type": "emoji",
       "system": "Objects",
-      "label": "open mailbox with lowered flag of ",
+      "label": "open mailbox with lowered flag",
       "tags": []
     },
     {

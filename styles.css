@@ -21,6 +21,7 @@
 
 .alphabet{
     font-family: "Sono", serif;
+    font-size: 6vw !important;
 }
 
 /* 🌎 General Page Styling */
@@ -48,7 +49,7 @@ body.opendyslexic-font {
 body.opendyslexic-font .symbol-item {
     width: var(--symbol-size, 100px);
     height: var(--symbol-size, 100px);
-    font-size: 3vw !important;
+    font-size: 110% !important;
     font-family: 'OpenDyslexic', sans-serif !important;
 }
 
@@ -88,7 +89,7 @@ h1 {
     top: 0;
     z-index: 1000;
     background-color: white;
-    padding: 10px;
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -103,6 +104,7 @@ h1 {
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-left: 10px;
 }
 
 /* 🎨 Buttons */
@@ -110,7 +112,7 @@ h1 {
     background-color: var(--primary-color);
     color: white;
     border: none;
-    padding: var(--padding);
+    /* padding: var(--padding); */
     font-size: var(--font-size);
     border-radius: var(--border-radius);
     cursor: pointer;
@@ -140,10 +142,10 @@ h1 {
 
 /* 🔽 Dropdown Styling */
 .styled-dropdown {
-    width: 180px;
+    width: 120px;
     padding: 8px;
     font-size: var(--font-size);
-    border: 1px solid #ccc;
+    border: 3px solid #ccc;
     border-radius: var(--border-radius);
     background-color: white;
     cursor: pointer;
@@ -221,7 +223,7 @@ select[multiselect-dropdown] {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    border: 2px solid #535353;
+    border: 3px solid #535353;
     border-radius: 8px;
     background-color: #fff;
     width: var(--symbol-size, 100px);
@@ -229,6 +231,8 @@ select[multiselect-dropdown] {
     overflow: hidden;
     transition: border-color 0.3s, transform 0.2s;
     box-sizing: border-box;
+    font-size: 90%;
+    margin: 1px;
 }
 .symbol-item:hover{
     border: 4px solid #000000;
@@ -236,7 +240,7 @@ select[multiselect-dropdown] {
 
 /* 🔠 Symbol Content */
 .symbol {
-    font-size: calc(var(--symbol-size, 100px) / 3.3);
+    font-size: calc(var(--symbol-size, 100px));
     max-width: 70%;
     max-height: 50%;
     text-align: center;
@@ -248,13 +252,13 @@ select[multiselect-dropdown] {
 
 /* 🏷️ Symbol Labels */
 .label {
-    font-size: calc(var(--symbol-size, 100px) / 9);
+    /* font-size: 2vw; */
     color: #555;
     text-align: center;
     max-width: 90%;
     word-wrap: break-word;
     overflow: hidden;
-    text-overflow: ellipsis;
+    text-overflow:
     white-space: normal;
     display: -webkit-box;
     -webkit-line-clamp: 2;
@@ -292,7 +296,7 @@ select[multiselect-dropdown] {
     color: white;
     border: none;
     padding: 10px 14px;
-    font-size: 16px;
+    font-size:20px;
     border-radius: 5px;
     cursor: pointer;
     transition: background 0.2s ease-in-out, transform 0.1s;
@@ -337,7 +341,7 @@ select[multiselect-dropdown] {
 
 /* 🔽 Styled Dropdowns */
 .styled-dropdown {
-    width: 180px;
+    /* width: 180px; */
     padding: 8px;
     font-size: 16px;
     border: 2px solid #007bff; /* Blue border */
@@ -356,7 +360,7 @@ select[multiselect-dropdown] {
 
 /* 🎨 General Dropdown Styling */
 .styled-dropdown {
-    width: 220px; /* Wider for better readability */
+    width: 120px; 
     padding: 10px;
     font-size: 16px;
     border: 2px solid #007bff;
@@ -432,7 +436,7 @@ select[multiselect-dropdown] {
 }
 
 #backgroundColorPicker {
-    width: 180px;
+    width: 120px;
     padding: 8px;
     font-size: 16px;
     border: 2px solid #007bff;
