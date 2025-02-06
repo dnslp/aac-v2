@@ -159,17 +159,18 @@ function createSymbolItem(item, container = symbolContainer) {
         content = document.createElement('div');
         content.classList.add('symbol');
         content.textContent = item.symbol;
+        content.style.fontSize = '3vw'
     } else if (item.type === 'image') {
         content = document.createElement('img');
         content.src = item.symbol;
         content.alt = item.label;
-        content.style.width = '65%';
-        content.style.height = '65%';
+        content.style.width = '80%';  // ✅ Adjusts dynamically
+        content.style.height = '80%';
     } else if (item.type === 'svg') {
         content = document.createElement('div');
         content.innerHTML = item.symbol;
-        content.style.width = '80%';
-        content.style.height = '80%';
+        content.style.width = '100%';  // ✅ Adjusts dynamically
+        content.style.height = '70%';
     }
 
     symbolItem.appendChild(content);
@@ -183,6 +184,7 @@ function createSymbolItem(item, container = symbolContainer) {
 
     container.appendChild(symbolItem);
 }
+
 
 // Adjusts symbol size
 function adjustSize(amount) {

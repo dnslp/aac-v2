@@ -238,125 +238,48 @@ export const items = [
         "OT"
       ]
     },
-      {
-    "symbol": SVG_SHAPE_TEMPLATE("red"),
-    "type": "svg",
-    "system": "Colors",
-    "label": "Red",
-    "tags": ["OT"]
-  },
-  {
-    "symbol": SVG_SHAPE_TEMPLATE("blue"),
-    "type": "svg",
-    "system": "Colors",
-    "label": "Blue",
-    "tags": ["OT"]
-  },
-  {
-    "symbol": SVG_SHAPE_TEMPLATE("green"),
-    "type": "svg",
-    "system": "Colors",
-    "label": "Green",
-    "tags": ["OT"]
-  },
-  {
-    "symbol": SVG_SHAPE_TEMPLATE("yellow"),
-    "type": "svg",
-    "system": "Colors",
-    "label": "Yellow",
-    "tags": ["OT"]
-  },
-  {
-    "symbol": SVG_SHAPE_TEMPLATE("orange"),
-    "type": "svg",
-    "system": "Colors",
-    "label": "Orange",
-    "tags": ["OT"]
-  },
-  {
-    "symbol": SVG_SHAPE_TEMPLATE("purple"),
-    "type": "svg",
-    "system": "Colors",
-    "label": "Purple",
-    "tags": ["OT"]
-  },
-  {
-    "symbol": SVG_SHAPE_TEMPLATE("pink"),
-    "type": "svg",
-    "system": "Colors",
-    "label": "Pink",
-    "tags": ["OT"]
-  },
-  {
-    "symbol": SVG_SHAPE_TEMPLATE("#B87333"),
-    "type": "svg",
-    "system": "Colors",
-    "label": "Brown",
-    "tags": ["OT"]
-  },
-  {
-    "symbol": SVG_SHAPE_TEMPLATE("gray"),
-    "type": "svg",
-    "system": "Colors",
-    "label": "Gray",
-    "tags": ["OT"]
-  },
-  {
-    "symbol": SVG_SHAPE_TEMPLATE("black"),
-    "type": "svg",
-    "system": "Colors",
-    "label": "Black",
-    "tags": ["OT"]
-  },
-  {
-    "symbol": SVG_SHAPE_TEMPLATE("white"),
-    "type": "svg",
-    "system": "Colors",
-    "label": "White",
-    "tags": ["OT"]
-  },
-  {
-    "symbol": SVG_SHAPE_TEMPLATE("#FFD700"),
-    "type": "svg",
-    "system": "Colors",
-    "label": "Gold",
-    "tags": ["OT"]
-  },
-  {
-    "symbol": SVG_SHAPE_TEMPLATE("#00FFFF"),
-    "type": "svg",
-    "system": "Colors",
-    "label": "Cyan",
-    "tags": ["OT"]
-  },
-  {
-    "symbol": SVG_SHAPE_TEMPLATE("#FF00FF"),
-    "type": "svg",
-    "system": "Colors",
-    "label": "Magenta",
-    "tags": ["OT"]
-  },
-  {
-    "symbol": SVG_SHAPE_TEMPLATE("#800000"),
-    "type": "svg",
-    "system": "Colors",
-    "label": "Maroon",
-    "tags": ["OT"]
-  },
-  {
-    "symbol": SVG_SHAPE_TEMPLATE("#8A2BE2"),
-    "type": "svg",
-    "system": "Colors",
-    "label": "Blue Violet",
-    "tags": ["OT"]
-  },
-  {
-    "symbol": SVG_SHAPE_TEMPLATE("#00FA9A"),
-    "type": "svg",
-    "system": "Colors",
-    "label": "Spring Green",
-    "tags": ["OT"]
-  },
+        // 🔴 Red to Orange
+        { "symbol": SVG_SHAPE_TEMPLATE("#FF0000"), "type": "svg", "system": "Colors", "label": "Red", "tags": ["OT"] },
+        { "symbol": SVG_SHAPE_TEMPLATE("#FF4500"), "type": "svg", "system": "Colors", "label": "Orange Red", "tags": ["OT"] },
+        { "symbol": SVG_SHAPE_TEMPLATE("#FF7F00"), "type": "svg", "system": "Colors", "label": "Deep Orange", "tags": ["OT"] },
+        { "symbol": SVG_SHAPE_TEMPLATE("#FFA500"), "type": "svg", "system": "Colors", "label": "Orange", "tags": ["OT"] },
+        
+        // 🟡 Orange to Yellow-Green
+        { "symbol": SVG_SHAPE_TEMPLATE("#FFD700"), "type": "svg", "system": "Colors", "label": "Golden Yellow", "tags": ["OT"] },
+        { "symbol": SVG_SHAPE_TEMPLATE("#FFFF00"), "type": "svg", "system": "Colors", "label": "Yellow", "tags": ["OT"] },
+        { "symbol": SVG_SHAPE_TEMPLATE("#ADFF2F"), "type": "svg", "system": "Colors", "label": "Yellow Green", "tags": ["OT"] },
+        { "symbol": SVG_SHAPE_TEMPLATE("#7FFF00"), "type": "svg", "system": "Colors", "label": "Chartreuse", "tags": ["OT"] },
+      
+        // 🟢 Green to Cyan
+        { "symbol": SVG_SHAPE_TEMPLATE("#00FF00"), "type": "svg", "system": "Colors", "label": "Green", "tags": ["OT"] },
+        { "symbol": SVG_SHAPE_TEMPLATE("#32CD32"), "type": "svg", "system": "Colors", "label": "Lime Green", "tags": ["OT"] },
+        { "symbol": SVG_SHAPE_TEMPLATE("#00FA9A"), "type": "svg", "system": "Colors", "label": "Spring Green", "tags": ["OT"] },
+        { "symbol": SVG_SHAPE_TEMPLATE("#00FFFF"), "type": "svg", "system": "Colors", "label": "Cyan", "tags": ["OT"] },
+      
+        // 🔵 Cyan to Blue
+        { "symbol": SVG_SHAPE_TEMPLATE("#00BFFF"), "type": "svg", "system": "Colors", "label": "Deep Sky Blue", "tags": ["OT"] },
+        { "symbol": SVG_SHAPE_TEMPLATE("#1E90FF"), "type": "svg", "system": "Colors", "label": "Dodger Blue", "tags": ["OT"] },
+        { "symbol": SVG_SHAPE_TEMPLATE("#0000FF"), "type": "svg", "system": "Colors", "label": "Blue", "tags": ["OT"] },
+        { "symbol": SVG_SHAPE_TEMPLATE("#4B0082"), "type": "svg", "system": "Colors", "label": "Indigo", "tags": ["OT"] },
+      
+        // 🟣 Blue to Violet & Magenta
+        { "symbol": SVG_SHAPE_TEMPLATE("#8A2BE2"), "type": "svg", "system": "Colors", "label": "Blue Violet", "tags": ["OT"] },
+        { "symbol": SVG_SHAPE_TEMPLATE("#9400D3"), "type": "svg", "system": "Colors", "label": "Violet", "tags": ["OT"] },
+        { "symbol": SVG_SHAPE_TEMPLATE("#EE82EE"), "type": "svg", "system": "Colors", "label": "Lavender", "tags": ["OT"] },
+        { "symbol": SVG_SHAPE_TEMPLATE("#FF00FF"), "type": "svg", "system": "Colors", "label": "Magenta", "tags": ["OT"] },
+      
+        // 🟤 Red-Violet to Earth Tones
+        { "symbol": SVG_SHAPE_TEMPLATE("#C71585"), "type": "svg", "system": "Colors", "label": "Rose", "tags": ["OT"] },
+        { "symbol": SVG_SHAPE_TEMPLATE("#DC143C"), "type": "svg", "system": "Colors", "label": "Crimson", "tags": ["OT"] },
+        { "symbol": SVG_SHAPE_TEMPLATE("#800000"), "type": "svg", "system": "Colors", "label": "Maroon", "tags": ["OT"] },
+        { "symbol": SVG_SHAPE_TEMPLATE("#A52A2A"), "type": "svg", "system": "Colors", "label": "Brown", "tags": ["OT"] },
+      
+        // ⚪ Neutral Shades
+        { "symbol": SVG_SHAPE_TEMPLATE("#D2B48C"), "type": "svg", "system": "Colors", "label": "Tan", "tags": ["OT"] },
+        { "symbol": SVG_SHAPE_TEMPLATE("#808080"), "type": "svg", "system": "Colors", "label": "Gray", "tags": ["OT"] },
+        { "symbol": SVG_SHAPE_TEMPLATE("#000000"), "type": "svg", "system": "Colors", "label": "Black", "tags": ["OT"] },
+        { "symbol": SVG_SHAPE_TEMPLATE("#FFFFFF"), "type": "svg", "system": "Colors", "label": "White", "tags": ["OT"] },
+      
       {
     "symbol": "1",
     "type": "text",
@@ -560,6 +483,7 @@ export const items = [
     "label": "One Thousand",
     "tags": ["OT"]
   },
+
     {
       "symbol": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"40\" fill=\"red\" stroke=\"black\" stroke-width=\"3\"/></svg>",
       "type": "svg",
@@ -2344,7 +2268,7 @@ export const items = [
       "symbol": "\ud83c\udf8c",
       "type": "emoji",
       "system": "Flags",
-      "label": "crossed flags",
+      "label": "crossed flag",
       "tags": []
     },
     {
@@ -2386,1827 +2310,1827 @@ export const items = [
       "symbol": "\ud83c\udde6\ud83c\udde8",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Ascension Island",
+      "label": "flag of Ascension Island",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde6\ud83c\udde9",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Andorra",
+      "label": "flag of Andorra",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde6\ud83c\uddea",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag United Arab Emirates",
+      "label": "flag of United Arab Emirates",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde6\ud83c\uddeb",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Afghanistan",
+      "label": "flag of Afghanistan",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde6\ud83c\uddec",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Antigua  Barbuda",
+      "label": "flag of Antigua  Barbuda",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde6\ud83c\uddee",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Anguilla",
+      "label": "flag of Anguilla",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde6\ud83c\uddf1",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Albania",
+      "label": "flag of Albania",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde6\ud83c\uddf2",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Armenia",
+      "label": "flag of Armenia",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde6\ud83c\uddf4",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Angola",
+      "label": "flag of Angola",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde6\ud83c\uddf6",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Antarctica",
+      "label": "flag of Antarctica",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde6\ud83c\uddf7",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Argentina",
+      "label": "flag of Argentina",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde6\ud83c\uddf8",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag American Samoa",
+      "label": "flag of American Samoa",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde6\ud83c\uddf9",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Austria",
+      "label": "flag of Austria",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde6\ud83c\uddfa",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Australia",
+      "label": "flag of Australia",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde6\ud83c\uddfc",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Aruba",
+      "label": "flag of Aruba",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde6\ud83c\uddfd",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag land Islands",
+      "label": "flag of land Islands",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde6\ud83c\uddff",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Azerbaijan",
+      "label": "flag of Azerbaijan",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde7\ud83c\udde6",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Bosnia  Herzegovina",
+      "label": "flag of Bosnia  Herzegovina",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde7\ud83c\udde7",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Barbados",
+      "label": "flag of Barbados",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde7\ud83c\udde9",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Bangladesh",
+      "label": "flag of Bangladesh",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde7\ud83c\uddea",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Belgium",
+      "label": "flag of Belgium",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde7\ud83c\uddeb",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Burkina Faso",
+      "label": "flag of Burkina Faso",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde7\ud83c\uddec",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Bulgaria",
+      "label": "flag of Bulgaria",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde7\ud83c\udded",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Bahrain",
+      "label": "flag of Bahrain",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde7\ud83c\uddee",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Burundi",
+      "label": "flag of Burundi",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde7\ud83c\uddef",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Benin",
+      "label": "flag of Benin",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde7\ud83c\uddf1",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag St Barthlemy",
+      "label": "flag of St Barthlemy",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde7\ud83c\uddf2",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Bermuda",
+      "label": "flag of Bermuda",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde7\ud83c\uddf3",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Brunei",
+      "label": "flag of Brunei",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde7\ud83c\uddf4",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Bolivia",
+      "label": "flag of Bolivia",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde7\ud83c\uddf6",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Caribbean Netherlands",
+      "label": "flag of Caribbean Netherlands",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde7\ud83c\uddf7",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Brazil",
+      "label": "flag of Brazil",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde7\ud83c\uddf8",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Bahamas",
+      "label": "flag of Bahamas",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde7\ud83c\uddf9",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Bhutan",
+      "label": "flag of Bhutan",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde7\ud83c\uddfb",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Bouvet Island",
+      "label": "flag of Bouvet Island",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde7\ud83c\uddfc",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Botswana",
+      "label": "flag of Botswana",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde7\ud83c\uddfe",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Belarus",
+      "label": "flag of Belarus",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde7\ud83c\uddff",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Belize",
+      "label": "flag of Belize",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde8\ud83c\udde6",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Canada",
+      "label": "flag of Canada",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde8\ud83c\udde8",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Cocos Keeling Islands",
+      "label": "flag of Cocos Keeling Islands",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde8\ud83c\udde9",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Congo - Kinshasa",
+      "label": "flag of Congo - Kinshasa",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde8\ud83c\uddeb",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Central African Republic",
+      "label": "flag of Central African Republic",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde8\ud83c\uddec",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Congo - Brazzaville",
+      "label": "flag of Congo - Brazzaville",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde8\ud83c\udded",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Switzerland",
+      "label": "flag of Switzerland",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde8\ud83c\uddee",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Cte dIvoire",
+      "label": "flag of Cte dIvoire",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde8\ud83c\uddf0",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Cook Islands",
+      "label": "flag of Cook Islands",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde8\ud83c\uddf1",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Chile",
+      "label": "flag of Chile",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde8\ud83c\uddf2",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Cameroon",
+      "label": "flag of Cameroon",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde8\ud83c\uddf3",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag China",
+      "label": "flag of China",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde8\ud83c\uddf4",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Colombia",
+      "label": "flag of Colombia",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde8\ud83c\uddf5",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Clipperton Island",
+      "label": "flag of Clipperton Island",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde8\ud83c\uddf7",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Costa Rica",
+      "label": "flag of Costa Rica",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde8\ud83c\uddfa",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Cuba",
+      "label": "flag of Cuba",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde8\ud83c\uddfb",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Cape Verde",
+      "label": "flag of Cape Verde",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde8\ud83c\uddfc",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Curaao",
+      "label": "flag of Curaao",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde8\ud83c\uddfd",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Christmas Island",
+      "label": "flag of Christmas Island",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde8\ud83c\uddfe",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Cyprus",
+      "label": "flag of Cyprus",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde8\ud83c\uddff",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Czechia",
+      "label": "flag of Czechia",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde9\ud83c\uddea",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Germany",
+      "label": "flag of Germany",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde9\ud83c\uddec",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Diego Garcia",
+      "label": "flag of Diego Garcia",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde9\ud83c\uddef",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Djibouti",
+      "label": "flag of Djibouti",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde9\ud83c\uddf0",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Denmark",
+      "label": "flag of Denmark",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde9\ud83c\uddf2",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Dominica",
+      "label": "flag of Dominica",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde9\ud83c\uddf4",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Dominican Republic",
+      "label": "flag of Dominican Republic",
       "tags": []
     },
     {
       "symbol": "\ud83c\udde9\ud83c\uddff",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Algeria",
+      "label": "flag of Algeria",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddea\ud83c\udde6",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Ceuta  Melilla",
+      "label": "flag of Ceuta  Melilla",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddea\ud83c\udde8",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Ecuador",
+      "label": "flag of Ecuador",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddea\ud83c\uddea",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Estonia",
+      "label": "flag of Estonia",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddea\ud83c\uddec",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Egypt",
+      "label": "flag of Egypt",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddea\ud83c\udded",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Western Sahara",
+      "label": "flag of Western Sahara",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddea\ud83c\uddf7",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Eritrea",
+      "label": "flag of Eritrea",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddea\ud83c\uddf8",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Spain",
+      "label": "flag of Spain",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddea\ud83c\uddf9",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Ethiopia",
+      "label": "flag of Ethiopia",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddea\ud83c\uddfa",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag European Union",
+      "label": "flag of European Union",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddeb\ud83c\uddee",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Finland",
+      "label": "flag of Finland",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddeb\ud83c\uddef",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Fiji",
+      "label": "flag of Fiji",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddeb\ud83c\uddf0",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Falkland Islands",
+      "label": "flag of Falkland Islands",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddeb\ud83c\uddf2",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Micronesia",
+      "label": "flag of Micronesia",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddeb\ud83c\uddf4",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Faroe Islands",
+      "label": "flag of Faroe Islands",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddeb\ud83c\uddf7",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag France",
+      "label": "flag of France",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddec\ud83c\udde6",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Gabon",
+      "label": "flag of Gabon",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddec\ud83c\udde7",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag United Kingdom",
+      "label": "flag of United Kingdom",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddec\ud83c\udde9",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Grenada",
+      "label": "flag of Grenada",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddec\ud83c\uddea",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Georgia",
+      "label": "flag of Georgia",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddec\ud83c\uddeb",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag French Guiana",
+      "label": "flag of French Guiana",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddec\ud83c\uddec",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Guernsey",
+      "label": "flag of Guernsey",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddec\ud83c\udded",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Ghana",
+      "label": "flag of Ghana",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddec\ud83c\uddee",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Gibraltar",
+      "label": "flag of Gibraltar",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddec\ud83c\uddf1",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Greenland",
+      "label": "flag of Greenland",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddec\ud83c\uddf2",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Gambia",
+      "label": "flag of Gambia",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddec\ud83c\uddf3",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Guinea",
+      "label": "flag of Guinea",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddec\ud83c\uddf5",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Guadeloupe",
+      "label": "flag of Guadeloupe",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddec\ud83c\uddf6",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Equatorial Guinea",
+      "label": "flag of Equatorial Guinea",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddec\ud83c\uddf7",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Greece",
+      "label": "flag of Greece",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddec\ud83c\uddf8",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag South Georgia  South Sandwich Islands",
+      "label": "flag of South Georgia  South Sandwich Islands",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddec\ud83c\uddf9",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Guatemala",
+      "label": "flag of Guatemala",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddec\ud83c\uddfa",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Guam",
+      "label": "flag of Guam",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddec\ud83c\uddfc",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Guinea-Bissau",
+      "label": "flag of Guinea-Bissau",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddec\ud83c\uddfe",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Guyana",
+      "label": "flag of Guyana",
       "tags": []
     },
     {
       "symbol": "\ud83c\udded\ud83c\uddf0",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Hong Kong SAR China",
+      "label": "flag of Hong Kong SAR China",
       "tags": []
     },
     {
       "symbol": "\ud83c\udded\ud83c\uddf2",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Heard  McDonald Islands",
+      "label": "flag of Heard  McDonald Islands",
       "tags": []
     },
     {
       "symbol": "\ud83c\udded\ud83c\uddf3",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Honduras",
+      "label": "flag of Honduras",
       "tags": []
     },
     {
       "symbol": "\ud83c\udded\ud83c\uddf7",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Croatia",
+      "label": "flag of Croatia",
       "tags": []
     },
     {
       "symbol": "\ud83c\udded\ud83c\uddf9",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Haiti",
+      "label": "flag of Haiti",
       "tags": []
     },
     {
       "symbol": "\ud83c\udded\ud83c\uddfa",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Hungary",
+      "label": "flag of Hungary",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddee\ud83c\udde8",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Canary Islands",
+      "label": "flag of Canary Islands",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddee\ud83c\udde9",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Indonesia",
+      "label": "flag of Indonesia",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddee\ud83c\uddea",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Ireland",
+      "label": "flag of Ireland",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddee\ud83c\uddf1",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Israel",
+      "label": "flag of Israel",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddee\ud83c\uddf2",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Isle of Man",
+      "label": "flag of Isle of Man",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddee\ud83c\uddf3",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag India",
+      "label": "flag of India",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddee\ud83c\uddf4",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag British Indian Ocean Territory",
+      "label": "flag of British Indian Ocean Territory",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddee\ud83c\uddf6",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Iraq",
+      "label": "flag of Iraq",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddee\ud83c\uddf7",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Iran",
+      "label": "flag of Iran",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddee\ud83c\uddf8",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Iceland",
+      "label": "flag of Iceland",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddee\ud83c\uddf9",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Italy",
+      "label": "flag of Italy",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddef\ud83c\uddea",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Jersey",
+      "label": "flag of Jersey",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddef\ud83c\uddf2",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Jamaica",
+      "label": "flag of Jamaica",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddef\ud83c\uddf4",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Jordan",
+      "label": "flag of Jordan",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddef\ud83c\uddf5",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Japan",
+      "label": "flag of Japan",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf0\ud83c\uddea",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Kenya",
+      "label": "flag of Kenya",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf0\ud83c\uddec",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Kyrgyzstan",
+      "label": "flag of Kyrgyzstan",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf0\ud83c\udded",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Cambodia",
+      "label": "flag of Cambodia",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf0\ud83c\uddee",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Kiribati",
+      "label": "flag of Kiribati",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf0\ud83c\uddf2",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Comoros",
+      "label": "flag of Comoros",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf0\ud83c\uddf3",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag St Kitts  Nevis",
+      "label": "flag of St Kitts  Nevis",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf0\ud83c\uddf5",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag North Korea",
+      "label": "flag of North Korea",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf0\ud83c\uddf7",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag South Korea",
+      "label": "flag of South Korea",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf0\ud83c\uddfc",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Kuwait",
+      "label": "flag of Kuwait",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf0\ud83c\uddfe",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Cayman Islands",
+      "label": "flag of Cayman Islands",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf0\ud83c\uddff",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Kazakhstan",
+      "label": "flag of Kazakhstan",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf1\ud83c\udde6",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Laos",
+      "label": "flag of Laos",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf1\ud83c\udde7",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Lebanon",
+      "label": "flag of Lebanon",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf1\ud83c\udde8",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag St Lucia",
+      "label": "flag of St Lucia",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf1\ud83c\uddee",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Liechtenstein",
+      "label": "flag of Liechtenstein",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf1\ud83c\uddf0",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Sri Lanka",
+      "label": "flag of Sri Lanka",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf1\ud83c\uddf7",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Liberia",
+      "label": "flag of Liberia",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf1\ud83c\uddf8",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Lesotho",
+      "label": "flag of Lesotho",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf1\ud83c\uddf9",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Lithuania",
+      "label": "flag of Lithuania",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf1\ud83c\uddfa",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Luxembourg",
+      "label": "flag of Luxembourg",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf1\ud83c\uddfb",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Latvia",
+      "label": "flag of Latvia",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf1\ud83c\uddfe",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Libya",
+      "label": "flag of Libya",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf2\ud83c\udde6",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Morocco",
+      "label": "flag of Morocco",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf2\ud83c\udde8",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Monaco",
+      "label": "flag of Monaco",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf2\ud83c\udde9",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Moldova",
+      "label": "flag of Moldova",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf2\ud83c\uddea",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Montenegro",
+      "label": "flag of Montenegro",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf2\ud83c\uddeb",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag St Martin",
+      "label": "flag of St Martin",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf2\ud83c\uddec",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Madagascar",
+      "label": "flag of Madagascar",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf2\ud83c\udded",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Marshall Islands",
+      "label": "flag of Marshall Islands",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf2\ud83c\uddf0",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag North Macedonia",
+      "label": "flag of North Macedonia",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf2\ud83c\uddf1",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Mali",
+      "label": "flag of Mali",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf2\ud83c\uddf2",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Myanmar Burma",
+      "label": "flag of Myanmar Burma",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf2\ud83c\uddf3",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Mongolia",
+      "label": "flag of Mongolia",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf2\ud83c\uddf4",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Macao SAR China",
+      "label": "flag of Macao SAR China",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf2\ud83c\uddf5",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Northern Mariana Islands",
+      "label": "flag of Northern Mariana Islands",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf2\ud83c\uddf6",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Martinique",
+      "label": "flag of Martinique",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf2\ud83c\uddf7",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Mauritania",
+      "label": "flag of Mauritania",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf2\ud83c\uddf8",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Montserrat",
+      "label": "flag of Montserrat",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf2\ud83c\uddf9",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Malta",
+      "label": "flag of Malta",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf2\ud83c\uddfa",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Mauritius",
+      "label": "flag of Mauritius",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf2\ud83c\uddfb",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Maldives",
+      "label": "flag of Maldives",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf2\ud83c\uddfc",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Malawi",
+      "label": "flag of Malawi",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf2\ud83c\uddfd",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Mexico",
+      "label": "flag of Mexico",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf2\ud83c\uddfe",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Malaysia",
+      "label": "flag of Malaysia",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf2\ud83c\uddff",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Mozambique",
+      "label": "flag of Mozambique",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf3\ud83c\udde6",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Namibia",
+      "label": "flag of Namibia",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf3\ud83c\udde8",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag New Caledonia",
+      "label": "flag of New Caledonia",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf3\ud83c\uddea",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Niger",
+      "label": "flag of Niger",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf3\ud83c\uddeb",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Norfolk Island",
+      "label": "flag of Norfolk Island",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf3\ud83c\uddec",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Nigeria",
+      "label": "flag of Nigeria",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf3\ud83c\uddee",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Nicaragua",
+      "label": "flag of Nicaragua",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf3\ud83c\uddf1",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Netherlands",
+      "label": "flag of Netherlands",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf3\ud83c\uddf4",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Norway",
+      "label": "flag of Norway",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf3\ud83c\uddf5",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Nepal",
+      "label": "flag of Nepal",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf3\ud83c\uddf7",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Nauru",
+      "label": "flag of Nauru",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf3\ud83c\uddfa",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Niue",
+      "label": "flag of Niue",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf3\ud83c\uddff",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag New Zealand",
+      "label": "flag of New Zealand",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf4\ud83c\uddf2",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Oman",
+      "label": "flag of Oman",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf5\ud83c\udde6",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Panama",
+      "label": "flag of Panama",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf5\ud83c\uddea",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Peru",
+      "label": "flag of Peru",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf5\ud83c\uddeb",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag French Polynesia",
+      "label": "flag of French Polynesia",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf5\ud83c\uddec",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Papua New Guinea",
+      "label": "flag of Papua New Guinea",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf5\ud83c\udded",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Philippines",
+      "label": "flag of Philippines",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf5\ud83c\uddf0",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Pakistan",
+      "label": "flag of Pakistan",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf5\ud83c\uddf1",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Poland",
+      "label": "flag of Poland",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf5\ud83c\uddf2",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag St Pierre  Miquelon",
+      "label": "flag of St Pierre  Miquelon",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf5\ud83c\uddf3",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Pitcairn Islands",
+      "label": "flag of Pitcairn Islands",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf5\ud83c\uddf7",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Puerto Rico",
+      "label": "flag of Puerto Rico",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf5\ud83c\uddf8",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Palestinian Territories",
+      "label": "flag of Palestinian Territories",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf5\ud83c\uddf9",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Portugal",
+      "label": "flag of Portugal",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf5\ud83c\uddfc",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Palau",
+      "label": "flag of Palau",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf5\ud83c\uddfe",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Paraguay",
+      "label": "flag of Paraguay",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf6\ud83c\udde6",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Qatar",
+      "label": "flag of Qatar",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf7\ud83c\uddea",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Runion",
+      "label": "flag of Runion",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf7\ud83c\uddf4",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Romania",
+      "label": "flag of Romania",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf7\ud83c\uddf8",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Serbia",
+      "label": "flag of Serbia",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf7\ud83c\uddfa",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Russia",
+      "label": "flag of Russia",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf7\ud83c\uddfc",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Rwanda",
+      "label": "flag of Rwanda",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf8\ud83c\udde6",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Saudi Arabia",
+      "label": "flag of Saudi Arabia",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf8\ud83c\udde7",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Solomon Islands",
+      "label": "flag of Solomon Islands",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf8\ud83c\udde8",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Seychelles",
+      "label": "flag of Seychelles",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf8\ud83c\udde9",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Sudan",
+      "label": "flag of Sudan",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf8\ud83c\uddea",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Sweden",
+      "label": "flag of Sweden",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf8\ud83c\uddec",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Singapore",
+      "label": "flag of Singapore",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf8\ud83c\udded",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag St Helena",
+      "label": "flag of St Helena",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf8\ud83c\uddee",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Slovenia",
+      "label": "flag of Slovenia",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf8\ud83c\uddef",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Svalbard  Jan Mayen",
+      "label": "flag of Svalbard  Jan Mayen",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf8\ud83c\uddf0",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Slovakia",
+      "label": "flag of Slovakia",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf8\ud83c\uddf1",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Sierra Leone",
+      "label": "flag of Sierra Leone",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf8\ud83c\uddf2",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag San Marino",
+      "label": "flag of San Marino",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf8\ud83c\uddf3",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Senegal",
+      "label": "flag of Senegal",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf8\ud83c\uddf4",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Somalia",
+      "label": "flag of Somalia",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf8\ud83c\uddf7",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Suriname",
+      "label": "flag of Suriname",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf8\ud83c\uddf8",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag South Sudan",
+      "label": "flag of South Sudan",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf8\ud83c\uddf9",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag So Tom  Prncipe",
+      "label": "flag of So Tom  Prncipe",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf8\ud83c\uddfb",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag El Salvador",
+      "label": "flag of El Salvador",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf8\ud83c\uddfd",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Sint Maarten",
+      "label": "flag of Sint Maarten",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf8\ud83c\uddfe",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Syria",
+      "label": "flag of Syria",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf8\ud83c\uddff",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Eswatini",
+      "label": "flag of Eswatini",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf9\ud83c\udde6",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Tristan da Cunha",
+      "label": "flag of Tristan da Cunha",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf9\ud83c\udde8",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Turks  Caicos Islands",
+      "label": "flag of Turks  Caicos Islands",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf9\ud83c\udde9",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Chad",
+      "label": "flag of Chad",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf9\ud83c\uddeb",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag French Southern Territories",
+      "label": "flag of French Southern Territories",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf9\ud83c\uddec",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Togo",
+      "label": "flag of Togo",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf9\ud83c\udded",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Thailand",
+      "label": "flag of Thailand",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf9\ud83c\uddef",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Tajikistan",
+      "label": "flag of Tajikistan",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf9\ud83c\uddf0",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Tokelau",
+      "label": "flag of Tokelau",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf9\ud83c\uddf1",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Timor-Leste",
+      "label": "flag of Timor-Leste",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf9\ud83c\uddf2",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Turkmenistan",
+      "label": "flag of Turkmenistan",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf9\ud83c\uddf3",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Tunisia",
+      "label": "flag of Tunisia",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf9\ud83c\uddf4",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Tonga",
+      "label": "flag of Tonga",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf9\ud83c\uddf7",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Turkey",
+      "label": "flag of Turkey",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf9\ud83c\uddf9",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Trinidad  Tobago",
+      "label": "flag of Trinidad  Tobago",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf9\ud83c\uddfb",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Tuvalu",
+      "label": "flag of Tuvalu",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf9\ud83c\uddfc",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Taiwan",
+      "label": "flag of Taiwan",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddf9\ud83c\uddff",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Tanzania",
+      "label": "flag of Tanzania",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddfa\ud83c\udde6",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Ukraine",
+      "label": "flag of Ukraine",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddfa\ud83c\uddec",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Uganda",
+      "label": "flag of Uganda",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddfa\ud83c\uddf2",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag US Outlying Islands",
+      "label": "flag of US Outlying Islands",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddfa\ud83c\uddf3",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag United Nations",
+      "label": "flag of United Nations",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddfa\ud83c\uddf8",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag United States",
+      "label": "flag of United States",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddfa\ud83c\uddfe",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Uruguay",
+      "label": "flag of Uruguay",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddfa\ud83c\uddff",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Uzbekistan",
+      "label": "flag of Uzbekistan",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddfb\ud83c\udde6",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Vatican City",
+      "label": "flag of Vatican City",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddfb\ud83c\udde8",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag St Vincent  Grenadines",
+      "label": "flag of St Vincent  Grenadines",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddfb\ud83c\uddea",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Venezuela",
+      "label": "flag of Venezuela",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddfb\ud83c\uddec",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag British Virgin Islands",
+      "label": "flag of British Virgin Islands",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddfb\ud83c\uddee",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag US Virgin Islands",
+      "label": "flag of US Virgin Islands",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddfb\ud83c\uddf3",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Vietnam",
+      "label": "flag of Vietnam",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddfb\ud83c\uddfa",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Vanuatu",
+      "label": "flag of Vanuatu",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddfc\ud83c\uddeb",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Wallis  Futuna",
+      "label": "flag of Wallis  Futuna",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddfc\ud83c\uddf8",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Samoa",
+      "label": "flag of Samoa",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddfd\ud83c\uddf0",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Kosovo",
+      "label": "flag of Kosovo",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddfe\ud83c\uddea",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Yemen",
+      "label": "flag of Yemen",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddfe\ud83c\uddf9",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Mayotte",
+      "label": "flag of Mayotte",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddff\ud83c\udde6",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag South Africa",
+      "label": "flag of South Africa",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddff\ud83c\uddf2",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Zambia",
+      "label": "flag of Zambia",
       "tags": []
     },
     {
       "symbol": "\ud83c\uddff\ud83c\uddfc",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Zimbabwe",
+      "label": "flag of Zimbabwe",
       "tags": []
     },
     {
       "symbol": "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag England",
+      "label": "flag of England",
       "tags": []
     },
     {
       "symbol": "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc73\udb40\udc63\udb40\udc74\udb40\udc7f",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Scotland",
+      "label": "flag of Scotland",
       "tags": []
     },
     {
       "symbol": "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc77\udb40\udc6c\udb40\udc73\udb40\udc7f",
       "type": "emoji",
       "system": "Flags",
-      "label": "flag Wales",
+      "label": "flag of Wales",
       "tags": []
     },
     {
@@ -6103,28 +6027,28 @@ export const items = [
       "symbol": "\ud83d\udceb",
       "type": "emoji",
       "system": "Objects",
-      "label": "closed mailbox with raised flag",
+      "label": "closed mailbox with raised flag of ",
       "tags": []
     },
     {
       "symbol": "\ud83d\udcea",
       "type": "emoji",
       "system": "Objects",
-      "label": "closed mailbox with lowered flag",
+      "label": "closed mailbox with lowered flag of ",
       "tags": []
     },
     {
       "symbol": "\ud83d\udcec",
       "type": "emoji",
       "system": "Objects",
-      "label": "open mailbox with raised flag",
+      "label": "open mailbox with raised flag of ",
       "tags": []
     },
     {
       "symbol": "\ud83d\udced",
       "type": "emoji",
       "system": "Objects",
-      "label": "open mailbox with lowered flag",
+      "label": "open mailbox with lowered flag of ",
       "tags": []
     },
     {
